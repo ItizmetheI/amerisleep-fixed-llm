@@ -1,10 +1,19 @@
 # PureSleep repository rules
 
-PureSleep is an independently operated, multi-brand editorial mattress
-comparison publication. Do not describe PureSleep as owned, operated,
-affiliated, or controlled by any mattress brand, retail group, or related
-brand family. Do not imply that a reviewed brand participates in PureSleep's
-editorial decisions.
+PureSleep is a multi-brand editorial mattress comparison publication applying
+one published seven-metric rubric across every covered brand.
+
+Its ownership, operator, brand affiliations, and any form of consideration are
+NOT yet certified. Under `EVIDENCE-AND-CLAIMS-DISPOSITION.md` the words
+"independent", "independently operated", and "no commissions" are WITHHELD
+until Firas certifies them. That wording is gated in `src/lib/disclosure.ts`
+and only ships when `PUBLIC_DISCLOSURE_APPROVED=true`. Do not reintroduce it
+as a hardcoded string in a page, component, schema block, or `/llms/` document.
+
+Equally, do not assert the opposite. Do not describe PureSleep as owned,
+operated, affiliated, or controlled by any mattress brand, retail group, or
+related brand family until that relationship is certified, and do not imply
+that a reviewed brand participates in PureSleep's editorial decisions.
 
 ## Product and score sources
 
@@ -97,10 +106,18 @@ Run the following before handing off code:
 ```sh
 npm run lint
 npm run qa:content
+npm run qa:release-config
 SITE_URL=https://qa.puresleep.example npm run build
 SITE_URL=https://qa.puresleep.example npm run qa:dist
+npm run qa:schema
 npm run qa:external
 ```
+
+`npm run qa` chains lint, content QA, build, dist QA, and schema parity.
+
+A release also runs `npm run qa:live` against the deployed origin
+(AHMED-RUNBOOK.md step 10). Preview builds are non-indexable by default; see
+`.env.example` for the five release-gating variables.
 
 The external-link check may report bot-blocked or rate-limited official pages
 as inconclusive; investigate confirmed 404 or 410 responses before release.
