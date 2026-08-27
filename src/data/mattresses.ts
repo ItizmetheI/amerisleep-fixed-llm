@@ -61,6 +61,23 @@ export const reviewer_editorial: Reviewer = {
   sameAs: [`${SITE_URL}/methodology/`]
 };
 
+// ponytail: warrantyYears >= 99 is the legacy "lifetime" sentinel. Never interpolate the raw
+// number into public copy or it ships as "99-year warranty". All render sites use these three forms.
+export const LIFETIME_WARRANTY_YEARS = 99;
+export const isLifetimeWarranty = (warrantyYears: number) => warrantyYears >= LIFETIME_WARRANTY_YEARS;
+/** Sentence form: "lifetime warranty" | "15-year warranty" */
+export const warrantyPhrase = (warrantyYears: number) =>
+  isLifetimeWarranty(warrantyYears) ? 'lifetime warranty' : `${warrantyYears}-year warranty`;
+/** Table/value form: "Lifetime" | "15 years" */
+export const warrantyValue = (warrantyYears: number) =>
+  isLifetimeWarranty(warrantyYears) ? 'Lifetime' : `${warrantyYears} years`;
+/** Title-case badge form: "Lifetime" | "15-Year" */
+export const warrantyTitle = (warrantyYears: number) =>
+  isLifetimeWarranty(warrantyYears) ? 'Lifetime' : `${warrantyYears}-Year`;
+/** Compact column form: "Lifetime" | "15yr" */
+export const warrantyShort = (warrantyYears: number) =>
+  isLifetimeWarranty(warrantyYears) ? 'Lifetime' : `${warrantyYears}yr`;
+
 const SCORE_LABELS: Array<[keyof MattressScore, string]> = [
   ['value', 'Value'],
   ['edgeSupport', 'Edge Support'],
@@ -92,7 +109,7 @@ const normalizeMattressReview = (mattress: Mattress): Mattress => {
   const pros = [
     `${strongest[0].label}: ${strongest[0].score}/10 in the locked scorecard`,
     `${strongest[1].label}: ${strongest[1].score}/10 in the locked scorecard`,
-    `Source dataset records a ${trialText} and ${mattress.warrantyYears}-year warranty; verify current terms`,
+    `Source dataset records a ${trialText} and ${warrantyPhrase(mattress.warrantyYears)}; verify current terms`,
   ];
   const cons = [
     `${weakest.label}: ${weakest.score}/10, the model's lowest recorded metric`,
@@ -111,7 +128,7 @@ const normalizeMattressReview = (mattress: Mattress): Mattress => {
     },
     {
       question: `What trial and warranty terms are recorded for the ${mattress.name}?`,
-      answer: `The source dataset records a ${trialText} and ${mattress.warrantyYears}-year warranty. These are reference fields, not live offers; verify current eligibility, fees, exclusions, and availability with ${mattress.brand} before purchasing.`,
+      answer: `The source dataset records a ${trialText} and ${warrantyPhrase(mattress.warrantyYears)}. These are reference fields, not live offers; verify current eligibility, fees, exclusions, and availability with ${mattress.brand} before purchasing.`,
     },
   ];
   const summary = `${mattress.name} is a ${mattress.type.replaceAll('-', ' ')} mattress with a ${mattress.firmness.replaceAll('-', ' ')} feel (${mattress.firmnessScale}/10). It records ${mattress.scores.overall}/10 Overall, with its strongest fields in ${strongest[0].label} and ${strongest[1].label}.`;
@@ -954,8 +971,8 @@ const competitorMattressRecords: Mattress[] = [
     firmness: "medium",
     firmnessScale: 5,
     thickness: "13.5 inches",
-    trialNights: 100,
-    warrantyYears: 15,
+    trialNights: 120,
+    warrantyYears: LIFETIME_WARRANTY_YEARS,
     certifications: ["CertiPUR-US"],
     technology: ["Memory Plus Foam", "Zoned Pocketed Coils", "Tencel™ Cover"],
     scores: { overall: 9, value: 7, edgeSupport: 10, trialPeriod: 9, responseTime: 9, motionTransfer: 9, coolingBreathability: 10 },
@@ -1147,8 +1164,8 @@ const competitorMattressRecords: Mattress[] = [
     firmness: "firm",
     firmnessScale: 7,
     thickness: "13.5 inches",
-    trialNights: 100,
-    warrantyYears: 15,
+    trialNights: 120,
+    warrantyYears: LIFETIME_WARRANTY_YEARS,
     certifications: ["CertiPUR-US"],
     technology: ["Firm Helix Foam", "Zoned Pocketed Coils", "Cashmere Pillow Top"],
     scores: { overall: 9, value: 7, edgeSupport: 8, trialPeriod: 9, responseTime: 9, motionTransfer: 9, coolingBreathability: 9 },
@@ -1211,8 +1228,8 @@ const competitorMattressRecords: Mattress[] = [
     firmness: "soft",
     firmnessScale: 3,
     thickness: "14 inches",
-    trialNights: 100,
-    warrantyYears: 15,
+    trialNights: 120,
+    warrantyYears: LIFETIME_WARRANTY_YEARS,
     certifications: ["CertiPUR-US"],
     technology: ["Memory Plus Foam", "Zoned Pocketed Coils", "Tencel™ Cover", "Pillow Top"],
     scores: { overall: 9, value: 7, edgeSupport: 8, trialPeriod: 9, responseTime: 9, motionTransfer: 10, coolingBreathability: 9 },

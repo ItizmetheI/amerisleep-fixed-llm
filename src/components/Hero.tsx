@@ -1,4 +1,5 @@
 import { ArrowRight, BookOpen, Scale } from 'lucide-react';
+import { TRUST_BADGE_LABEL } from '../lib/disclosure';
 import { motion } from 'motion/react';
 import { allMattresses } from '../data/mattresses';
 
@@ -48,7 +49,7 @@ export default function Hero() {
             </a>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-outline-variant text-body-sm text-on-surface-variant">
-            <span className="flex items-center gap-2"><Scale className="w-4 h-4 text-secondary shrink-0" aria-hidden="true" /> Independently operated</span>
+            <span className="flex items-center gap-2"><Scale className="w-4 h-4 text-secondary shrink-0" aria-hidden="true" /> {TRUST_BADGE_LABEL}</span>
             <span>Scores are editorial, not lab results</span>
             <span>Updated July 2026</span>
           </div>

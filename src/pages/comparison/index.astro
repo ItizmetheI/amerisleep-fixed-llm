@@ -63,7 +63,7 @@ const jsonLd = {
         if (!m1 || !m2) return null;
         
         return (
-          <a href={`/comparison/${comparison.slug}`} class="glass-panel flex flex-col rounded-lg overflow-hidden hover:shadow-lg transition-shadow border border-outline-variant p-8 gap-6 group">
+          <a href={`/comparison/${comparison.slug}/`} class="glass-panel flex flex-col rounded-lg overflow-hidden hover:shadow-lg transition-shadow border border-outline-variant p-8 gap-6 group">
             <h2 class="text-title-lg font-title-lg text-primary mb-1 group-hover:text-secondary transition-colors">
               {m1.name} vs {m2.name}
             </h2>

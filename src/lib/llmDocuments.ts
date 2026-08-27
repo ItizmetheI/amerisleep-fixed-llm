@@ -1,5 +1,6 @@
 import { comparisons } from '../data/comparisons';
-import { allMattresses, type Mattress } from '../data/mattresses';
+import { EDITORIAL_INDEPENDENCE_DISCLOSURE, LINK_DISCLOSURE } from './disclosure';
+import { allMattresses, warrantyValue, type Mattress } from '../data/mattresses';
 import { topics } from '../data/topics';
 import { BEST_CATEGORIES } from './bestCategories';
 import { FIRDOUS_FARHAD } from './editorialPeople';
@@ -79,7 +80,7 @@ const evidenceLimits = [
   '- Scores are PureSleep editorial evaluations on a shared 0-10 rubric; they are not laboratory measurements or manufacturer ratings.',
   '- Price, trial, warranty, certification, and material details can change. Verify current facts on the official brand or certification source before purchase or citation.',
   '- No mattress can diagnose, treat, or cure a health condition.',
-  '- Editorial context: PureSleep is independently operated. The same rubric and evidence limits apply to every covered brand, and outbound product links do not generate per-click or per-sale commissions.',
+  `- Editorial context: ${EDITORIAL_INDEPENDENCE_DISCLOSURE} The same rubric and evidence limits apply to every covered brand. ${LINK_DISCLOSURE}`,
 ].join('\n');
 
 const scoreRows = (mattress: Mattress) => SCORE_METRICS.map(metric => [
@@ -128,7 +129,7 @@ const buildReviewDocument = (siteUrl: string, mattress: Mattress): LlmDocument =
     '## Recorded policy fields',
     '',
     `- Trial: ${mattress.trialNights} nights in the source dataset`,
-    `- Warranty: ${mattress.warrantyYears} years in the source dataset`,
+    `- Warranty: ${warrantyValue(mattress.warrantyYears)} in the source dataset`,
     `- Recorded price range: ${mattress.priceRange}`,
     ...(mattress.availabilityNote ? [
       '',
@@ -272,7 +273,7 @@ export const buildGeneratedLlmDocuments = (rawSiteUrl: string): LlmDocument[] =>
           ['Thickness', mattressA.thickness, mattressB.thickness],
           ['Recorded price range', mattressA.priceRange, mattressB.priceRange],
           ['Recorded trial', `${mattressA.trialNights} nights`, `${mattressB.trialNights} nights`],
-          ['Recorded warranty', `${mattressA.warrantyYears} years`, `${mattressB.warrantyYears} years`],
+          ['Recorded warranty', warrantyValue(mattressA.warrantyYears), warrantyValue(mattressB.warrantyYears)],
         ]),
         '',
         '## Winner by use case',

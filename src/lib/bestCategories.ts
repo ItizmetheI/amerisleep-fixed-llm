@@ -16,6 +16,78 @@ export interface CategoryConfig {
 }
 
 export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
+  latex: {
+    title: 'Best Latex Mattress 2026 | PureSleep',
+    h1: 'Best Latex Mattress of 2026',
+    description: 'Best latex mattress picks for 2026, ranked with PureSleep\'s seven-metric editorial scorecard.',
+    intro: 'This category covers models recorded as latex builds in the source dataset. Ranking sorts by the published Overall field, then Value. Latex is recorded here as a construction type; durability and feel statements are editorial, not laboratory results.',
+    winner: 'amerisleep-organica',
+    winnerNote: 'Amerisleep Organica records 9/10 Overall and 9/10 Value, the highest combination among recorded latex models. Verify its current certification scope, trial, and warranty terms on Amerisleep\'s official pages before purchase.',
+    picks: ['amerisleep-organica', 'happsy', 'plushbeds-organic-bliss', 'avocado-green', 'plushbeds-botanical-bliss', 'birch-natural'],
+    filterNote: 'Happsy carries the broadest recorded certification list in this category (8 labels). Birch Natural records the strongest Value field (9/10) among the group despite an 8/10 Overall. PlushBeds Organic Kids is a recorded latex model but is excluded here because it is a children\'s size and feel rather than a general-purpose pick.',
+    faqs: [
+      {
+        question: 'What is the best latex mattress for 2026?',
+        answer: 'Amerisleep Organica ranks first among recorded latex models after sorting by the published Overall field and then Value. It records 9/10 Overall and 9/10 Value. These are editorial scores from the published PureSleep dataset, not laboratory measurements or durability testing.'
+      },
+      {
+        question: 'Is latex better than memory foam?',
+        answer: 'Neither type is better in the dataset. Latex models in this ranking record 8-9/10 Overall, and memory-foam models elsewhere in the corpus reach 10/10. Latex is typically more responsive and memory foam more contouring, but the right choice depends on preferred feel, and these scores do not measure material durability.'
+      },
+      {
+        question: 'What certifications should a latex mattress have?',
+        answer: 'GOLS applies to organic latex and GOTS to organic cotton and wool components. Several models here also record OEKO-TEX, eco-INSTITUT, or GREENGUARD Gold. A certification usually covers a specific material or component rather than the finished mattress, so confirm the exact scope and current status with the brand and the issuing directory before purchase.'
+      }
+    ]
+  },
+  firm: {
+    title: 'Best Firm Mattress 2026 | PureSleep',
+    h1: 'Best Firm Mattress of 2026',
+    description: 'Best firm and medium-firm mattress picks for 2026, ranked with the same seven-metric editorial scorecard.',
+    intro: 'This category covers models recorded at firm or medium-firm on the source dataset firmness field. Ranking sorts by the published Overall field, then Value. Firmness is a recorded editorial descriptor and can feel different by body weight and sleep position.',
+    winner: 'bear-original',
+    winnerNote: 'Bear Original records 9/10 Overall with a category-leading 10/10 Value at a recorded $748. Verify current price, trial, and warranty terms on Bear\'s official pages before purchase.',
+    picks: ['bear-original', 'amerisleep-as2', 'brooklyn-bedding-plank-firm', 'happsy', 'avocado-green', 'helix-dawn-luxe'],
+    filterNote: 'Brooklyn Bedding Plank Firm and Helix Dawn Luxe are the two models recorded at full firm (8/10 and 7/10 on the firmness scale); the rest are recorded medium-firm. SweetNight Prime records 10/10 Value at a recorded $299 but a lower 7/10 Overall. PlushBeds Organic Kids is recorded medium-firm but is excluded as a children\'s model.',
+    faqs: [
+      {
+        question: 'What is the best firm mattress for 2026?',
+        answer: 'Bear Original ranks first in this category after sorting by the published Overall field and then Value, recording 9/10 Overall and 10/10 Value. These are editorial scores from the published PureSleep dataset, not pressure-map or laboratory results.'
+      },
+      {
+        question: 'Is a firm mattress better for back pain?',
+        answer: 'Not automatically. The dataset does not support a claim that firmer is always better for back discomfort, and firmness preference varies with body weight and sleep position. The separate back-comfort category ranks models on recorded support and pressure fields. A mattress cannot diagnose, treat, or cure a medical condition; discuss persistent pain with a qualified professional.'
+      },
+      {
+        question: 'What is the difference between firm and medium-firm?',
+        answer: 'In the source dataset, firmness is recorded on a 0-10 scale. Models here range from 6/10 medium-firm to 8/10 firm. The scale is an editorial descriptor rather than an industry-standard measurement, so the same number can feel different between brands and between body types.'
+      }
+    ]
+  },
+  soft: {
+    title: 'Best Soft Mattress 2026 | PureSleep',
+    h1: 'Best Soft Mattress of 2026',
+    description: 'Best soft and medium-soft mattress picks for 2026, ranked with the same seven-metric editorial scorecard.',
+    intro: 'This category covers models recorded at soft or medium-soft on the source dataset firmness field. Ranking sorts by the published Overall field, then Value. Softer models suit sleepers who want more cushioning at the shoulder and hip, but feel varies by body weight.',
+    winner: 'saatva-rx',
+    winnerNote: 'Saatva RX records 10/10 Overall, the highest in this category, at a recorded $3,995. Its recorded Value field is 7/10, so confirm the current price and policy terms on Saatva\'s official pages before purchase.',
+    picks: ['saatva-rx', 'nest-bedding-raven', 'amerisleep-as5', 'amerisleep-as5-hybrid', 'helix-sunset-luxe', 'naturepedic-concerto-plush'],
+    filterNote: 'Amerisleep Organica Plush also records 9/10 Overall and 9/10 Value and would otherwise place in this list; it is held out so the ranking keeps at least four brands and no more than three models from the concentrated brand group, under the published category composition rule. Nest Bedding Raven records the strongest Value field here at 9/10.',
+    faqs: [
+      {
+        question: 'What is the best soft mattress for 2026?',
+        answer: 'Saatva RX ranks first among models recorded soft or medium-soft, with 10/10 Overall in the published PureSleep dataset. These are editorial scores, not laboratory measurements or hands-on test results.'
+      },
+      {
+        question: 'Is a soft mattress bad for your back?',
+        answer: 'The dataset does not support that as a general rule. Softer models can allow more sinkage at the hips, which some sleepers find comfortable and others do not. Preference varies with body weight and sleep position. A mattress cannot diagnose, treat, or cure a medical condition; discuss persistent pain with a qualified professional.'
+      },
+      {
+        question: 'Who should choose a soft mattress?',
+        answer: 'Recorded fit profiles in this category skew toward side sleepers and sleepers who prefer pronounced cushioning at the shoulder and hip. Models here record firmness between 3/10 and 4/10. Heavier sleepers may prefer a firmer recorded profile for more support, but this is editorial guidance rather than a measured result.'
+      }
+    ]
+  },
   overall: {
     title: 'Best Mattress 2026 — Top Overall Picks | PureSleep',
     h1: 'Best Mattress of 2026',

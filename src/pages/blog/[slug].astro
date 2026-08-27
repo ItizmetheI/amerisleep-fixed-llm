@@ -6,6 +6,7 @@ import { EDITORIAL_INDEPENDENCE_DISCLOSURE, LINK_DISCLOSURE } from '../../lib/di
 import { formatDateOnly } from '../../lib/dateFormat';
 import { getLegacyBestBlogRedirect } from '../../lib/legacyBlogRedirects';
 import { requiresBlogSourceReview } from '../../lib/blogSourceReview';
+import { isScheduled, contentCutoffDate } from '../../lib/scheduledContent';
 import { FIRDOUS_FARHAD } from '../../lib/editorialPeople';
 
 export function getStaticPaths() {
@@ -25,6 +26,7 @@ if (redirectTo) {
 const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
 
 const sourceReviewPending = requiresBlogSourceReview(post);
+const scheduled = isScheduled(post.datePublished);
 
 const blogArticleBody = toArticleBody(
   post.title,
@@ -159,7 +161,7 @@ const formatProse = (text: string) => {
   canonicalUrl={`${SITE_URL}/blog/${post.slug}/`}
   lastUpdated={post.dateModified}
   jsonLd={jsonLd}
-  noindex={sourceReviewPending}
+  noindex={sourceReviewPending || scheduled}
 >
   <article class="w-full min-w-0 max-w-[760px] mx-auto px-margin-mobile md:px-0 py-stack-lg">
 
@@ -187,6 +189,13 @@ const formatProse = (text: string) => {
       <p class="text-label-sm font-label-sm uppercase tracking-normal text-secondary mb-2 font-bold">Quick Answer</p>
       <p class="text-body-lg text-on-background leading-relaxed">{post.directAnswer}</p>
     </div>
+
+    {scheduled && (
+      <div class="bg-slate-50 border border-slate-300 rounded-lg p-5 mb-8 text-body-md text-slate-900" role="note">
+        <p class="font-bold mb-2">Editorial status: scheduled</p>
+        <p>This article is dated {post.datePublished}, after the current publication cutoff of {contentCutoffDate()}. It is excluded from search indexing, the sitemap, and blog listings until its publication date.</p>
+      </div>
+    )}
 
     {sourceReviewPending && (
       <div class="bg-amber-50 border border-amber-300 rounded-lg p-5 mb-8 text-body-md text-amber-950" role="note">

@@ -17,7 +17,7 @@ const methodologyArticleBody = toArticleBody(
     'Product construction, recorded firmness, policy fields, and sleep-position fit are interpreted using the same published definitions.',
     'Each mattress is scored on Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. Every field uses a 0-10 scale.',
     'The Overall field is the source dataset\'s editorial summary score, not a formula-derived laboratory result or manufacturer rating.',
-    'PureSleep is independently operated. The same published rubric is used across every covered brand.',
+    `${EDITORIAL_INDEPENDENCE_DISCLOSURE} The same published rubric is used across every covered brand.`,
   ]),
   'The 7 Scoring Criteria',
   articleList('Scoring Criteria', [
@@ -94,7 +94,7 @@ const formattedDate = formatDateOnly(lastUpdated);
           { n: "2", title: "Consistent Fit Analysis", desc: "Product construction, recorded firmness, policy fields, and sleep-position fit are interpreted using the same published definitions. Body-weight guidance is fit guidance, not a clinical measurement." },
           { n: "3", title: "7-Metric Scoring", desc: "Each mattress is scored on Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. All scores are 0–10." },
           { n: "4", title: "Evidence Limits", desc: "The Overall field is the source dataset's editorial summary score. It is not a formula-derived laboratory result, manufacturer rating, or collected customer rating." },
-          { n: "5", title: "Editorial Independence", desc: "PureSleep is independently operated, uses the same rubric for every brand, and explains how outbound product links work." }
+          { n: "5", title: "Editorial Standards", desc: `${EDITORIAL_INDEPENDENCE_DISCLOSURE} The same rubric applies to every brand, and outbound product link handling is explained in the disclosure.` }
         ].map(step => (
           <div class="flex gap-6 items-start">
             <div class="bg-primary/10 text-primary font-bold text-xl rounded-full w-12 h-12 flex items-center justify-center shrink-0 border border-primary/20">{step.n}</div>
@@ -120,7 +120,7 @@ const formattedDate = formatDateOnly(lastUpdated);
           { metric: "Cooling & Breathability", desc: "The dataset's editorial comparison field for expected airflow and heat-management characteristics." }
         ].map(item => (
           <div class="glass-panel p-6 rounded-lg border border-outline-variant/30">
-            <h4 class="text-label-sm font-label-sm uppercase tracking-normal text-secondary font-bold mb-2">{item.metric}</h4>
+            <h3 class="text-label-sm font-label-sm uppercase tracking-normal text-secondary font-bold mb-2">{item.metric}</h3>
             <p class="text-body-md text-on-surface-variant">{item.desc}</p>
           </div>
         ))}

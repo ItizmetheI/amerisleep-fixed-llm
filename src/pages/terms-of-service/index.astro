@@ -1,4 +1,5 @@
 ---
+import { EDITORIAL_INDEPENDENCE_DISCLOSURE, LINK_DISCLOSURE } from '../../lib/disclosure';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
 
@@ -34,12 +35,12 @@ const jsonLd = {
 
       <section>
         <h2 class="text-title-lg font-title-lg text-primary mb-3 font-bold">2. Content & Editorial Purpose</h2>
-        <p>PureSleep is an independently operated publication that provides mattress reviews and buying guides for informational purposes. Content is not a substitute for professional medical advice. Mattress recommendations are general in nature. Consult a healthcare professional for mattress advice related to specific medical conditions.</p>
+        <p>{EDITORIAL_INDEPENDENCE_DISCLOSURE} PureSleep provides mattress reviews and buying guides for informational purposes. Content is not a substitute for professional medical advice. Mattress recommendations are general in nature. Consult a healthcare professional for mattress advice related to specific medical conditions.</p>
       </section>
 
       <section>
         <h2 class="text-title-lg font-title-lg text-primary mb-3 font-bold">3. Outbound Product Links</h2>
-        <p>PureSleep does not receive per-click or per-sale commissions from outbound product links. Product links lead to third-party manufacturer or retailer pages, and all purchases are subject to that site's current terms and policies.</p>
+        <p>{LINK_DISCLOSURE} Product links lead to third-party manufacturer or retailer pages, and all purchases are subject to that site's current terms and policies.</p>
       </section>
 
       <section>

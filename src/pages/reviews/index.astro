@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { allMattresses } from '../../data/mattresses';
+import { allMattresses, warrantyTitle } from '../../data/mattresses';
 import { formatDateOnly } from '../../lib/dateFormat';
 
 const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
@@ -136,7 +136,7 @@ const formattedDateModified = formatDateOnly(lastUpdated);
               </div>
               <div class="w-px bg-outline-variant/30"></div>
               <div class="flex items-center gap-1.5">
-                <span class="text-primary font-bold">{mattress.warrantyYears}</span> Year Warranty
+                <span class="text-primary font-bold">{warrantyTitle(mattress.warrantyYears)}</span> Warranty
               </div>
             </div>
 
@@ -169,7 +169,7 @@ const formattedDateModified = formatDateOnly(lastUpdated);
 
             <!-- Actions -->
             <div class="mt-auto flex flex-col gap-3 pt-6">
-              <a href={`/reviews/${mattress.id}`} class="w-full text-center py-3.5 rounded-lg border-2 border-primary text-primary font-label-md uppercase tracking-normal font-bold hover:bg-primary/5 transition-colors">
+              <a href={`/reviews/${mattress.id}/`} class="w-full text-center py-3.5 rounded-lg border-2 border-primary text-primary font-label-md uppercase tracking-normal font-bold hover:bg-primary/5 transition-colors">
                 Read Full Review
               </a>
               <a href={mattress.productUrl} target="_blank" rel="noopener noreferrer" class="w-full text-center py-3.5 rounded-lg bg-primary text-on-primary font-label-md uppercase tracking-normal font-bold hover:bg-primary/90 transition-colors shadow-sm">
@@ -185,7 +185,7 @@ const formattedDateModified = formatDateOnly(lastUpdated);
     <section class="max-w-2xl mx-auto mt-8 glass-panel p-6 rounded-lg border border-white/60">
       <h3 class="text-title-md font-title-md text-primary font-bold mb-3">How we cover 24 brands</h3>
       <p class="text-body-md text-on-surface-variant leading-relaxed">
-        Every model above is scored using the same 7-metric system: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling &amp; Breathability. Scores are editorial comparisons from the published PureSleep score dataset, not laboratory findings, manufacturer ratings, or collected customer ratings. <a href="/methodology" class="text-primary hover:underline font-bold">Read our full methodology →</a>
+        Every model above is scored using the same 7-metric system: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling &amp; Breathability. Scores are editorial comparisons from the published PureSleep score dataset, not laboratory findings, manufacturer ratings, or collected customer ratings. <a href="/methodology/" class="text-primary hover:underline font-bold">Read our full methodology →</a>
       </p>
     </section>
   </main>

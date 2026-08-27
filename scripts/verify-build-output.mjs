@@ -20,6 +20,13 @@ const walk = async (directory) => {
 };
 
 const files = await walk(dist);
+
+// ponytail: derive the mode from the artifact, not an env var, so QA validates whatever was built.
+const previewBuild = /^\s*User-agent:\s*\*\s*[\r\n]+Disallow:\s*\/\s*$/.test(
+  (await readFile(path.join(dist, 'robots.txt'), 'utf8')).trim(),
+);
+// Preview emits the stricter sitewide "noindex, nofollow, noarchive"; both satisfy a noindex gate.
+const hasNoindex = (html) => /<meta\b[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html);
 const htmlFiles = files.filter(file => file.endsWith('.html'));
 const relative = file => path.relative(dist, file).replaceAll(path.sep, '/');
 const htmlByPath = new Map();
@@ -141,8 +148,15 @@ for (const [label, pattern] of [
 ] ) {
   assert(!pattern.test(allHtml), `Generated HTML contains ${label}.`);
 }
-assert(allHtml.includes('independently operated editorial publication'), 'Generated HTML is missing the editorial-independence disclosure.');
-assert(allHtml.includes('does not receive per-click or per-sale commissions'), 'Generated HTML is missing the outbound-link compensation disclosure.');
+
+const disclosureApproved = process.env.PUBLIC_DISCLOSURE_APPROVED === 'true';
+if (disclosureApproved) {
+  assert(allHtml.includes('does not receive per-click or per-sale commissions'), 'Approved build is missing the outbound-link compensation disclosure.');
+} else {
+  // Claims disposition: independence / no-commission wording is withheld until certified.
+  assert(!allHtml.includes('does not receive per-click or per-sale commissions'), 'Uncertified build publishes a no-commission claim that is withheld by the claims disposition.');
+  assert(!allHtml.includes('independently operated'), 'Uncertified build publishes an independence claim that is withheld by the claims disposition.');
+}
 assert(allHtml.includes('Firdous Farhad'), 'Generated HTML is missing the approved health and sleep content reviewer.');
 assert(allHtml.includes('Licensed massage therapist and certified sleep science coach.'), 'Generated HTML is missing Firdous Farhad\'s approved credential statement.');
 
@@ -163,7 +177,7 @@ const sourceReviewPendingBlogPages = [...htmlByPath].filter(([route, html]) =>
 );
 assert(sourceReviewPendingBlogPages.length === 67, `Expected 67 source-review-pending blog pages; found ${sourceReviewPendingBlogPages.length}.`);
 for (const [route, html] of sourceReviewPendingBlogPages) {
-  assert(/<meta\b[^>]*name=["']robots["'][^>]*content=["']noindex, follow["']/i.test(html), `${route} is missing its noindex, follow gate.`);
+  assert(hasNoindex(html), `${route} is missing its noindex gate.`);
   assert(html.includes('Reviewer assigned:'), `${route} is missing the visible reviewer-assignment status.`);
   assert(html.includes('Firdous Farhad'), `${route} is missing Firdous Farhad's reviewer assignment.`);
   assert(!html.includes('Reviewed by Firdous Farhad'), `${route} falsely presents the pending assignment as completed review.`);
@@ -247,10 +261,53 @@ for (const [route] of sourceReviewPendingBlogPages) {
   assert(!sitemapText.includes(`${expectedSite}${pathname}`), `Source-review-pending page remains in sitemap: ${pathname}`);
 }
 
+// Scheduled (future-dated) posts must be noindex, labelled, and absent from the sitemap.
+const scheduledBlogPages = [...htmlByPath.entries()].filter(([route, html]) =>
+  route.startsWith('blog/') && html.includes('Editorial status: scheduled'),
+);
+for (const [route, html] of scheduledBlogPages) {
+  assert(hasNoindex(html), `Scheduled page is missing its noindex gate: ${route}`);
+  const pathname = `/${route.replace(/index\.html$/, '')}`;
+  assert(!sitemapText.includes(`${expectedSite}${pathname}`), `Scheduled page remains in sitemap: ${pathname}`);
+}
+// Response security headers must ship with the build.
+const headersFile = await readFile(path.join(dist, '_headers'), 'utf8').catch(() => '');
+assert(headersFile.length > 0, 'dist/_headers is missing; security headers would not be served.');
+for (const header of [
+  'Content-Security-Policy', 'Strict-Transport-Security', 'X-Content-Type-Options',
+  'X-Frame-Options', 'Referrer-Policy', 'Permissions-Policy',
+]) {
+  const present = headersFile.toLowerCase().includes(header.toLowerCase() + ':');
+  assert(present, `dist/_headers is missing ${header}.`);
+}
+
+// Internal links must hit their canonical trailing-slash URL directly, with no 307 hop.
+const slashlessTargets = new Set();
+for (const [route, html] of htmlByPath.entries()) {
+  for (const m of html.matchAll(/href="(\/[^"#?]*)"/g)) {
+    const h = m[1];
+    if (h === '/' || h.endsWith('/') || h.startsWith('/_')) continue;
+    if (/\.(css|js|json|xml|txt|md|jpg|jpeg|png|webp|svg|ico|avif)$/i.test(h)) continue;
+    slashlessTargets.add(`${h} (linked from ${route})`);
+  }
+}
+assert(slashlessTargets.size === 0, `Internal links bypass the canonical trailing slash and cost a 307 hop: ${[...slashlessTargets].slice(0, 5).join('; ')}`);
+
+// No public warranty value may leak the internal lifetime sentinel.
+for (const [route, html] of htmlByPath.entries()) {
+  assert(!/\b99[-\s]year/i.test(html), `Legacy 99-year warranty sentinel is public on ${route}`);
+}
+
 const robots = await readFile(path.join(dist, 'robots.txt'), 'utf8');
-assert(robots.includes(`Sitemap: ${expectedSite}/sitemap-index.xml`), 'robots.txt sitemap host is not synchronized.');
-assert(/Disallow:\s*\/admin\//i.test(robots), 'robots.txt does not disallow /admin/.');
-assert(/Disallow:\s*\/api\//i.test(robots), 'robots.txt does not disallow /api/.');
+if (previewBuild) {
+  // Fail-closed preview: block everything, advertise nothing.
+  assert(/Disallow:\s*\/\s*$/m.test(robots.trim()), 'Preview robots.txt must disallow all crawling.');
+  assert(!/Sitemap:/i.test(robots), 'Preview robots.txt must not advertise a sitemap.');
+} else {
+  assert(robots.includes(`Sitemap: ${expectedSite}/sitemap-index.xml`), 'robots.txt sitemap host is not synchronized.');
+  assert(/Disallow:\s*\/admin\//i.test(robots), 'robots.txt does not disallow /admin/.');
+  assert(/Disallow:\s*\/api\//i.test(robots), 'robots.txt does not disallow /api/.');
+}
 
 const llmMarkdownFiles = files.filter(file => /^llms\/[^/]+\.md$/.test(relative(file)));
 const llmReviewFiles = llmMarkdownFiles.filter(file => relative(file).startsWith('llms/reviews-'));
@@ -258,10 +315,10 @@ const llmComparisonFiles = llmMarkdownFiles.filter(file => relative(file).starts
 const llmBestFiles = llmMarkdownFiles.filter(file => relative(file).startsWith('llms/best-'));
 const llmBrandFiles = llmMarkdownFiles.filter(file => relative(file).startsWith('llms/brand-'));
 const llmTopicFiles = llmMarkdownFiles.filter(file => relative(file).startsWith('llms/topic-'));
-assert(llmMarkdownFiles.length === 145, `Expected 145 generated LLM Markdown files; found ${llmMarkdownFiles.length}.`);
+assert(llmMarkdownFiles.length === 148, `Expected 148 generated LLM Markdown files; found ${llmMarkdownFiles.length}.`);
 assert(llmReviewFiles.length === 59, `Expected 59 generated LLM review files; found ${llmReviewFiles.length}.`);
 assert(llmComparisonFiles.length === 30, `Expected 30 generated comparison Markdown files; found ${llmComparisonFiles.length}.`);
-assert(llmBestFiles.length === 18, `Expected 18 generated ranked-category Markdown files; found ${llmBestFiles.length}.`);
+assert(llmBestFiles.length === 21, `Expected 21 generated ranked-category Markdown files; found ${llmBestFiles.length}.`);
 assert(llmBrandFiles.length === 24, `Expected 24 generated brand Markdown files; found ${llmBrandFiles.length}.`);
 assert(llmTopicFiles.length === 8, `Expected 8 generated topic Markdown files; found ${llmTopicFiles.length}.`);
 for (const file of llmMarkdownFiles) {
@@ -281,8 +338,8 @@ for (const file of llmBestFiles) {
 const llmsIndex = await readFile(path.join(dist, 'llms.txt'), 'utf8');
 const llmsFull = await readFile(path.join(dist, 'llms-full.txt'), 'utf8');
 const indexedMachineSlugs = new Set([...llmsIndex.matchAll(/\/llms\/([a-z0-9-]+)\.md/g)].map(match => match[1]));
-assert(indexedMachineSlugs.size === 145, `llms.txt must list 145 unique machine documents; found ${indexedMachineSlugs.size}.`);
-assert((llmsFull.match(/^Machine document:/gm) ?? []).length === 145, 'llms-full.txt does not contain all 145 machine documents.');
+assert(indexedMachineSlugs.size === 148, `llms.txt must list 148 unique machine documents; found ${indexedMachineSlugs.size}.`);
+assert((llmsFull.match(/^Machine document:/gm) ?? []).length === 148, 'llms-full.txt does not contain all 148 machine documents.');
 
 const requiredTopicRoutes = [
   'memory-foam',
@@ -347,7 +404,7 @@ assert(
 );
 
 const bestDetailPages = [...htmlByPath].filter(([route]) => route.startsWith('best/'));
-assert(bestDetailPages.length === 18, `Expected 18 rendered ranked-category pages; found ${bestDetailPages.length}.`);
+assert(bestDetailPages.length === 21, `Expected 21 rendered ranked-category pages; found ${bestDetailPages.length}.`);
 for (const [route, html] of bestDetailPages) {
   const scoreFieldIds = [...html.matchAll(/data-score-field-model=["']([^"']+)["']/g)].map(match => match[1]);
   const scoreFieldBrands = [...html.matchAll(/data-score-field-brand=["']([^"']+)["']/g)].map(match => match[1]);
@@ -431,6 +488,10 @@ console.log(JSON.stringify({
     new Set([...html.matchAll(/data-score-field-brand=["']([^"']+)["']/g)].slice(0, 12).map(match => match[1])).size
   )),
   sourceReviewPendingBlogPages: sourceReviewPendingBlogPages.length,
+  scheduledBlogPages: scheduledBlogPages.length,
+  internalLinksNeedingRedirect: slashlessTargets.size,
+  securityHeadersConfigured: true,
+  indexingMode: previewBuild ? 'preview' : 'production',
   duplicateMattressImageGroups: disallowedDuplicateImageGroups.length,
   standaloneTopicRoutes: requiredTopicRoutes.length,
   legacyRedirectsExcludedFromSitemap: legacyRedirectLines.length,

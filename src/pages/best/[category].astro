@@ -1,5 +1,5 @@
 ---
-import { allMattresses } from '../../data/mattresses';
+import { allMattresses, warrantyPhrase, warrantyValue, warrantyTitle, warrantyShort } from '../../data/mattresses';
 import { comparisons } from '../../data/comparisons';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { BEST_CATEGORIES } from '../../lib/bestCategories';
@@ -66,7 +66,7 @@ const bestArticleBody = toArticleBody(
         ['Motion Transfer', `${winner.scores.motionTransfer}/10`],
         ['Cooling', `${winner.scores.coolingBreathability}/10`],
       ]),
-      `Specs at a Glance: ${winner.trialNights}-night trial. ${winner.warrantyYears}-year warranty. ${winner.firmness} (${winner.firmnessScale}/10).`,
+      `Specs at a Glance: ${winner.trialNights}-night trial. ${warrantyPhrase(winner.warrantyYears)}. ${winner.firmness} (${winner.firmnessScale}/10).`,
     ]
     : null,
   'Quick Comparison',
@@ -80,7 +80,7 @@ const bestArticleBody = toArticleBody(
       `${m.scores.overall}/10`,
       `${m.scores.value}/10`,
       `${m.trialNights} nights`,
-      `${m.warrantyYears} years`,
+      warrantyValue(m.warrantyYears),
     ])
   ),
   cat.filterNote ? `Editorial note: ${cat.filterNote}` : null,
@@ -89,7 +89,7 @@ const bestArticleBody = toArticleBody(
     `#${i + 1}: ${m.name} by ${m.brand}. Overall score: ${m.scores.overall}/10.`,
     `Our Verdict: ${m.verdict}`,
     `Scores: Value ${m.scores.value}/10. Edge Support ${m.scores.edgeSupport}/10. Motion Transfer ${m.scores.motionTransfer}/10. Cooling ${m.scores.coolingBreathability}/10.`,
-    `Specs at a Glance: ${m.firmness} (${m.firmnessScale}/10). Best for ${m.bestFor.slice(0, 2).join(', ')}. ${m.trialNights}-night trial. ${m.warrantyYears}-year warranty.`,
+    `Specs at a Glance: ${m.firmness} (${m.firmnessScale}/10). Best for ${m.bestFor.slice(0, 2).join(', ')}. ${m.trialNights}-night trial. ${warrantyPhrase(m.warrantyYears)}.`,
   ]),
   'Full 59-Model Score Field',
   'The six picks above are the ranked recommendations for this category. The complete table below includes every model and brand in the published PureSleep score dataset, ordered by Overall score with brands interleaved when scores tie; inclusion does not mean every model is recommended for this category.',
@@ -193,7 +193,7 @@ if (faqs.length > 0) {
     <nav class="text-body-sm text-on-surface-variant flex items-center gap-2 flex-wrap" aria-label="Breadcrumb">
       <a href="/" class="hover:text-primary transition-colors">Home</a>
       <span aria-hidden="true">›</span>
-      <a href="/best/overall" class="hover:text-primary transition-colors">Best Picks</a>
+      <a href="/best/overall/" class="hover:text-primary transition-colors">Best Picks</a>
       <span aria-hidden="true">›</span>
       <span class="text-on-surface font-medium">{cat.h1}</span>
     </nav>
@@ -279,14 +279,14 @@ if (faqs.length > 0) {
               <div class="flex flex-wrap gap-4 text-body-sm text-on-surface-variant">
               <span><strong class="text-on-surface">{winner.trialNights}-Night</strong> Trial</span>
               <span class="text-outline-variant">·</span>
-              <span><strong class="text-on-surface">{winner.warrantyYears}-Year</strong> Warranty</span>
+              <span><strong class="text-on-surface">{warrantyTitle(winner.warrantyYears)}</strong> Warranty</span>
               <span class="text-outline-variant">·</span>
               <span><strong class="text-on-surface">{winner.firmness}</strong> ({winner.firmnessScale}/10)</span>
               </div>
             </div>
 
             <div class="flex gap-3 flex-wrap">
-              <a href={`/reviews/${winner.id}`} class="px-6 py-3 rounded-lg border-2 border-primary text-primary font-bold text-label-sm uppercase tracking-normal hover:bg-primary/5 transition-colors">
+              <a href={`/reviews/${winner.id}/`} class="px-6 py-3 rounded-lg border-2 border-primary text-primary font-bold text-label-sm uppercase tracking-normal hover:bg-primary/5 transition-colors">
                 Read Full Review
               </a>
               <a href={winner.productUrl} target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-lg bg-primary text-on-primary font-bold text-label-sm uppercase tracking-normal hover:bg-primary/90 transition-colors shadow-sm">
@@ -332,9 +332,9 @@ if (faqs.length > 0) {
                 </td>
                 <td class="px-4 py-4 text-center text-on-surface-variant font-medium">{m.scores.value}</td>
                 <td class="px-4 py-4 text-center text-on-surface-variant">{m.trialNights}n</td>
-                <td class="px-4 py-4 text-center text-on-surface-variant">{m.warrantyYears}yr</td>
+                <td class="px-4 py-4 text-center text-on-surface-variant">{warrantyShort(m.warrantyYears)}</td>
                 <td class="px-4 py-4 text-center">
-                  <a href={`/reviews/${m.id}`} class="text-primary font-bold hover:text-secondary transition-colors underline underline-offset-2 text-xs uppercase tracking-normal">
+                  <a href={`/reviews/${m.id}/`} class="text-primary font-bold hover:text-secondary transition-colors underline underline-offset-2 text-xs uppercase tracking-normal">
                     Review →
                   </a>
                 </td>
@@ -421,12 +421,12 @@ if (faqs.length > 0) {
                 <div class="flex flex-wrap gap-4 text-xs text-on-surface-variant border-t border-outline-variant/20 pt-3">
                   <span><strong class="text-on-surface">{m.trialNights}-Night</strong> Trial</span>
                   <span class="text-outline-variant">·</span>
-                  <span><strong class="text-on-surface">{m.warrantyYears}-Year</strong> Warranty</span>
+                  <span><strong class="text-on-surface">{warrantyTitle(m.warrantyYears)}</strong> Warranty</span>
                 </div>
 
                 <!-- CTAs -->
                 <div class="flex gap-3 flex-wrap pt-2">
-                  <a href={`/reviews/${m.id}`} class="px-5 py-2.5 rounded-lg border-2 border-primary text-primary font-bold text-xs uppercase tracking-normal hover:bg-primary/5 transition-colors">
+                  <a href={`/reviews/${m.id}/`} class="px-5 py-2.5 rounded-lg border-2 border-primary text-primary font-bold text-xs uppercase tracking-normal hover:bg-primary/5 transition-colors">
                     Full Review
                   </a>
                   <a href={m.productUrl} target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-primary text-on-primary font-bold text-xs uppercase tracking-normal hover:bg-primary/90 transition-colors shadow-sm">
@@ -483,7 +483,7 @@ if (faqs.length > 0) {
                   <td class="px-2 py-3 text-center text-on-surface-variant">{m.scores.motionTransfer}</td>
                   <td class="px-2 py-3 text-center text-on-surface-variant">{m.scores.coolingBreathability}</td>
                   <td class="px-2 py-3 text-center">
-                    <a href={`/reviews/${m.id}`} class="text-primary font-bold hover:text-secondary underline underline-offset-2 text-xs uppercase tracking-normal">
+                    <a href={`/reviews/${m.id}/`} class="text-primary font-bold hover:text-secondary underline underline-offset-2 text-xs uppercase tracking-normal">
                       Review
                     </a>
                   </td>
@@ -505,11 +505,11 @@ if (faqs.length > 0) {
         {RANKING_DISCLOSURE}
       </p>
       <div class="flex flex-wrap gap-3">
-        <a href="/methodology" class="text-primary hover:text-secondary font-bold underline underline-offset-4 transition-colors text-body-md">
+        <a href="/methodology/" class="text-primary hover:text-secondary font-bold underline underline-offset-4 transition-colors text-body-md">
           Read our full scoring methodology →
         </a>
         <span class="text-outline-variant hidden md:inline self-center">·</span>
-        <a href="/reviews" class="text-primary hover:text-secondary font-bold underline underline-offset-4 transition-colors text-body-md hidden md:inline">
+        <a href="/reviews/" class="text-primary hover:text-secondary font-bold underline underline-offset-4 transition-colors text-body-md hidden md:inline">
           Browse all 59 reviews →
         </a>
       </div>
@@ -527,7 +527,7 @@ if (faqs.length > 0) {
             if (!mA || !mB) return null;
             return (
               <a
-                href={`/comparison/${c.slug}`}
+                href={`/comparison/${c.slug}/`}
                 class="glass-panel flex flex-col gap-2 p-5 rounded-lg border border-white/60 hover:border-primary/30 hover:shadow-md transition-all group"
               >
                 <div class="flex items-center justify-between">
@@ -543,7 +543,7 @@ if (faqs.length > 0) {
             );
           })}
         </div>
-        <a href="/comparison" class="text-primary font-bold hover:text-secondary transition-colors text-body-md underline underline-offset-4 w-fit">
+        <a href="/comparison/" class="text-primary font-bold hover:text-secondary transition-colors text-body-md underline underline-offset-4 w-fit">
           View all comparison pages →
         </a>
       </section>
@@ -574,7 +574,7 @@ if (faqs.length > 0) {
       <h3 class="text-title-md font-title-md text-primary font-bold">Explore More Categories</h3>
       <div class="flex flex-wrap gap-3">
         {Object.entries(BEST_CATEGORIES).filter(([k]) => k !== category).map(([k, c]) => (
-          <a href={`/best/${k}`} class="px-4 py-2 rounded-full bg-surface border border-outline-variant/30 text-primary text-body-sm font-bold hover:border-primary/30 hover:shadow-sm transition-all">
+          <a href={`/best/${k}/`} class="px-4 py-2 rounded-full bg-surface border border-outline-variant/30 text-primary text-body-sm font-bold hover:border-primary/30 hover:shadow-sm transition-all">
             {c.h1.replace(' of 2026', '').replace(' 2026', '')}
           </a>
         ))}

@@ -23,7 +23,7 @@ const featuredPicks = [
 ].map(config => {
   const mattress = allMattresses.find(item => item.id === config.id);
   if (!mattress) throw new Error(`Missing homepage pick: ${config.id}`);
-  return { ...config, name: mattress.name, score: mattress.scores.overall, href: `/reviews/${mattress.id}` };
+  return { ...config, name: mattress.name, score: mattress.scores.overall, href: `/reviews/${mattress.id}/` };
 });
 const featuredComparisons = [
   'amerisleep-organica-vs-avocado-green',
@@ -100,7 +100,7 @@ const jsonLd = [
 ---
 
 <BaseLayout 
-  title="Best Mattress of 2026 | 59 Models Scored | PureSleep"
+  title="PureSleep — Mattress Scorecards & Comparison Database | 59 Models, 24 Brands"
   description="Compare 59 mattresses across 24 brands with PureSleep's seven-metric editorial scorecards, ranked categories, and head-to-head charts."
   ogTitle="Best Mattress of 2026 — PureSleep"
   ogImage="/images/mattresses/amerisleep-as3.webp"
@@ -160,7 +160,7 @@ const jsonLd = [
       <h2 class="text-display-lg font-display-lg text-primary mb-3">Head-to-head comparisons</h2>
       <p class="text-body-lg text-on-surface-variant max-w-2xl">Explore 30 matchups with a crawlable chart for all seven score fields on every comparison page.</p>
     </div>
-    <a href="/comparison" class="shrink-0 text-secondary font-label-sm font-bold uppercase tracking-normal hover:text-primary transition-colors">
+    <a href="/comparison/" class="shrink-0 text-secondary font-label-sm font-bold uppercase tracking-normal hover:text-primary transition-colors">
       All 30 comparisons →
     </a>
   </div>

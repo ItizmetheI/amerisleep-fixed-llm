@@ -1,5 +1,5 @@
 ---
-import { allMattresses } from '../../data/mattresses';
+import { allMattresses, warrantyValue } from '../../data/mattresses';
 import { articleList, articleTable, toArticleBody } from '../../lib/schemaArticleBody';
 import { RANKING_DISCLOSURE } from '../../lib/disclosure';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -208,7 +208,7 @@ const brandArticleBody = toArticleBody(
       `${model.firmness} (${model.firmnessScale}/10)`,
       model.priceSale,
       `${model.trialNights} nights`,
-      `${model.warrantyYears} years`,
+      warrantyValue(model.warrantyYears),
     ])
   ),
   articleList('Brand Review Notes', [
@@ -256,7 +256,7 @@ const jsonLd = [
     <nav class="text-body-sm text-on-surface-variant flex items-center gap-2 flex-wrap">
       <a href="/" class="hover:text-primary transition-colors">Home</a>
       <span>›</span>
-      <a href="/reviews" class="hover:text-primary transition-colors">Reviews</a>
+      <a href="/reviews/" class="hover:text-primary transition-colors">Reviews</a>
       <span>›</span>
       <span class="text-on-surface font-medium">{meta.displayName}</span>
     </nav>
@@ -293,7 +293,7 @@ const jsonLd = [
             </div>
             <p class="text-body-md text-on-surface-variant">{topModel.verdict}</p>
             <div class="flex gap-3 flex-wrap">
-              <a href={`/reviews/${topModel.id}`} class="px-5 py-2.5 rounded-lg border-2 border-primary text-primary font-bold text-label-sm uppercase tracking-normal hover:bg-primary/5 transition-colors">Full Review</a>
+              <a href={`/reviews/${topModel.id}/`} class="px-5 py-2.5 rounded-lg border-2 border-primary text-primary font-bold text-label-sm uppercase tracking-normal hover:bg-primary/5 transition-colors">Full Review</a>
               <a href={topModel.productUrl} target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-primary text-on-primary font-bold text-label-sm uppercase tracking-normal hover:bg-primary/90 transition-colors">Official Product Page →</a>
             </div>
           </div>
@@ -334,7 +334,7 @@ const jsonLd = [
                 ))}
               </div>
               <div class="flex gap-2 mt-1">
-                <a href={`/reviews/${m.id}`} class="px-4 py-2 rounded-lg border border-primary text-primary font-bold text-xs uppercase tracking-normal hover:bg-primary/5 transition-colors">Review</a>
+                <a href={`/reviews/${m.id}/`} class="px-4 py-2 rounded-lg border border-primary text-primary font-bold text-xs uppercase tracking-normal hover:bg-primary/5 transition-colors">Review</a>
                 <a href={m.productUrl} target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-primary text-on-primary font-bold text-xs uppercase tracking-normal hover:bg-primary/90 transition-colors">Price →</a>
               </div>
             </div>

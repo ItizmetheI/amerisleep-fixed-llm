@@ -124,7 +124,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "targeted approach to stop hip sag",
-        "url": "/reviews/amerisleep-as2",
+        "url": "/reviews/amerisleep-as2/",
         "context": "The 12-inch architecture uses a targeted approach to help resist hip sag."
       }
     ],
@@ -258,7 +258,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "Amerisleep AS2 review",
-        "url": "/reviews/amerisleep-as2",
+        "url": "/reviews/amerisleep-as2/",
         "context": "The AS2 has a firmer, more supportive feel that may suit back and stomach sleepers."
       }
     ],
@@ -403,7 +403,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "ultimate weapon against joint stiffness",
-        "url": "/reviews/amerisleep-as5",
+        "url": "/reviews/amerisleep-as5/",
         "context": "As the softest model in the lineup, it serves as the ultimate weapon against joint stiffness."
       }
     ],
@@ -535,7 +535,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "exact dense resistance required",
-        "url": "/reviews/amerisleep-as2",
+        "url": "/reviews/amerisleep-as2/",
         "context": "It delivers the exact dense resistance required to stop your hips from plummeting."
       }
     ],
@@ -671,7 +671,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "meticulous medium feel",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Its meticulous medium feel tackles the impossible balance between pressure relief and structural backing."
       }
     ],
@@ -808,7 +808,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "Bio-Core foundational block",
-        "url": "/reviews/amerisleep-as2",
+        "url": "/reviews/amerisleep-as2/",
         "context": "The Bio-Core foundational block is significantly dense, neutralizing deep hip sinkage completely."
       }
     ],
@@ -975,7 +975,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "strong option for lightweight side sleepers",
-        "url": "/reviews/amerisleep-as5",
+        "url": "/reviews/amerisleep-as5/",
         "context": "The AS5 is a strong option for lightweight side sleepers."
       }
     ],
@@ -1109,7 +1109,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "ultimate peacemaker between conflicting sleep styles",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Rated firmly as a true medium, it stands as the ultimate peacemaker between conflicting sleep styles."
       }
     ],
@@ -1239,7 +1239,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "supreme thermal exhaust system",
-        "url": "/reviews/amerisleep-as6",
+        "url": "/reviews/amerisleep-as6/",
         "context": "The AS6 Black Series operates as a supreme thermal exhaust system."
       }
     ],
@@ -1363,7 +1363,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "masterpiece of natural engineering",
-        "url": "/reviews/amerisleep-organica",
+        "url": "/reviews/amerisleep-organica/",
         "context": "The Organica represents a masterpiece of natural engineering."
       }
     ],
@@ -1486,7 +1486,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "king of luxury foam mattresses",
-        "url": "/reviews/amerisleep-as6",
+        "url": "/reviews/amerisleep-as6/",
         "context": "The AS6 Black Series undeniably reigns as the king of luxury foam mattresses."
       }
     ],
@@ -1608,7 +1608,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "ultimate game-changer for chronic hip pain",
-        "url": "/reviews/amerisleep-as5",
+        "url": "/reviews/amerisleep-as5/",
         "context": "Further reading suggestion"
       }
     ],
@@ -1695,7 +1695,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "dominates the field for shoulder pain",
-        "url": "/reviews/amerisleep-as5",
+        "url": "/reviews/amerisleep-as5/",
         "context": "Further reading suggestion"
       }
     ],
@@ -1795,7 +1795,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "designed to reduce the hammock effect",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -1900,7 +1900,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "balance joint-friendly softness with physical mobility",
-        "url": "/reviews/amerisleep-as5",
+        "url": "/reviews/amerisleep-as5/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2005,7 +2005,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "built around a genuinely plush profile",
-        "url": "/reviews/amerisleep-as5",
+        "url": "/reviews/amerisleep-as5/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2096,7 +2096,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "industry leader for lumbar stability",
-        "url": "/reviews/amerisleep-as2",
+        "url": "/reviews/amerisleep-as2/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2197,7 +2197,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "combines cloud-like pressure reduction with structural support",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2302,7 +2302,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "designed around exactly this kind of plush, breathable comfort",
-        "url": "/reviews/amerisleep-as5",
+        "url": "/reviews/amerisleep-as5/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2402,7 +2402,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "built as a premium recovery-focused mattress",
-        "url": "/reviews/amerisleep-as6",
+        "url": "/reviews/amerisleep-as6/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2493,7 +2493,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "specifically targets this exact mechanical breakdown",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2575,7 +2575,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "undisputed champion of extreme value",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2658,7 +2658,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "illustrates the future of foam technology",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2756,7 +2756,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "aims to bridge premium support technology with a tighter budget",
-        "url": "/reviews/amerisleep-as2",
+        "url": "/reviews/amerisleep-as2/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2855,7 +2855,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "designed to hit a versatile medium sweet spot",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -2945,7 +2945,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3027,7 +3027,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3110,7 +3110,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3196,7 +3196,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3283,7 +3283,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3364,7 +3364,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3458,7 +3458,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3545,7 +3545,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3631,7 +3631,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3716,7 +3716,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "our detailed AS3 mattress review",
-        "url": "/reviews/amerisleep-as3",
+        "url": "/reviews/amerisleep-as3/",
         "context": "Further reading suggestion"
       }
     ],
@@ -3807,7 +3807,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "reduces rotational lumbar torque",
-        "url": "/reviews/amerisleep-as5",
+        "url": "/reviews/amerisleep-as5/",
         "context": "Further reading suggestion"
       }
     ],
@@ -4719,7 +4719,7 @@ const rawBlogPosts: BlogPost[] = [
     "internalLinks": [
       {
         "anchorText": "memory foam mattress",
-        "url": "/topics/memory-foam",
+        "url": "/topics/memory-foam/",
         "context": "A memory-foam mattress should be paired with a base that meets the manufacturer's current support and warranty requirements."
       }
     ],
@@ -11150,7 +11150,7 @@ const rawBlogPosts: BlogPost[] = [
   {
     "id": "how-to-evaluate-a-mattress-during-the-trial-period",
     "slug": "how-to-evaluate-a-mattress-during-the-trial-period",
-    "redirectTo": "/blog/how-to-evaluate-a-mattress-trial-period",
+    "redirectTo": "/blog/how-to-evaluate-a-mattress-trial-period/",
     "title": "How To Evaluate A Mattress During The Trial Period",
     "metaTitle": "How To Evaluate A Mattress During The Trial Period | PureSleep",
     "metaDescription": "A practical breakdown of how to evaluate a mattress during the trial period and why the Amerisleep AS3 is worth considering.",

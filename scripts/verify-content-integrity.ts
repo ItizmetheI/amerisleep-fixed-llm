@@ -127,7 +127,7 @@ const expectedGeneratedCounts = {
   'comparison-index': 1,
   comparison: 30,
   'best-index': 1,
-  best: 18,
+  best: 21,
   'brand-index': 1,
   brand: 24,
   'topic-index': 1,
@@ -137,8 +137,8 @@ for (const [kind, expected] of Object.entries(expectedGeneratedCounts)) {
   const actual = generatedDocuments.filter(document => document.kind === kind).length;
   assert(actual === expected, `Expected ${expected} generated ${kind} documents; found ${actual}.`);
 }
-assert(generatedDocuments.length === 86, `Expected 86 generated non-review LLM documents; found ${generatedDocuments.length}.`);
-assert(allLlmDocuments.length === 145, `Expected 145 total LLM documents; found ${allLlmDocuments.length}.`);
+assert(generatedDocuments.length === 89, `Expected 89 generated non-review LLM documents; found ${generatedDocuments.length}.`);
+assert(allLlmDocuments.length === 148, `Expected 148 total LLM documents; found ${allLlmDocuments.length}.`);
 assert(new Set(allLlmDocuments.map(document => document.slug)).size === allLlmDocuments.length, 'Generated LLM slugs are not unique.');
 for (const document of allLlmDocuments) {
   assert(llmsIndex.includes(`${siteUrl}/llms/${document.slug}.md`), `llms.txt is missing ${document.slug}.md.`);

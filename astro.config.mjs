@@ -2,15 +2,22 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
-import node from '@astrojs/node';
 
 import cloudflare from "@astrojs/cloudflare";
 import { blogPosts } from './src/data/blogs-generated.ts';
 import { requiresBlogSourceReview } from './src/lib/blogSourceReview.ts';
+import { isScheduled } from './src/lib/scheduledContent.ts';
 
 const sourceReviewBlogPaths = new Set(
   blogPosts
     .filter(post => !post.redirectTo && requiresBlogSourceReview(post))
+    .map(post => `/blog/${post.slug}/`),
+);
+
+// Future-dated posts stay out of search until their publication date passes.
+const scheduledBlogPaths = new Set(
+  blogPosts
+    .filter(post => !post.redirectTo && isScheduled(post.datePublished))
     .map(post => `/blog/${post.slug}/`),
 );
 
@@ -27,6 +34,7 @@ export default defineConfig({
         if (page.includes('/blog/category/sleep-science') || page.includes('/blog/tag/sleep-science')) return false;
         const pathname = new URL(page, 'https://puresleep.invalid').pathname.replace(/\/?$/, '/');
         if (sourceReviewBlogPaths.has(pathname)) return false;
+        if (scheduledBlogPaths.has(pathname)) return false;
         // Exclude pain/YMYL category pages until copy is fully safety-reviewed
         if (page.includes('/blog/category/pain') || page.includes('/blog/category/health-and-sleep') || page.includes('/blog/tag/back-pain') || page.includes('/blog/tag/hip-pain') || page.includes('/blog/tag/shoulder-pain') || page.includes('/blog/tag/sciatica') || page.includes('/blog/tag/arthritis') || page.includes('/blog/tag/fibromyalgia') || page.includes('/blog/tag/lower-back-pain') || page.includes('/blog/tag/upper-back-pain') || page.includes('/blog/tag/neck-pain')) return false;
         // Exclude superseded duplicate post (301-redirects to how-to-evaluate-a-mattress-trial-period)

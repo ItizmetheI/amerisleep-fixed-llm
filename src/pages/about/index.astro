@@ -13,7 +13,7 @@ const jsonLd = [
     "@type": "AboutPage",
     "name": "About PureSleep",
     "url": `${SITE_URL}/about/`,
-    "description": "PureSleep is an independently operated mattress review publication covering 59 models across 24 brands.",
+    "description": `PureSleep covers 59 mattress models across 24 brands using one published 7-metric rubric. ${EDITORIAL_INDEPENDENCE_DISCLOSURE}`,
     "publisher": {
       "@type": "Organization",
       "name": "PureSleep",
@@ -35,7 +35,7 @@ const jsonLd = [
 
 <BaseLayout
   title="About PureSleep — Mattress Reviews Across 24 Brands"
-  description="PureSleep is an independently operated mattress review publication covering 59 models across 24 brands using one published 7-metric rubric."
+  description={`PureSleep covers 59 mattress models across 24 brands using one published 7-metric rubric. ${EDITORIAL_INDEPENDENCE_DISCLOSURE}`}
   canonicalUrl={`${SITE_URL}/about/`}
   lastUpdated={lastUpdated}
   jsonLd={jsonLd}
@@ -58,7 +58,7 @@ const jsonLd = [
         <p class="text-body-md text-on-surface-variant leading-relaxed">
           {EDITORIAL_INDEPENDENCE_DISCLOSURE} {LINK_DISCLOSURE} Scores and rankings use the same published rubric for every covered brand.
         </p>
-        <a href="/methodology" class="text-primary hover:text-secondary underline underline-offset-4 font-bold transition-colors w-fit">Read our full scoring methodology →</a>
+        <a href="/methodology/" class="text-primary hover:text-secondary underline underline-offset-4 font-bold transition-colors w-fit">Read our full scoring methodology →</a>
       </div>
     </section>
 
@@ -79,7 +79,7 @@ const jsonLd = [
         </div>
         <div class="flex flex-wrap gap-4">
           <a href={FIRDOUS_FARHAD.path} class="text-primary hover:text-secondary underline underline-offset-4 font-bold transition-colors w-fit">Reviewer profile →</a>
-          <a href="/methodology" class="text-primary hover:text-secondary underline underline-offset-4 font-bold transition-colors w-fit">How we score →</a>
+          <a href="/methodology/" class="text-primary hover:text-secondary underline underline-offset-4 font-bold transition-colors w-fit">How we score →</a>
         </div>
       </div>
     </section>
