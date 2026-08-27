@@ -2,7 +2,7 @@ import { access, readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 
-import { allMattresses } from '../src/data/mattresses';
+import { allMattresses, isLifetimeWarranty } from '../src/data/mattresses';
 import { blogPosts } from '../src/data/blogs-generated';
 import { comparisons } from '../src/data/comparisons';
 import { topics } from '../src/data/topics';
@@ -324,6 +324,29 @@ assert(
   'wrangler.jsonc main must remain dist/_worker.js/index.js.',
 );
 
+// Brand-hub blurbs restate trial/warranty facts in prose. Those duplicate the model data
+// and silently go stale (the Helix blurb said 100 nights after the models moved to 120).
+// Any policy number written into a blurb must match the dataset for that brand.
+const brandPageSource = await readFile(new URL('../src/pages/brands/[brand].astro', import.meta.url), 'utf8');
+let brandBlurbsWithPolicyFacts = 0;
+for (const [, brandKey, blurb] of brandPageSource.matchAll(/'([a-z0-9-]+)':\s*\{[\s\S]{0,400}?blurb:\s*'([^']*)'/g)) {
+  const claim = blurb.match(/(\d{2,3})-night trial|(\d{1,2})-year warranty|lifetime warranty/i);
+  if (!claim) continue;
+  brandBlurbsWithPolicyFacts += 1;
+  const norm = (value: string) => value.toLowerCase().replace(/[^a-z]/g, '');
+  const models = allMattresses.filter(model => norm(model.brand) === norm(brandKey));
+  if (!models.length) continue;
+  if (claim[1]) {
+    const trials = new Set(models.map(model => model.trialNights));
+    assert(trials.has(Number(claim[1])), `/brands/${brandKey}/ blurb states a ${claim[1]}-night trial; dataset records ${[...trials].join(', ')}.`);
+  } else if (claim[2]) {
+    const years = new Set(models.filter(model => !isLifetimeWarranty(model.warrantyYears)).map(model => model.warrantyYears));
+    assert(years.has(Number(claim[2])), `/brands/${brandKey}/ blurb states a ${claim[2]}-year warranty; dataset records ${[...years].join(', ')}.`);
+  } else {
+    assert(models.some(model => isLifetimeWarranty(model.warrantyYears)), `/brands/${brandKey}/ blurb states a lifetime warranty; no model records one.`);
+  }
+}
+
 if (failures.length > 0) {
   console.error(`PureSleep content QA failed with ${failures.length} issue(s):`);
   failures.forEach(failure => console.error(`- ${failure}`));
@@ -350,5 +373,6 @@ console.log(JSON.stringify({
   bestMachineDocumentsWithFullScoreField: generatedDocuments.filter(document => document.kind === 'best').length,
   modelsPerBestScoreField: expectedReviewIds.length,
   prohibitedActiveTools: 0,
+  brandBlurbsWithPolicyFacts,
   categoryRule: '6 models, at least 4 brands, no more than 3 models from the concentration-guard set',
 }, null, 2));
