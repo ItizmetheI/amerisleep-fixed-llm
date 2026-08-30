@@ -17,9 +17,9 @@ export interface CategoryConfig {
 
 export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
   latex: {
-    title: 'Best Latex Mattress 2026 | PureSleep',
+    title: 'Best Latex Mattress 2026 | Mattress Inquirer',
     h1: 'Best Latex Mattress of 2026',
-    description: 'Best latex mattress picks for 2026, ranked with PureSleep\'s seven-metric editorial scorecard.',
+    description: 'Best latex mattress picks for 2026, ranked with Mattress Inquirer\'s seven-metric editorial scorecard.',
     intro: 'This category covers models recorded as latex builds in the source dataset. Ranking sorts by the published Overall field, then Value. Latex is recorded here as a construction type; durability and feel statements are editorial, not laboratory results.',
     winner: 'amerisleep-organica',
     winnerNote: 'Amerisleep Organica records 9/10 Overall and 9/10 Value, the highest combination among recorded latex models. Verify its current certification scope, trial, and warranty terms on Amerisleep\'s official pages before purchase.',
@@ -28,7 +28,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     faqs: [
       {
         question: 'What is the best latex mattress for 2026?',
-        answer: 'Amerisleep Organica ranks first among recorded latex models after sorting by the published Overall field and then Value. It records 9/10 Overall and 9/10 Value. These are editorial scores from the published PureSleep dataset, not laboratory measurements or durability testing.'
+        answer: 'Amerisleep Organica ranks first among recorded latex models after sorting by the published Overall field and then Value. It records 9/10 Overall and 9/10 Value. These are editorial scores from the published Mattress Inquirer dataset, not laboratory measurements or durability testing.'
       },
       {
         question: 'Is latex better than memory foam?',
@@ -41,7 +41,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   firm: {
-    title: 'Best Firm Mattress 2026 | PureSleep',
+    title: 'Best Firm Mattress 2026 | Mattress Inquirer',
     h1: 'Best Firm Mattress of 2026',
     description: 'Best firm and medium-firm mattress picks for 2026, ranked with the same seven-metric editorial scorecard.',
     intro: 'This category covers models recorded at firm or medium-firm on the source dataset firmness field. Ranking sorts by the published Overall field, then Value. Firmness is a recorded editorial descriptor and can feel different by body weight and sleep position.',
@@ -52,7 +52,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     faqs: [
       {
         question: 'What is the best firm mattress for 2026?',
-        answer: 'Bear Original ranks first in this category after sorting by the published Overall field and then Value, recording 9/10 Overall and 10/10 Value. These are editorial scores from the published PureSleep dataset, not pressure-map or laboratory results.'
+        answer: 'Bear Original ranks first in this category after sorting by the published Overall field and then Value, recording 9/10 Overall and 10/10 Value. These are editorial scores from the published Mattress Inquirer dataset, not pressure-map or laboratory results.'
       },
       {
         question: 'Is a firm mattress better for back pain?',
@@ -65,7 +65,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   soft: {
-    title: 'Best Soft Mattress 2026 | PureSleep',
+    title: 'Best Soft Mattress 2026 | Mattress Inquirer',
     h1: 'Best Soft Mattress of 2026',
     description: 'Best soft and medium-soft mattress picks for 2026, ranked with the same seven-metric editorial scorecard.',
     intro: 'This category covers models recorded at soft or medium-soft on the source dataset firmness field. Ranking sorts by the published Overall field, then Value. Softer models suit sleepers who want more cushioning at the shoulder and hip, but feel varies by body weight.',
@@ -76,7 +76,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     faqs: [
       {
         question: 'What is the best soft mattress for 2026?',
-        answer: 'Saatva RX ranks first among models recorded soft or medium-soft, with 10/10 Overall in the published PureSleep dataset. These are editorial scores, not laboratory measurements or hands-on test results.'
+        answer: 'Saatva RX ranks first among models recorded soft or medium-soft, with 10/10 Overall in the published Mattress Inquirer dataset. These are editorial scores, not laboratory measurements or hands-on test results.'
       },
       {
         question: 'Is a soft mattress bad for your back?',
@@ -89,9 +89,9 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   overall: {
-    title: 'Best Mattress 2026 — Top Overall Picks | PureSleep',
+    title: 'Best Mattress 2026 — Top Overall Picks | Mattress Inquirer',
     h1: 'Best Mattress of 2026',
-    description: 'Best overall mattress picks for 2026, ranked with PureSleep\'s seven-metric editorial scorecard.',
+    description: 'Best overall mattress picks for 2026, ranked with Mattress Inquirer\'s seven-metric editorial scorecard.',
     intro: 'The best-overall ranking sorts first by the published Overall field. Models tying at 10/10 Overall follow the documented tie-break sequence using Value, recorded warranty length, and breadth of listed fit categories.',
     winner: 'amerisleep-as3',
     winnerNote: 'The AS3 records 10/10 on the published Overall field. Its medium firmness, construction, trial, warranty, and certification references should be verified on Amerisleep\'s current product and policy pages before purchase.',
@@ -102,8 +102,8 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
         answer: 'The Amerisleep AS3 ranks first in the current Overall category after sorting by the published Overall field and the documented tie-break sequence. It records 10/10 Overall, Edge Support, Motion Transfer, and Cooling & Breathability. These are editorial scores, not laboratory measurements.'
       },
       {
-        question: 'How does PureSleep score mattresses?',
-        answer: 'We use a standardized 7-metric system: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. Every field is scored 0–10 in the published PureSleep score dataset. The scores are not laboratory findings, manufacturer ratings, or collected customer ratings.'
+        question: 'How does Mattress Inquirer score mattresses?',
+        answer: 'We use a standardized 7-metric system: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. Every field is scored 0–10 in the published Mattress Inquirer score dataset. The scores are not laboratory findings, manufacturer ratings, or collected customer ratings.'
       },
       {
         question: 'Is an expensive mattress always better?',
@@ -112,7 +112,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   luxury: {
-    title: 'Best Luxury Mattress 2026 | PureSleep',
+    title: 'Best Luxury Mattress 2026 | Mattress Inquirer',
     h1: 'Best Luxury Mattress of 2026',
     description: 'Best luxury mattress picks for 2026, ranked with the same seven-metric editorial scorecard.',
     intro: 'Luxury picks are defined by premium materials, advanced construction, and scores above 9.0 overall. All models below score 9–10/10 overall.',
@@ -135,9 +135,9 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   cooling: {
-    title: 'Best Cooling Mattress 2026 | PureSleep',
+    title: 'Best Cooling Mattress 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Hot Sleepers 2026',
-    description: 'Best cooling mattress picks for 2026, ranked by the Cooling & Breathability field in PureSleep\'s editorial scorecard.',
+    description: 'Best cooling mattress picks for 2026, ranked by the Cooling & Breathability field in Mattress Inquirer\'s editorial scorecard.',
     intro: 'Cooling rankings use the Cooling & Breathability metric from our 7-metric system. Hybrids with coil bases generally score higher because airflow moves through the coil layer alongside the comfort foam.',
     winner: 'amerisleep-as6',
     winnerNote: 'The AS6 Black Series scores 10/10 on Cooling & Breathability. Its Refresh Cooling Cover works alongside a pocketed coil base that allows airflow through the mattress, not just across the surface. At 10/10 overall it is also the strongest all-around performer in the hot-sleeper category.',
@@ -158,7 +158,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'side-sleepers': {
-    title: 'Best Mattress for Side Sleepers 2026 | PureSleep',
+    title: 'Best Mattress for Side Sleepers 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Side Sleepers 2026',
     description: 'Best mattress for side sleepers in 2026, ranked by fit, motion transfer, firmness, and overall score.',
     intro: 'Side sleepers need a mattress that allows the shoulder and hip to sink in slightly while still supporting the waist and lower back. Our top picks are soft-to-medium (3–5/10 firmness) with strong overall scores.',
@@ -181,7 +181,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'back-pain': {
-    title: 'Best Mattress for Back Pain 2026 | PureSleep',
+    title: 'Best Mattress for Back Pain 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Back Pain 2026',
     description: 'Best mattress for back discomfort in 2026: medium-firm models ranked for general sleep support and fit. Not medical advice.',
     intro: 'Our back pain category covers mattresses with medium-firm to firm support designed to promote neutral spinal alignment. This is a general sleep comfort category — consult a healthcare provider for mattress advice related to specific medical conditions.',
@@ -205,9 +205,9 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'memory-foam': {
-    title: 'Best Memory Foam Mattress 2026 | PureSleep',
+    title: 'Best Memory Foam Mattress 2026 | Mattress Inquirer',
     h1: 'Best Memory Foam Mattress of 2026',
-    description: 'Best memory foam mattress picks for 2026, ranked by overall score in PureSleep\'s editorial dataset.',
+    description: 'Best memory foam mattress picks for 2026, ranked by overall score in Mattress Inquirer\'s editorial dataset.',
     intro: 'Memory foam picks are all-foam models (no coil base). They score highest on motion isolation and pressure distribution, at the trade-off of slightly less edge support and responsiveness compared to hybrids.',
     winner: 'amerisleep-as3',
     winnerNote: 'The AS3 is our top foam pick: 10/10 overall using Bio-Pur® plant-based memory foam — a meaningful upgrade over standard petroleum-based foam. HIVE® zoning provides differentiated lumbar and shoulder support across 7 zones. A 20-year warranty makes it the most durable purchase in the foam category.',
@@ -228,7 +228,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   hybrid: {
-    title: 'Best Hybrid Mattress 2026 | PureSleep',
+    title: 'Best Hybrid Mattress 2026 | Mattress Inquirer',
     h1: 'Best Hybrid Mattress of 2026',
     description: 'Best hybrid mattress picks for 2026. Foam-over-coil models ranked by the same seven score fields.',
     intro: 'Hybrid picks combine foam comfort layers over pocketed coil support systems. They score higher on edge support and cooling than all-foam models, at the trade-off of slightly higher prices.',
@@ -251,7 +251,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   organic: {
-    title: 'Best Organic Mattress 2026 | PureSleep',
+    title: 'Best Organic Mattress 2026 | Mattress Inquirer',
     h1: 'Best Organic Mattress of 2026',
     description: 'Best organic mattress picks for 2026, ranked by score and recorded certification fields. Verify current certification scope.',
     intro: 'Organic picks carry meaningful third-party certifications: GOLS (organic latex), GOTS (organic cotton/wool), OEKO-TEX, and/or eco-INSTITUT. Models below are ranked by overall score. Verify current certifications on each brand\'s official site before purchasing.',
@@ -275,7 +275,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   value: {
-    title: 'Best Value Mattress 2026 | PureSleep',
+    title: 'Best Value Mattress 2026 | Mattress Inquirer',
     h1: 'Best Value Mattress of 2026',
     description: 'Best value mattress picks for 2026, ranked by the Value field with overall score and recorded price considered.',
     intro: 'Value rankings use the Value metric from our 7-metric system, weighted by overall score. A 10/10 value score at 7/10 overall is not the same as a 10/10 value score at 10/10 overall.',
@@ -299,7 +299,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'back-sleepers': {
-    title: 'Best Mattress for Back Sleepers 2026 | PureSleep',
+    title: 'Best Mattress for Back Sleepers 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Back Sleepers 2026',
     description: 'Best mattress for back sleepers in 2026, ranked by medium-firm fit, response, edge support, and overall score.',
     intro: 'Back sleepers need a surface firm enough to prevent hip sinkage while still allowing some contouring at the lumbar spine. Our top picks are medium-firm to firm, with high scores on response time and edge support.',
@@ -323,7 +323,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'stomach-sleepers': {
-    title: 'Best Mattress for Stomach Sleepers 2026 | PureSleep',
+    title: 'Best Mattress for Stomach Sleepers 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Stomach Sleepers 2026',
     description: 'Best mattress for stomach sleepers in 2026, ranked by firmer feel, response, edge support, and overall score.',
     intro: 'Stomach sleepers require a firmer surface to prevent the pelvis from sinking and curving the lumbar spine forward. All picks here are medium-firm to firm (6/10+ firmness). This is a general sleep comfort category — consult a healthcare provider for advice related to specific conditions.',
@@ -347,7 +347,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'combination-sleepers': {
-    title: 'Best Mattress for Combination Sleepers 2026 | PureSleep',
+    title: 'Best Mattress for Combination Sleepers 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Combination Sleepers 2026',
     description: 'Best mattress for combination sleepers in 2026, ranked for responsive medium-feel fit across positions.',
     intro: 'Combination sleepers shift between side, back, and stomach positions during the night. The best mattresses for them are medium firmness with high response time scores — so they move without resistance — and strong motion transfer scores for partner comfort.',
@@ -370,7 +370,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'heavy-sleepers': {
-    title: 'Best Mattress for Heavy Sleepers 2026 | PureSleep',
+    title: 'Best Mattress for Heavy Sleepers 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Heavy Sleepers 2026',
     description: 'Best mattress for heavier sleepers in 2026, ranked by edge support, profile, construction, and overall score.',
     intro: 'Heavier sleepers (230 lbs+) need mattresses with strong edge support to prevent roll-off, durable materials that resist premature softening, and deep enough comfort layers to provide pressure relief without bottoming out. Hybrids with pocketed coil bases generally perform better in this category.',
@@ -394,7 +394,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   couples: {
-    title: 'Best Mattress for Couples 2026 | PureSleep',
+    title: 'Best Mattress for Couples 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Couples 2026',
     description: 'Best mattress for couples in 2026, ranked by Motion Transfer, Edge Support, and overall score.',
     intro: 'Couples need a mattress that isolates movement (high motion transfer score) and allows use of the full bed width (high edge support score). Our top picks score 9–10/10 on both metrics.',
@@ -418,7 +418,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'hip-pain': {
-    title: 'Best Mattress for Hip Pain 2026 | PureSleep',
+    title: 'Best Mattress for Hip Pain 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Hip Pain 2026',
     description: 'Best mattress for hip discomfort in 2026: soft-to-medium models ranked for side-sleeper fit. Not medical advice.',
     intro: 'Hip discomfort during sleep is often worsened by a mattress that is too firm, concentrating pressure at the hip bone for side sleepers. Our top picks are soft to medium (3–5/10 firmness). This is a general sleep comfort category — consult a healthcare provider for advice related to specific medical conditions.',
@@ -441,7 +441,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'shoulder-pain': {
-    title: 'Best Mattress for Shoulder Pain 2026 | PureSleep',
+    title: 'Best Mattress for Shoulder Pain 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Shoulder Pain 2026',
     description: 'Best mattress for shoulder discomfort in 2026: soft-to-medium models ranked for side-sleeper fit. Not medical advice.',
     intro: 'Shoulder discomfort during sleep typically affects side sleepers on a surface that is too firm. Our top picks are soft to medium firmness with high overall scores and cooling. This is a general sleep comfort category — consult a healthcare provider for specific medical conditions.',
@@ -464,9 +464,9 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'motion-isolation': {
-    title: 'Best Mattress for Motion Isolation 2026 | PureSleep',
+    title: 'Best Mattress for Motion Isolation 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Motion Isolation 2026',
-    description: 'Best mattress for motion isolation in 2026, ranked by the Motion Transfer field in PureSleep\'s editorial scorecard.',
+    description: 'Best mattress for motion isolation in 2026, ranked by the Motion Transfer field in Mattress Inquirer\'s editorial scorecard.',
     intro: 'Motion isolation rankings use the Motion Transfer metric from our 7-metric scoring system. All-foam models absorb motion more effectively than hybrids because foam does not transmit movement through a coil spring network.',
     winner: 'amerisleep-as3',
     winnerNote: 'The AS3 scores 10/10 on Motion Transfer — tied for the highest score in our database. At 10/10 overall and 9/10 value, it is also the strongest all-around buy in the motion isolation category. Its Bio-Pur® all-foam construction absorbs movement at the source rather than transmitting it through a coil system.',
@@ -488,7 +488,7 @@ export const BEST_CATEGORIES: Record<string, CategoryConfig> = {
     ]
   },
   'pressure-relief': {
-    title: 'Best Mattress for Pressure Relief 2026 | PureSleep',
+    title: 'Best Mattress for Pressure Relief 2026 | Mattress Inquirer',
     h1: 'Best Mattress for Pressure Relief 2026',
     description: 'Best mattress for pressure relief in 2026, ranked by firmness, fit, motion transfer, and overall score.',
     intro: 'Pressure relief rankings favor mattresses with soft-to-medium firmness, high overall scores, and construction designed to distribute body weight across a larger surface area. This is a general sleep comfort category — consult a healthcare provider for advice related to specific medical conditions.',

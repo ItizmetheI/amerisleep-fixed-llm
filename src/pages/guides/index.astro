@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { topics } from '../../data/topics';
 
 const lastUpdated = "2026-05-01";
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 
 const getTopicImage = (id: string) => {
   const images = {
@@ -22,7 +22,7 @@ const getTopicImage = (id: string) => {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Mattress Buying Guides — PureSleep",
+  "name": "Mattress Buying Guides — Mattress Inquirer",
   "description": "Deep-dive mattress guides covering memory foam, cooling technology, spinal alignment, hybrid coils, and buying decisions.",
   "url": `${SITE_URL}/guides/`,
   "dateModified": lastUpdated,
@@ -39,7 +39,7 @@ const jsonLd = {
 ---
 
 <BaseLayout 
-  title="Mattress Buying Guides — PureSleep" 
+  title="Mattress Buying Guides — Mattress Inquirer"
   description="From understanding memory foam densities to navigating hybrid coils, our deep-dive guides equip you with the knowledge to make the right mattress investment."
   canonicalUrl={`${SITE_URL}/guides/`}
   lastUpdated={lastUpdated}
@@ -49,7 +49,7 @@ const jsonLd = {
   <main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12 relative z-10 w-full flex flex-col gap-16">
     <header class="flex flex-col gap-6 items-center text-center max-w-4xl mx-auto">
       <div class="flex flex-col md:flex-row gap-4 items-center justify-center text-body-md text-on-surface-variant bg-surface px-6 py-3 rounded-full shadow-sm border border-outline-variant/30 mt-4">
-          <span><strong class="text-on-background">Editorial Team:</strong> PureSleep Editorial Team</span>
+          <span><strong class="text-on-background">Editorial Team:</strong> Mattress Inquirer Editorial Team</span>
       </div>
       <h1 class="text-headline-lg font-headline-lg  text-primary font-bold">
         Comprehensive Guides

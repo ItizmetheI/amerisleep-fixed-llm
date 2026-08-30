@@ -1,4 +1,4 @@
-# PureSleep Remediation Handoff
+# Mattress Inquirer Remediation Handoff
 
 ## Scope
 
@@ -17,7 +17,7 @@ The Editorial Team rename and self-hosted Happsy image were verified on the work
 5. Added external product-link QA. Eleven confirmed 404 product links were replaced with current official or official archive destinations.
 6. Removed first-person testing language and unsupported superlatives from active content.
 7. Archived obsolete generators and image/link utilities that could recreate prohibited language, stale ownership framing, or hardcoded URL behavior.
-8. Updated repository operating rules and metadata to preserve an independent, multi-brand, evidence-led PureSleep standard.
+8. Updated repository operating rules and metadata to preserve an independent, multi-brand, evidence-led Mattress Inquirer standard.
 9. Removed all prior relationship language and replaced it with a clear independently operated publication disclosure and no-click/no-sale-commission disclosure.
 10. Normalized review and comparison copy to score-derived, brand-neutral language without changing the locked score hash or approved category winners.
 11. Added a source-review gate for 67 unsourced health or sleep-science articles: visible status notice, `noindex, follow`, sitemap exclusion, and QA enforcement.
@@ -31,15 +31,15 @@ The Editorial Team rename and self-hosted Happsy image were verified on the work
 
 - `npm run lint`: pass
 - `npm run qa:content`: pass
-- `SITE_URL=https://qa.puresleep.example PUBLIC_CONTACT_EMAIL=editorial@qa.puresleep.example npm run build`: pass
-- `SITE_URL=https://qa.puresleep.example PUBLIC_CONTACT_EMAIL=editorial@qa.puresleep.example npm run qa:dist`: pass
+- `SITE_URL=https://qa.mattressinquirer.example PUBLIC_CONTACT_EMAIL=editorial@qa.mattressinquirer.example npm run build`: pass
+- `SITE_URL=https://qa.mattressinquirer.example PUBLIC_CONTACT_EMAIL=editorial@qa.mattressinquirer.example npm run qa:dist`: pass
 - `npm run qa:external`: pass
 - Build output: 326 HTML files, 285 JSON-LD blocks, 251 Article schemas, 145 LLM documents
 - Coverage: 18/18 best pages and 18/18 best LLM documents contain 59 unique model rows
 - Links: 0 broken internal links; latest external run checked all 59 destinations with 55 status 200, 4 bot-blocking 403 responses, and 0 rate-limited or confirmed external 404/410 failures
 - Desktop visual QA: homepage, best-category, and review first viewports passed with no global overflow or broken images
 - Reviewer UI visual QA: the Firdous profile and pending-review notice passed at desktop and 390px mobile with no horizontal overflow; broader sitewide mobile screenshot QA remains a live-deployment check
-- E-E-A-T audit: see `PURESLEEP_EEAT_AUDIT.md`; current overall score is 5.0/10 and technical AEO/LLM readiness is 9.2/10
+- E-E-A-T audit: see `MATTRESSINQUIRER_EEAT_AUDIT.md`; current overall score is 5.0/10 and technical AEO/LLM readiness is 9.2/10
 
 ## Required Deployment
 

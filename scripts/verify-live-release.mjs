@@ -32,7 +32,7 @@ const get = async (url) => {
     const res = await fetch(url, {
       redirect: 'follow',
       signal: controller.signal,
-      headers: { 'user-agent': 'PureSleepReleaseQA/1.0', accept: 'text/html,text/plain,*/*' },
+      headers: { 'user-agent': 'MattressInquirerReleaseQA/1.0', accept: 'text/html,text/plain,*/*' },
     });
     return { status: res.status, url: res.url, body: await res.text() };
   } catch (error) {

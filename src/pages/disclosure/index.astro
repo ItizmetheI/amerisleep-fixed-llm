@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { EDITORIAL_INDEPENDENCE_DISCLOSURE, LINK_DISCLOSURE } from '../../lib/disclosure';
 import { FIRDOUS_FARHAD } from '../../lib/editorialPeople';
 
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 const lastUpdated = "2026-07-14";
 
 const jsonLd = [
@@ -12,10 +12,10 @@ const jsonLd = [
     "@type": "WebPage",
     "name": "Disclosure",
     "url": `${SITE_URL}/disclosure/`,
-    "description": "PureSleep's editorial-independence, outbound-link, and ranking disclosure.",
+    "description": "Mattress Inquirer's editorial-independence, outbound-link, and ranking disclosure.",
     "publisher": {
       "@type": "Organization",
-      "name": "PureSleep",
+      "name": "Mattress Inquirer",
       "url": SITE_URL
     }
   }
@@ -23,8 +23,8 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title="Disclosure — PureSleep"
-  description="PureSleep's editorial-independence, outbound-link, and ranking disclosure."
+  title="Disclosure — Mattress Inquirer"
+  description="Mattress Inquirer's editorial-independence, outbound-link, and ranking disclosure."
   canonicalUrl={`${SITE_URL}/disclosure/`}
   lastUpdated={lastUpdated}
   jsonLd={jsonLd}
@@ -54,10 +54,10 @@ const jsonLd = [
       <h2 class="text-headline-md font-headline-md text-primary italic border-b border-outline-variant/30 pb-4">Who Writes and Reviews Our Content</h2>
       <div class="glass-panel p-8 rounded-lg border border-white/60 flex flex-col gap-4">
         <p class="text-body-md text-on-surface-variant leading-relaxed">
-          Reviews are written and scored under the <a href="/about/#editorial-team" class="text-secondary hover:text-primary underline underline-offset-4 font-bold transition-colors">PureSleep Editorial Team</a> organizational byline using our standardized 7-metric editorial system.
+          Reviews are written and scored under the <a href="/about/#editorial-team" class="text-secondary hover:text-primary underline underline-offset-4 font-bold transition-colors">Mattress Inquirer Editorial Team</a> organizational byline using our standardized 7-metric editorial system.
         </p>
         <p class="text-body-md text-on-surface-variant leading-relaxed">
-          <a href={FIRDOUS_FARHAD.path} class="text-secondary hover:text-primary underline underline-offset-4 font-bold transition-colors">{FIRDOUS_FARHAD.name}</a> serves as PureSleep's {FIRDOUS_FARHAD.role.toLowerCase()}. {FIRDOUS_FARHAD.credentials} Her name appears in article-level review attribution only after she has reviewed and approved the final copy; the role does not imply personal testing of every mattress or clinical diagnosis.
+          <a href={FIRDOUS_FARHAD.path} class="text-secondary hover:text-primary underline underline-offset-4 font-bold transition-colors">{FIRDOUS_FARHAD.name}</a> serves as Mattress Inquirer's {FIRDOUS_FARHAD.role.toLowerCase()}. {FIRDOUS_FARHAD.credentials} Her name appears in article-level review attribution only after she has reviewed and approved the final copy; the role does not imply personal testing of every mattress or clinical diagnosis.
         </p>
       </div>
     </section>

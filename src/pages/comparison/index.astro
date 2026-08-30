@@ -6,7 +6,7 @@ import { formatDateOnly } from '../../lib/dateFormat';
 
 const lastUpdated = "2026-07-14";
 const formattedDateModified = formatDateOnly(lastUpdated);
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 const orderedComparisons = [...comparisons].sort((a, b) => {
   const aInternal = mattresses.find(item => item.id === a.mattressAId)?.brand === mattresses.find(item => item.id === a.mattressBId)?.brand;
   const bInternal = mattresses.find(item => item.id === b.mattressAId)?.brand === mattresses.find(item => item.id === b.mattressBId)?.brand;
@@ -20,7 +20,7 @@ const comparisonBrands = new Set(comparisons.flatMap((comparison) => [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Mattress Comparisons 2026 — PureSleep",
+  "name": "Mattress Comparisons 2026 — Mattress Inquirer",
   "description": `${comparisons.length} side-by-side mattress comparisons across ${comparisonBrands.size} brands using one seven-metric editorial scoring system.`,
   "url": `${SITE_URL}/comparison/`,
   "dateModified": lastUpdated,
@@ -37,7 +37,7 @@ const jsonLd = {
 ---
 
 <BaseLayout 
-  title={`Mattress Comparisons 2026: ${comparisons.length} Head-to-Head Reviews | PureSleep`}
+  title={`Mattress Comparisons 2026: ${comparisons.length} Head-to-Head Reviews | Mattress Inquirer`}
   description={`${comparisons.length} side-by-side mattress comparisons across ${comparisonBrands.size} brands with seven-metric scores, specifications, verdicts, and visual score charts.`}
   canonicalUrl={`${SITE_URL}/comparison/`}
   machineReadableUrl={`${SITE_URL}/llms/comparisons.md`}

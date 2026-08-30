@@ -1,6 +1,6 @@
-# PureSleep repository rules
+# Mattress Inquirer repository rules
 
-PureSleep is a multi-brand editorial mattress comparison publication applying
+Mattress Inquirer is a multi-brand editorial mattress comparison publication applying
 one published seven-metric rubric across every covered brand.
 
 Its ownership, operator, brand affiliations, and any form of consideration are
@@ -10,10 +10,10 @@ until Firas certifies them. That wording is gated in `src/lib/disclosure.ts`
 and only ships when `PUBLIC_DISCLOSURE_APPROVED=true`. Do not reintroduce it
 as a hardcoded string in a page, component, schema block, or `/llms/` document.
 
-Equally, do not assert the opposite. Do not describe PureSleep as owned,
+Equally, do not assert the opposite. Do not describe Mattress Inquirer as owned,
 operated, affiliated, or controlled by any mattress brand, retail group, or
 related brand family until that relationship is certified, and do not imply
-that a reviewed brand participates in PureSleep's editorial decisions.
+that a reviewed brand participates in Mattress Inquirer's editorial decisions.
 
 ## Product and score sources
 
@@ -32,7 +32,7 @@ that a reviewed brand participates in PureSleep's editorial decisions.
 
 ## Editorial and claim safety
 
-- Use `PureSleep Editorial Team` as the organizational byline unless a real,
+- Use `Mattress Inquirer Editorial Team` as the organizational byline unless a real,
   approved person is assigned and publicly supported.
 - `Firdous Farhad` is the approved Health and Sleep Content Reviewer. The
   approved credential statement is `Licensed massage therapist and certified
@@ -42,7 +42,7 @@ that a reviewed brand participates in PureSleep's editorial decisions.
   attribution and `Article.reviewedBy` schema only after she has reviewed and
   approved that article's final copy. Until then, health and sleep-science
   pages must remain labeled pending, `noindex, follow`, and out of the sitemap.
-- Do not claim PureSleep physically tested, slept on, pressure-mapped,
+- Do not claim Mattress Inquirer physically tested, slept on, pressure-mapped,
   temperature-mapped, clinically evaluated, or tested a product for a stated
   number of nights unless the exact evidence is approved and published.
 - Do not create doctor, chiropractor, medical-reviewer, laboratory, sensor, or
@@ -67,7 +67,7 @@ that a reviewed brand participates in PureSleep's editorial decisions.
   `articleBody`, including answer blocks, score tables, FAQs, methodology, and
   editorial disclosures that appear on the page.
 - Use Organization authorship for the editorial team and editorial `Review`
-  for PureSleep scorecards. Do not use `AggregateRating` without a real
+  for Mattress Inquirer scorecards. Do not use `AggregateRating` without a real
   collected rating corpus. Do not emit live `Offer` data from recorded prices.
 - Every priority HTML page must expose its matching Markdown alternate, and the
   `/llms/` document must preserve the same facts, scores, limits, and editorial
@@ -107,8 +107,8 @@ Run the following before handing off code:
 npm run lint
 npm run qa:content
 npm run qa:release-config
-SITE_URL=https://qa.puresleep.example npm run build
-SITE_URL=https://qa.puresleep.example npm run qa:dist
+SITE_URL=https://qa.mattressinquirer.example npm run build
+SITE_URL=https://qa.mattressinquirer.example npm run qa:dist
 npm run qa:schema
 npm run qa:external
 ```

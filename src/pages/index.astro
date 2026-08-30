@@ -12,7 +12,7 @@ import { allMattresses } from '../data/mattresses';
 import { comparisons } from '../data/comparisons';
 import { formatDateOnly } from '../lib/dateFormat';
 
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 const featuredPicks = [
   { id: 'amerisleep-as3', label: 'Best Overall', badge: '#1 Pick', desc: 'Medium-feel foam with a 10/10 overall score.' },
   { id: 'plushbeds-signature-bliss', label: 'Best Organic', badge: '10/10 Overall', desc: 'Latex hybrid with a broad certification profile; verify current scope.' },
@@ -40,16 +40,16 @@ const featuredComparisons = [
 
 const homepageFaqs = [
   {
-    q: 'How does PureSleep score mattresses?',
-    a: 'PureSleep uses one seven-metric editorial scorecard: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. Every field uses a 0-10 scale, and the same definitions apply to all covered brands.',
+    q: 'How does Mattress Inquirer score mattresses?',
+    a: 'Mattress Inquirer uses one seven-metric editorial scorecard: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. Every field uses a 0-10 scale, and the same definitions apply to all covered brands.',
   },
   {
-    q: 'How many brands and mattress models does PureSleep cover?',
+    q: 'How many brands and mattress models does Mattress Inquirer cover?',
     a: 'The current review library covers 59 mattress models across 24 brands, plus 30 head-to-head comparisons and 18 ranked buying categories.',
   },
   {
-    q: 'Are PureSleep scores customer ratings or laboratory results?',
-    a: 'No. The scores are editorial comparisons from the published PureSleep score dataset. They are not clinical findings, laboratory measurements, manufacturer ratings, or collected customer ratings.',
+    q: 'Are Mattress Inquirer scores customer ratings or laboratory results?',
+    a: 'No. The scores are editorial comparisons from the published Mattress Inquirer score dataset. They are not clinical findings, laboratory measurements, manufacturer ratings, or collected customer ratings.',
   },
   {
     q: 'How should I use a mattress ranking?',
@@ -57,7 +57,7 @@ const homepageFaqs = [
   },
   {
     q: 'Which mattress details should I verify before buying?',
-    a: 'Verify current price, stock, specifications, certification scope, shipping, trial, return, and warranty terms on the brand\'s official site. PureSleep labels recorded prices and policy fields as reference data because those details can change.',
+    a: 'Verify current price, stock, specifications, certification scope, shipping, trial, return, and warranty terms on the brand\'s official site. Mattress Inquirer labels recorded prices and policy fields as reference data because those details can change.',
   },
 ];
 
@@ -66,7 +66,7 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${SITE_URL}/#website`,
-    "name": "PureSleep",
+    "name": "Mattress Inquirer",
     "url": SITE_URL,
     "description": "Multi-brand mattress reviews, rankings, and buying guides covering 59 models across 24 brands. Updated July 2026.",
     "publisher": { "@id": `${SITE_URL}/#organization` }
@@ -75,7 +75,7 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${SITE_URL}/#organization`,
-    "name": "PureSleep",
+    "name": "Mattress Inquirer",
     "url": SITE_URL,
     "logo": SITE_URL + "/logo.svg"
   },
@@ -83,7 +83,7 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${SITE_URL}/about/#editorial-team`,
-    "name": "PureSleep Editorial Team",
+    "name": "Mattress Inquirer Editorial Team",
     "url": `${SITE_URL}/about/#editorial-team`,
     "parentOrganization": { "@id": `${SITE_URL}/#organization` }
   },
@@ -100,9 +100,9 @@ const jsonLd = [
 ---
 
 <BaseLayout 
-  title="PureSleep — Mattress Scorecards & Comparison Database | 59 Models, 24 Brands"
-  description="Compare 59 mattresses across 24 brands with PureSleep's seven-metric editorial scorecards, ranked categories, and head-to-head charts."
-  ogTitle="Best Mattress of 2026 — PureSleep"
+  title="Mattress Inquirer — Mattress Scorecards & Comparison Database | 59 Models, 24 Brands"
+  description="Compare 59 mattresses across 24 brands with Mattress Inquirer's seven-metric editorial scorecards, ranked categories, and head-to-head charts."
+  ogTitle="Best Mattress of 2026 — Mattress Inquirer"
   ogImage="/images/mattresses/amerisleep-as3.webp"
   ogType="website"
   canonicalUrl={`${SITE_URL}/`}
@@ -142,7 +142,7 @@ const jsonLd = [
         <h3 class="text-headline-md font-headline-md text-primary group-hover:text-secondary transition-colors">{pick.name}</h3>
         <p class="text-body-md text-on-surface-variant">{pick.desc}</p>
         <div class="flex items-center justify-between mt-auto pt-3 border-t border-outline-variant/20">
-          <span class="text-label-sm text-on-surface-variant">PureSleep Score</span>
+          <span class="text-label-sm text-on-surface-variant">Mattress Inquirer Score</span>
           <span class="text-secondary font-bold text-title-md">{pick.score}/10</span>
         </div>
       </a>

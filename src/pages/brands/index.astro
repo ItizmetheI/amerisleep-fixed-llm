@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { allMattresses } from '../../data/mattresses';
 
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 const UPDATED = '2026-07-14';
 
 const toBrandSlug = (brand: string) => brand
@@ -26,8 +26,8 @@ const brands = [...new Set(allMattresses.map(mattress => mattress.brand))]
 
 const faqs = [
   {
-    question: 'How many mattress brands does PureSleep cover?',
-    answer: `PureSleep currently covers ${brands.length} mattress brands and ${allMattresses.length} scored models in its published editorial dataset.`,
+    question: 'How many mattress brands does Mattress Inquirer cover?',
+    answer: `Mattress Inquirer currently covers ${brands.length} mattress brands and ${allMattresses.length} scored models in its published editorial dataset.`,
   },
   {
     question: 'Are all brands scored with the same system?',
@@ -45,8 +45,8 @@ const jsonLd = {
     {
       '@type': 'CollectionPage',
       '@id': `${SITE_URL}/brands/#webpage`,
-      name: 'Mattress Brands Covered by PureSleep',
-      description: `Browse ${brands.length} mattress brands and ${allMattresses.length} scored models covered by PureSleep's seven-metric editorial dataset.`,
+      name: 'Mattress Brands Covered by Mattress Inquirer',
+      description: `Browse ${brands.length} mattress brands and ${allMattresses.length} scored models covered by Mattress Inquirer's seven-metric editorial dataset.`,
       url: `${SITE_URL}/brands/`,
       dateModified: UPDATED,
       mainEntity: {
@@ -80,8 +80,8 @@ const jsonLd = {
 ---
 
 <BaseLayout
-  title="Mattress Brands Reviewed: 24 Brands, 59 Models | PureSleep"
-  description="Browse 24 mattress brands and 59 scored models using PureSleep's shared seven-metric editorial scorecard."
+  title="Mattress Brands Reviewed: 24 Brands, 59 Models | Mattress Inquirer"
+  description="Browse 24 mattress brands and 59 scored models using Mattress Inquirer's shared seven-metric editorial scorecard."
   canonicalUrl={`${SITE_URL}/brands/`}
   machineReadableUrl={`${SITE_URL}/llms/brands.md`}
   lastUpdated={UPDATED}
@@ -91,9 +91,9 @@ const jsonLd = {
     <header class="border-b border-outline-variant/30 bg-surface">
       <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-16">
         <p class="text-label-sm uppercase font-bold text-secondary mb-3">Complete brand coverage</p>
-        <h1 class="text-headline-lg font-headline-lg text-primary font-bold mb-5">Mattress Brands Covered by PureSleep</h1>
+        <h1 class="text-headline-lg font-headline-lg text-primary font-bold mb-5">Mattress Brands Covered by Mattress Inquirer</h1>
         <p class="text-body-lg text-on-surface-variant max-w-3xl">
-          PureSleep covers {brands.length} brands and {allMattresses.length} mattress models with one published seven-metric editorial scorecard. Open any brand to see every included model, its recorded score, and its full review.
+          Mattress Inquirer covers {brands.length} brands and {allMattresses.length} mattress models with one published seven-metric editorial scorecard. Open any brand to see every included model, its recorded score, and its full review.
         </p>
       </div>
     </header>

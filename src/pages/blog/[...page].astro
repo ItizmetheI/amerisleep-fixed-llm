@@ -22,7 +22,7 @@ export function getStaticPaths() {
 }
 
 const { posts, currentPage, totalPages } = Astro.props;
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 
 // ponytail: every paginated page needs its own title/description/canonical or all 12 dedupe.
 const pageUrl = currentPage === 1 ? `${SITE_URL}/blog/` : `${SITE_URL}/blog/${currentPage}/`;
@@ -30,14 +30,14 @@ const pageTitle = currentPage === 1
   ? 'Sleep & Mattress Blog 2026 — Guides & Reviews'
   : `Sleep & Mattress Blog 2026 — Page ${currentPage} of ${totalPages}`;
 const pageDescription = currentPage === 1
-  ? "Sleep tips, mattress guides, and buying advice from PureSleep's multi-brand editorial team."
-  : `Page ${currentPage} of ${totalPages} of PureSleep's sleep and mattress guides, covering sleep science, mattress buying, and bedroom setup.`;
+  ? "Sleep tips, mattress guides, and buying advice from Mattress Inquirer's multi-brand editorial team."
+  : `Page ${currentPage} of ${totalPages} of Mattress Inquirer's sleep and mattress guides, covering sleep science, mattress buying, and bedroom setup.`;
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "PureSleep Sleep & Mattress Blog",
-  "description": "Sleep science, mattress guides, and buying advice from PureSleep's editorial team.",
+  "name": "Mattress Inquirer Sleep & Mattress Blog",
+  "description": "Sleep science, mattress guides, and buying advice from Mattress Inquirer's editorial team.",
   "url": pageUrl,
   "mainEntity": {
     "@type": "ItemList",
@@ -63,7 +63,7 @@ const jsonLd = {
     <header class="text-center mb-16">
       <h1 class="text-display-lg font-display-lg italic text-primary mb-4">Sleep & Mattress Guides</h1>
       <p class="text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-        Guides on sleep science, mattress buying, and bedroom setup from PureSleep's multi-brand editorial team.
+        Guides on sleep science, mattress buying, and bedroom setup from Mattress Inquirer's multi-brand editorial team.
       </p>
     </header>
 

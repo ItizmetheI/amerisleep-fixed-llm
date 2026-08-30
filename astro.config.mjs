@@ -22,7 +22,7 @@ const scheduledBlogPaths = new Set(
 );
 
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev',
+  site: process.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev',
   output: 'static',
   adapter: cloudflare(),
   integrations: [
@@ -32,7 +32,7 @@ export default defineConfig({
         // Source-free health and sleep-science articles remain accessible but
         // stay out of search until citations and qualified review are assigned.
         if (page.includes('/blog/category/sleep-science') || page.includes('/blog/tag/sleep-science')) return false;
-        const pathname = new URL(page, 'https://puresleep.invalid').pathname.replace(/\/?$/, '/');
+        const pathname = new URL(page, 'https://mattressinquirer.invalid').pathname.replace(/\/?$/, '/');
         if (sourceReviewBlogPaths.has(pathname)) return false;
         if (scheduledBlogPaths.has(pathname)) return false;
         // Exclude pain/YMYL category pages until copy is fully safety-reviewed

@@ -33,10 +33,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      SITE_URL: https://qa.puresleep-release.invalid
+      SITE_URL: https://qa.mattressinquirer-release.invalid
       PUBLIC_INDEXING_MODE: production
       PUBLIC_CONTENT_CUTOFF_DATE: '2026-08-25'
-      PUBLIC_CONTACT_EMAIL: editorial@puresleep-release.invalid
+      PUBLIC_CONTACT_EMAIL: editorial@mattressinquirer-release.invalid
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

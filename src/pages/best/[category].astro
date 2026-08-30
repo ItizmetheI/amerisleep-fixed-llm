@@ -7,7 +7,7 @@ import { articleList, articleTable, toArticleBody } from '../../lib/schemaArticl
 import { RANKING_DISCLOSURE } from '../../lib/disclosure';
 import { orderFullScoreField } from '../../lib/scoreFieldOrder';
 
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 
 export function getStaticPaths() {
   return Object.keys(BEST_CATEGORIES).map(category => ({
@@ -43,7 +43,7 @@ const isHealthCategory = ['back-pain', 'hip-pain', 'shoulder-pain'].includes(cat
 const bestArticleBody = toArticleBody(
   cat.h1,
   cat.intro,
-  'By: PureSleep Editorial Team. Updated: July 14, 2026. 59 models scored across 24 brands.',
+  'By: Mattress Inquirer Editorial Team. Updated: July 14, 2026. 59 models scored across 24 brands.',
   isHealthCategory
     ? 'Note: No mattress can diagnose, treat, or cure any health condition. This page is for general comfort and sleep-product information only; talk to a doctor about pain or medical concerns.'
     : null,
@@ -70,7 +70,7 @@ const bestArticleBody = toArticleBody(
     ]
     : null,
   'Quick Comparison',
-  'All picks are ranked from the published PureSleep seven-metric score dataset. Scores are not laboratory findings, manufacturer ratings, or collected customer ratings.',
+  'All picks are ranked from the published Mattress Inquirer seven-metric score dataset. Scores are not laboratory findings, manufacturer ratings, or collected customer ratings.',
   articleTable(
     'Quick Comparison Table',
     ['Rank', 'Mattress', 'Overall', 'Value', 'Trial', 'Warranty'],
@@ -92,7 +92,7 @@ const bestArticleBody = toArticleBody(
     `Specs at a Glance: ${m.firmness} (${m.firmnessScale}/10). Best for ${m.bestFor.slice(0, 2).join(', ')}. ${m.trialNights}-night trial. ${warrantyPhrase(m.warrantyYears)}.`,
   ]),
   'Full 59-Model Score Field',
-  'The six picks above are the ranked recommendations for this category. The complete table below includes every model and brand in the published PureSleep score dataset, ordered by Overall score with brands interleaved when scores tie; inclusion does not mean every model is recommended for this category.',
+  'The six picks above are the ranked recommendations for this category. The complete table below includes every model and brand in the published Mattress Inquirer score dataset, ordered by Overall score with brands interleaved when scores tie; inclusion does not mean every model is recommended for this category.',
   articleTable(
     'All Model Scores',
     ['Model', 'Brand', 'Overall', 'Value', 'Edge Support', 'Trial Period', 'Response Time', 'Motion Transfer', 'Cooling & Breathability'],
@@ -135,8 +135,8 @@ const jsonLd: any[] = [
     "description": cat.description,
     "articleBody": bestArticleBody,
     "image": winnerImage,
-    "author": { "@type": "Organization", "name": "PureSleep Editorial Team", "url": `${SITE_URL}/about/#editorial-team` },
-    "publisher": { "@type": "Organization", "name": "PureSleep", "url": SITE_URL },
+    "author": { "@type": "Organization", "name": "Mattress Inquirer Editorial Team", "url": `${SITE_URL}/about/#editorial-team` },
+    "publisher": { "@type": "Organization", "name": "Mattress Inquirer", "url": SITE_URL },
     "datePublished": "2026-01-01",
     "dateModified": lastUpdated,
     "mainEntityOfPage": canonicalUrl,
@@ -203,7 +203,7 @@ if (faqs.length > 0) {
       <h1 class="text-headline-lg font-headline-lg text-primary font-bold">{cat.h1}</h1>
       <p class="text-body-lg text-on-surface-variant leading-relaxed">{cat.intro}</p>
       <div class="flex flex-wrap gap-x-5 gap-y-2 items-center text-body-sm text-on-surface-variant border-t border-outline-variant/20 pt-4">
-        <span><strong class="text-on-surface">By:</strong> PureSleep Editorial Team</span>
+        <span><strong class="text-on-surface">By:</strong> Mattress Inquirer Editorial Team</span>
         <span class="hidden md:inline text-outline-variant">·</span>
         <span><strong class="text-on-surface">Updated:</strong> July 14, 2026</span>
         <span class="hidden md:inline text-outline-variant">·</span>
@@ -301,7 +301,7 @@ if (faqs.length > 0) {
     <!-- Quick comparison table -->
     <section class="flex flex-col gap-4">
       <h2 class="text-headline-md font-headline-md text-primary font-bold">Quick Comparison</h2>
-      <p class="text-body-md text-on-surface-variant">All picks are ranked from the published PureSleep seven-metric score dataset. Scores are not laboratory findings, manufacturer ratings, or collected customer ratings.</p>
+      <p class="text-body-md text-on-surface-variant">All picks are ranked from the published Mattress Inquirer seven-metric score dataset. Scores are not laboratory findings, manufacturer ratings, or collected customer ratings.</p>
       <div class="overflow-x-auto rounded-lg border border-outline-variant/20">
         <table class="w-full text-body-sm min-w-[680px]">
           <thead>

@@ -52,12 +52,12 @@ export interface Mattress {
   relatedTopics?: string[];
 }
 
-const SITE_URL = import.meta.env?.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env?.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 
 export const reviewer_editorial: Reviewer = {
-  name: "PureSleep Editorial Team",
+  name: "Mattress Inquirer Editorial Team",
   role: "Mattress Review Editors",
-  credentials: "Organizational byline for PureSleep's seven-metric editorial scorecards.",
+  credentials: "Organizational byline for Mattress Inquirer's seven-metric editorial scorecards.",
   sameAs: [`${SITE_URL}/methodology/`]
 };
 
@@ -120,7 +120,7 @@ const normalizeMattressReview = (mattress: Mattress): Mattress => {
   const generatedFaqs = [
     {
       question: `What is the ${mattress.name} overall score?`,
-      answer: `${mattress.name} scores ${mattress.scores.overall}/10 overall in PureSleep's locked seven-metric scorecard. Its strongest recorded fields are ${strongest[0].label} (${strongest[0].score}/10) and ${strongest[1].label} (${strongest[1].score}/10).`,
+      answer: `${mattress.name} scores ${mattress.scores.overall}/10 overall in Mattress Inquirer's locked seven-metric scorecard. Its strongest recorded fields are ${strongest[0].label} (${strongest[0].score}/10) and ${strongest[1].label} (${strongest[1].score}/10).`,
     },
     {
       question: `Who is the ${mattress.name} best suited to?`,
@@ -220,7 +220,7 @@ const amerisleepMattressRecords: Mattress[] = [
       },
       {
         question: "How does Bio-Pur® foam differ from regular memory foam?",
-        answer: "Bio-Pur® replaces a portion of petroleum-derived material with plant-derived oils and uses an open-cell structure designed to allow airflow. Cooling and initial odor vary by the complete mattress construction, room conditions, and individual sensitivity; PureSleep does not claim laboratory temperature or emissions measurements."
+        answer: "Bio-Pur® replaces a portion of petroleum-derived material with plant-derived oils and uses an open-cell structure designed to allow airflow. Cooling and initial odor vary by the complete mattress construction, room conditions, and individual sensitivity; Mattress Inquirer does not claim laboratory temperature or emissions measurements."
       },
       {
         question: "What sizes does the AS3 come in?",

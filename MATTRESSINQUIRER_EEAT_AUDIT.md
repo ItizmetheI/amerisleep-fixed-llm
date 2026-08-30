@@ -1,4 +1,4 @@
-# PureSleep E-E-A-T and Citation Readiness Audit
+# Mattress Inquirer E-E-A-T and Citation Readiness Audit
 
 Prepared: 2026-07-14
 Reviewed state: local remediation branch based on `2159fa4`
@@ -31,7 +31,7 @@ Production recommendation: **HOLD until the launch gates below are satisfied**
 
 ## Why It Does Not Yet Match MattressNut
 
-MattressNut's defensible advantage is not schema volume. Its public methodology and team pages show named people, test durations, original test evidence, and professional reviewer context. PureSleep now has a named health and sleep content reviewer, stronger extraction architecture, and broader normalized model coverage, but it cannot claim equivalent first-hand experience or reviewed health content until real proof and article-level signoff exist.
+MattressNut's defensible advantage is not schema volume. Its public methodology and team pages show named people, test durations, original test evidence, and professional reviewer context. Mattress Inquirer now has a named health and sleep content reviewer, stronger extraction architecture, and broader normalized model coverage, but it cannot claim equivalent first-hand experience or reviewed health content until real proof and article-level signoff exist.
 
 The gap is closed by evidence, not additional markup:
 

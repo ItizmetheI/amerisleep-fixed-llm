@@ -23,7 +23,7 @@ if (redirectTo) {
   return Astro.redirect(redirectTo, 301);
 }
 
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 
 const sourceReviewPending = requiresBlogSourceReview(post);
 const scheduled = isScheduled(post.datePublished);
@@ -63,7 +63,7 @@ const blogArticleBody = toArticleBody(
   'Product examples in this article are not a complete category ranking. See the Best Mattress rankings and Reviews index for the full 59-model, 24-brand scored dataset.',
   'Frequently Asked Questions',
   post.faqs.map((faq: any) => [`Question: ${faq.question}`, `Answer: ${faq.answer}`]),
-  'About PureSleep',
+  'About Mattress Inquirer',
   `${EDITORIAL_INDEPENDENCE_DISCLOSURE} ${LINK_DISCLOSURE}`,
 );
 
@@ -76,13 +76,13 @@ const articleSchema = {
   "author": {
     "@type": "Organization",
     "@id": `${SITE_URL}/about/#editorial-team`,
-    "name": "PureSleep Editorial Team",
+    "name": "Mattress Inquirer Editorial Team",
     "url": `${SITE_URL}/about/#editorial-team`
   },
   "publisher": {
     "@type": "Organization",
     "@id": `${SITE_URL}/#organization`,
-    "name": "PureSleep",
+    "name": "Mattress Inquirer",
     "url": SITE_URL
   },
   "datePublished": post.datePublished,
@@ -355,7 +355,7 @@ const formatProse = (text: string) => {
       <div>
         <h3 class="text-headline-sm font-headline-sm text-primary mb-2 font-bold">{post.author.name}</h3>
         <p class="text-body-md text-on-surface-variant leading-relaxed mb-4">
-          PureSleep Editorial Team is the organizational byline for multi-editor articles. The team organizes source records, maintains scorecards, and publishes corrections without claiming laboratory or clinical testing.
+          Mattress Inquirer Editorial Team is the organizational byline for multi-editor articles. The team organizes source records, maintains scorecards, and publishes corrections without claiming laboratory or clinical testing.
         </p>
         <div class="flex items-center justify-center sm:justify-start gap-4 text-label-sm uppercase tracking-normal font-bold">
           <a href="/about/" class="text-secondary hover:text-primary transition-colors">Read Our Story</a>

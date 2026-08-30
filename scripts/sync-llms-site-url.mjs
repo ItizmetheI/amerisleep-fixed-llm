@@ -1,10 +1,14 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
-const DEFAULT_SITE_URL = 'https://finalize.ahmedbarkat1067.workers.dev';
+const DEFAULT_SITE_URL = 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
+// Origins that may appear in previously generated files and must be rewritten to
+// the configured SITE_URL. Includes pre-rebrand hosts so older output still converts.
 const sourceSiteUrls = [
   DEFAULT_SITE_URL,
   'https://production-domain-not-set.example',
+  'https://mattressinquirer.com',
+  'https://finalize.ahmedbarkat1067.workers.dev',
   'https://puresleep.com',
 ];
 const configuredUrl = new URL(process.env.SITE_URL || DEFAULT_SITE_URL);

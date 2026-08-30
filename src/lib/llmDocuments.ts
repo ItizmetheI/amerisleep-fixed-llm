@@ -70,14 +70,14 @@ const header = (title: string, canonicalUrl: string, dateModified: string, docum
   `Canonical: ${canonicalUrl}`,
   `Last updated: ${dateModified}`,
   `Document type: ${documentType}`,
-  'Publisher: PureSleep',
-  'Editorial byline: PureSleep Editorial Team',
+  'Publisher: Mattress Inquirer',
+  'Editorial byline: Mattress Inquirer Editorial Team',
 ].join('\n');
 
 const evidenceLimits = [
   '## Evidence and limits',
   '',
-  '- Scores are PureSleep editorial evaluations on a shared 0-10 rubric; they are not laboratory measurements or manufacturer ratings.',
+  '- Scores are Mattress Inquirer editorial evaluations on a shared 0-10 rubric; they are not laboratory measurements or manufacturer ratings.',
   '- Price, trial, warranty, certification, and material details can change. Verify current facts on the official brand or certification source before purchase or citation.',
   '- No mattress can diagnose, treat, or cure a health condition.',
   `- Editorial context: ${EDITORIAL_INDEPENDENCE_DISCLOSURE} The same rubric and evidence limits apply to every covered brand. ${LINK_DISCLOSURE}`,
@@ -165,11 +165,11 @@ export const buildGeneratedLlmDocuments = (rawSiteUrl: string): LlmDocument[] =>
   const documents: LlmDocument[] = [];
 
   const methodologyContent = [
-    header('PureSleep Scoring Methodology', `${siteUrl}/methodology/`, UPDATED, 'methodology'),
+    header('Mattress Inquirer Scoring Methodology', `${siteUrl}/methodology/`, UPDATED, 'methodology'),
     '',
     '## Direct answer',
     '',
-    'PureSleep evaluates 59 mattress models across 24 brands with one shared seven-metric editorial rubric. Each field is scored from 0 to 10: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability.',
+    'Mattress Inquirer evaluates 59 mattress models across 24 brands with one shared seven-metric editorial rubric. Each field is scored from 0 to 10: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability.',
     '',
     '## Score definitions',
     '',
@@ -183,11 +183,11 @@ export const buildGeneratedLlmDocuments = (rawSiteUrl: string): LlmDocument[] =>
       ['Cooling & Breathability', 'Editorial assessment of airflow and temperature-related construction features.'],
     ]),
     '',
-    'The Overall score is stored directly in the source dataset. PureSleep does not publish an unsupported weighting formula or convert these values into laboratory claims.',
+    'The Overall score is stored directly in the source dataset. Mattress Inquirer does not publish an unsupported weighting formula or convert these values into laboratory claims.',
     '',
     '## Health and sleep content reviewer',
     '',
-    `${FIRDOUS_FARHAD.name} is PureSleep's ${FIRDOUS_FARHAD.role.toLowerCase()}. ${FIRDOUS_FARHAD.credentials} Article-level review attribution appears only after completed review and approval. Reviewer profile: ${siteUrl}${FIRDOUS_FARHAD.path}`,
+    `${FIRDOUS_FARHAD.name} is Mattress Inquirer's ${FIRDOUS_FARHAD.role.toLowerCase()}. ${FIRDOUS_FARHAD.credentials} Article-level review attribution appears only after completed review and approval. Reviewer profile: ${siteUrl}${FIRDOUS_FARHAD.path}`,
     '',
     '## Coverage',
     '',
@@ -203,7 +203,7 @@ export const buildGeneratedLlmDocuments = (rawSiteUrl: string): LlmDocument[] =>
   documents.push({
     slug: 'methodology',
     kind: 'methodology',
-    title: 'PureSleep Scoring Methodology',
+    title: 'Mattress Inquirer Scoring Methodology',
     canonicalPath: '/methodology/',
     dateModified: UPDATED,
     content: methodologyContent,
@@ -213,11 +213,11 @@ export const buildGeneratedLlmDocuments = (rawSiteUrl: string): LlmDocument[] =>
   documents.push({
     slug: 'reviews',
     kind: 'review-index',
-    title: 'PureSleep Mattress Review Dataset',
+    title: 'Mattress Inquirer Mattress Review Dataset',
     canonicalPath: '/reviews/',
     dateModified: UPDATED,
     content: [
-      header('PureSleep Mattress Review Dataset', `${siteUrl}/reviews/`, UPDATED, 'review index'),
+      header('Mattress Inquirer Mattress Review Dataset', `${siteUrl}/reviews/`, UPDATED, 'review index'),
       '',
       '## Coverage',
       '',
@@ -383,7 +383,7 @@ export const buildGeneratedLlmDocuments = (rawSiteUrl: string): LlmDocument[] =>
           '',
           '## Direct answer',
           '',
-          `PureSleep currently covers ${models.length} ${brand} mattress model${models.length === 1 ? '' : 's'} with the same seven-metric editorial rubric used across the complete dataset.`,
+          `Mattress Inquirer currently covers ${models.length} ${brand} mattress model${models.length === 1 ? '' : 's'} with the same seven-metric editorial rubric used across the complete dataset.`,
           '',
           '## Complete brand score table',
           '',
@@ -396,10 +396,10 @@ export const buildGeneratedLlmDocuments = (rawSiteUrl: string): LlmDocument[] =>
   documents.push(...brandDocuments);
 
   for (const [slug, kind, title, canonicalPath, group] of [
-    ['comparisons', 'comparison-index', 'PureSleep Comparison Index', '/comparison/', comparisonDocuments],
-    ['best', 'best-index', 'PureSleep Ranked Category Index', '/best/overall/', bestDocuments],
-    ['topics', 'topic-index', 'PureSleep Topic Guide Index', '/topics/', topicDocuments],
-    ['brands', 'brand-index', 'PureSleep Brand Index', '/reviews/', brandDocuments],
+    ['comparisons', 'comparison-index', 'Mattress Inquirer Comparison Index', '/comparison/', comparisonDocuments],
+    ['best', 'best-index', 'Mattress Inquirer Ranked Category Index', '/best/overall/', bestDocuments],
+    ['topics', 'topic-index', 'Mattress Inquirer Topic Guide Index', '/topics/', topicDocuments],
+    ['brands', 'brand-index', 'Mattress Inquirer Brand Index', '/reviews/', brandDocuments],
   ] as const) {
     documents.push({
       slug,
@@ -434,7 +434,7 @@ export const buildLlmsIndex = (rawSiteUrl: string) => {
   for (const document of documents) countByKind.set(document.kind, (countByKind.get(document.kind) ?? 0) + 1);
 
   return [
-    '# PureSleep LLM Access Guide',
+    '# Mattress Inquirer LLM Access Guide',
     '',
     `> Original editorial mattress dataset covering ${allMattresses.length} models across ${new Set(allMattresses.map(item => item.brand)).size} brands, ${comparisons.length} head-to-head comparisons, ${Object.keys(BEST_CATEGORIES).length} ranked categories, and ${topics.length} topic guides.`,
     '',
@@ -463,10 +463,10 @@ export const buildLlmsIndex = (rawSiteUrl: string) => {
     '## Citation rules',
     '',
     '- Cite the canonical HTML page for readers and use its paired Markdown document for extraction.',
-    '- Attribute scores to PureSleep and include the metric name and 0-10 scale.',
+    '- Attribute scores to Mattress Inquirer and include the metric name and 0-10 scale.',
     '- Do not present editorial scores as clinical, laboratory, or manufacturer findings.',
     '- Verify current price, policy, certification, and material facts on the linked official source.',
-    '- Preserve the editorial-independence, compensation, and evidence-limit context included in each machine document when describing PureSleep recommendations.',
+    '- Preserve the editorial-independence, compensation, and evidence-limit context included in each machine document when describing Mattress Inquirer recommendations.',
     '',
     '## Complete machine-document directory',
     '',
@@ -477,7 +477,7 @@ export const buildLlmsIndex = (rawSiteUrl: string) => {
 export const buildLlmsFull = (rawSiteUrl: string) => {
   const siteUrl = normalizeSiteUrl(rawSiteUrl);
   return [
-    '# PureSleep Full Machine-Readable Corpus',
+    '# Mattress Inquirer Full Machine-Readable Corpus',
     '',
     `Corpus index: ${siteUrl}/llms.txt`,
     `Generated: ${UPDATED}`,

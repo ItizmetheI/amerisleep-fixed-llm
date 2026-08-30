@@ -5,7 +5,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-back-sleepers",
     "slug": "best-mattress-for-back-sleepers",
     "title": "The Best Mattress for Back Sleepers: Lock Your Spine In Place",
-    "metaTitle": "Best Mattress for Back Sleepers of 2026 | PureSleep",
+    "metaTitle": "Best Mattress for Back Sleepers of 2026 | Mattress Inquirer",
     "metaDescription": "Find the best mattress for back sleepers. We review medium-firm choices built to help support lumbar alignment and ease lower back discomfort.",
     "canonicalUrl": "/blog/best-mattress-for-back-sleepers",
     "ogTitle": "The Best Mattress for Back Sleepers: Lock Your Spine In Place",
@@ -18,11 +18,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -150,7 +150,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-back-pain",
     "slug": "best-mattress-for-back-pain",
     "title": "The Best Mattress for Back Pain",
-    "metaTitle": "Best Mattress for Back Pain Relief | PureSleep",
+    "metaTitle": "Best Mattress for Back Pain Relief | Mattress Inquirer",
     "metaDescription": "We review mattresses that may help support your spine and ease lower back discomfort.",
     "canonicalUrl": "/blog/best-mattress-for-back-pain",
     "ogTitle": "The Best Mattress for Back Pain",
@@ -163,11 +163,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -284,7 +284,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-side-sleepers",
     "slug": "best-mattress-for-side-sleepers",
     "title": "The Best Mattress for Side Sleepers: Stop Waking Up With Shoulder Pain",
-    "metaTitle": "Best Mattress for Side Sleepers of 2026 | PureSleep",
+    "metaTitle": "Best Mattress for Side Sleepers of 2026 | Mattress Inquirer",
     "metaDescription": "We review the best mattresses for side sleepers, built to help absorb shoulder pressure and support spinal alignment.",
     "canonicalUrl": "/blog/best-mattress-for-side-sleepers",
     "ogTitle": "The Best Mattress for Side Sleepers: Stop Waking Up With Shoulder Pain",
@@ -297,11 +297,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -429,7 +429,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-stomach-sleepers",
     "slug": "best-mattress-for-stomach-sleepers",
     "title": "The Best Mattress for Stomach Sleepers",
-    "metaTitle": "Best Mattress for Stomach Sleepers | PureSleep",
+    "metaTitle": "Best Mattress for Stomach Sleepers | Mattress Inquirer",
     "metaDescription": "Discover the best mattress for stomach sleepers. We review firm mattresses built to reduce hip sinkage and support a more neutral spine position.",
     "canonicalUrl": "/blog/best-mattress-for-stomach-sleepers",
     "ogTitle": "The Best Mattress for Stomach Sleepers",
@@ -442,11 +442,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -560,7 +560,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-combination-sleepers",
     "slug": "best-mattress-for-combination-sleepers",
     "title": "The Best Mattress for Combination Sleepers",
-    "metaTitle": "Best Mattress for Combination Sleepers | PureSleep",
+    "metaTitle": "Best Mattress for Combination Sleepers | Mattress Inquirer",
     "metaDescription": "Find the best mattress for combination sleepers. We review responsive, medium-feel mattresses that support side, back, and stomach sleepers effortlessly.",
     "canonicalUrl": "/blog/best-mattress-for-combination-sleepers",
     "ogTitle": "The Best Mattress for Combination Sleepers",
@@ -573,7 +573,7 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -697,7 +697,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-heavy-sleepers",
     "slug": "best-mattress-for-heavy-sleepers",
     "title": "The Best Mattress for Heavy Sleepers",
-    "metaTitle": "Best Mattress for Heavy Sleepers | PureSleep",
+    "metaTitle": "Best Mattress for Heavy Sleepers | Mattress Inquirer",
     "metaDescription": "Find the best mattress for heavy sleepers. We test dense, performance-grade mattresses capable of preventing massive sagging and offering true durability.",
     "canonicalUrl": "/blog/best-mattress-for-heavy-sleepers",
     "ogTitle": "The Best Mattress for Heavy Sleepers",
@@ -710,7 +710,7 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -834,7 +834,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-petite-sleepers",
     "slug": "best-mattress-for-petite-sleepers",
     "title": "The Best Mattress for Petite Sleepers",
-    "metaTitle": "Best Mattress for Petite Sleepers (Under 130 lbs) | PureSleep",
+    "metaTitle": "Best Mattress for Petite Sleepers (Under 130 lbs) | Mattress Inquirer",
     "metaDescription": "Stop sleeping on a rock. We review the best mattresses for petite sleepers designed to actually compress and relieve pressure for lightweight individuals.",
     "canonicalUrl": "/blog/best-mattress-for-petite-sleepers",
     "ogTitle": "The Best Mattress for Petite Sleepers",
@@ -847,11 +847,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -1005,7 +1005,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-couples",
     "slug": "best-mattress-for-couples",
     "title": "The Best Mattress for Couples",
-    "metaTitle": "Best Mattress for Couples | PureSleep",
+    "metaTitle": "Best Mattress for Couples | Mattress Inquirer",
     "metaDescription": "Stop waking up every time your partner turns over. We expose the best mattresses for couples with massive motion isolation and uncompromising edge support.",
     "canonicalUrl": "/blog/best-mattress-for-couples",
     "ogTitle": "The Best Mattress for Couples",
@@ -1018,7 +1018,7 @@ const rawBlogPosts: BlogPost[] = [
       "motion-isolation"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -1135,7 +1135,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-hot-sleepers",
     "slug": "best-mattress-for-hot-sleepers",
     "title": "The Best Mattress for Hot Sleepers",
-    "metaTitle": "Best Mattress for Hot Sleepers | PureSleep",
+    "metaTitle": "Best Mattress for Hot Sleepers | Mattress Inquirer",
     "metaDescription": "Stop waking up in a sweat. We review the best mattresses for hot sleepers designed with extreme cooling technology to forcefully drain away body heat.",
     "canonicalUrl": "/blog/best-mattress-for-hot-sleepers",
     "ogTitle": "The Best Mattress for Hot Sleepers",
@@ -1148,7 +1148,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -1265,7 +1265,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-organic-mattress",
     "slug": "best-organic-mattress",
     "title": "The Best Organic Mattress",
-    "metaTitle": "Best Organic Mattress | PureSleep",
+    "metaTitle": "Best Organic Mattress | Mattress Inquirer",
     "metaDescription": "Compare organic mattresses by verified certifications, materials, construction, and scored performance across multiple brands.",
     "canonicalUrl": "/blog/best-organic-mattress",
     "ogTitle": "The Best Organic Mattress",
@@ -1278,7 +1278,7 @@ const rawBlogPosts: BlogPost[] = [
       "latex-mattress"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -1287,7 +1287,7 @@ const rawBlogPosts: BlogPost[] = [
     "readTimeMinutes": 6,
     "wordCountTarget": 1400,
     "excerpt": "Organic mattress labels vary by component and certification. Compare GOLS, GOTS, construction, scored performance, price, trial, and warranty before choosing.",
-    "directAnswer": "The strongest organic pick should combine current third-party certifications with competitive scored performance. Compare Amerisleep Organica with PlushBeds, Naturepedic, Eco Terra, and Nolah models on the multi-brand organic ranking, then verify each certification with the brand or certifying body before purchasing. PureSleep publishes its scoring method, evidence limits, and outbound-link policy.",
+    "directAnswer": "The strongest organic pick should combine current third-party certifications with competitive scored performance. Compare Amerisleep Organica with PlushBeds, Naturepedic, Eco Terra, and Nolah models on the multi-brand organic ranking, then verify each certification with the brand or certifying body before purchasing. Mattress Inquirer publishes its scoring method, evidence limits, and outbound-link policy.",
     "schemaType": "Article",
     "sections": [
       {
@@ -1323,7 +1323,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "heading": "Our #1 Pick: Amerisleep Organica",
         "headingLevel": 2,
-        "content": "The 13-inch Amerisleep Organica combines a latex comfort layer with pocketed coils and a medium feel. Latex responds more quickly than memory foam, while the coil system adds airflow and perimeter structure. Amerisleep lists GOLS-certified organic latex and GOTS-certified organic cotton and wool for this model; shoppers should verify current certifications and covered components before buying. PureSleep scores the Organica 9/10 overall, 10/10 for response time, and 9/10 for cooling and breathability.",
+        "content": "The 13-inch Amerisleep Organica combines a latex comfort layer with pocketed coils and a medium feel. Latex responds more quickly than memory foam, while the coil system adds airflow and perimeter structure. Amerisleep lists GOLS-certified organic latex and GOTS-certified organic cotton and wool for this model; shoppers should verify current certifications and covered components before buying. Mattress Inquirer scores the Organica 9/10 overall, 10/10 for response time, and 9/10 for cooling and breathability.",
         "hasBulletList": false,
         "hasTable": false
       },
@@ -1388,7 +1388,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-luxury-mattress",
     "slug": "best-luxury-mattress",
     "title": "The Best Luxury Mattress",
-    "metaTitle": "Best Luxury Mattress | PureSleep",
+    "metaTitle": "Best Luxury Mattress | Mattress Inquirer",
     "metaDescription": "Upgrade your bedroom with the best luxury mattress. We review ultra-premium, 15-inch tall cooling beds designed for massive comfort and elite shock absorption.",
     "canonicalUrl": "/blog/best-luxury-mattress",
     "ogTitle": "The Best Luxury Mattress",
@@ -1401,7 +1401,7 @@ const rawBlogPosts: BlogPost[] = [
       "premium"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -1511,7 +1511,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-hip-pain",
     "slug": "best-mattress-for-hip-pain",
     "title": "The Best Mattress for Hip Pain",
-    "metaTitle": "Best Mattress for Hip Pain | PureSleep",
+    "metaTitle": "Best Mattress for Hip Pain | Mattress Inquirer",
     "metaDescription": "Stop waking up with aching hips. We review the best mattresses formulated to absorb massive hip pressure and stop morning joint pain.",
     "canonicalUrl": "/blog/best-mattress-for-hip-pain",
     "ogTitle": "The Best Mattress for Hip Pain",
@@ -1524,11 +1524,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -1550,7 +1550,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "heading": "Our Top Picks at a Glance",
         "headingLevel": 2,
-        "content": "These models have the highest pelvic-support scores in PureSleep's approved editorial dataset.",
+        "content": "These models have the highest pelvic-support scores in Mattress Inquirer's approved editorial dataset.",
         "hasBulletList": false,
         "hasTable": true,
         "tableData": {
@@ -1634,7 +1634,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-shoulder-pain",
     "slug": "best-mattress-for-shoulder-pain",
     "title": "The Best Mattress for Shoulder Pain",
-    "metaTitle": "Best Mattress for Shoulder Pain | PureSleep",
+    "metaTitle": "Best Mattress for Shoulder Pain | Mattress Inquirer",
     "metaDescription": "Stop waking up with dead arms. We review the best mattresses built to relieve sharp shoulder compression and restore healthy circulation overnight.",
     "canonicalUrl": "/blog/best-mattress-for-shoulder-pain",
     "ogTitle": "The Best Mattress for Shoulder Pain",
@@ -1647,11 +1647,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -1720,7 +1720,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-sciatica",
     "slug": "best-mattress-for-sciatica",
     "title": "The Best Mattress for Sciatica Nerve Pain",
-    "metaTitle": "Best Mattress for Sciatica | PureSleep",
+    "metaTitle": "Best Mattress for Sciatica | Mattress Inquirer",
     "metaDescription": "Sciatica requires absolute spinal neutrality. We review the best mattresses equipped with advanced zoning to stop nerve compression overnight.",
     "canonicalUrl": "/blog/best-mattress-for-sciatica",
     "ogTitle": "The Best Mattress for Sciatica Nerve Pain",
@@ -1733,11 +1733,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -1825,7 +1825,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-arthritis",
     "slug": "best-mattress-for-arthritis",
     "title": "The Best Mattress for Arthritis",
-    "metaTitle": "Best Mattress for Arthritis | PureSleep",
+    "metaTitle": "Best Mattress for Arthritis | Mattress Inquirer",
     "metaDescription": "We compare responsive, pressure-relieving mattresses that some sleepers with arthritis-related joint sensitivity may find more comfortable.",
     "canonicalUrl": "/blog/best-mattress-for-arthritis",
     "ogTitle": "The Best Mattress for Arthritis",
@@ -1838,11 +1838,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -1930,7 +1930,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-fibromyalgia",
     "slug": "best-mattress-for-fibromyalgia",
     "title": "The Best Mattress for Fibromyalgia",
-    "metaTitle": "Best Mattress for Fibromyalgia | PureSleep",
+    "metaTitle": "Best Mattress for Fibromyalgia | Mattress Inquirer",
     "metaDescription": "Fibromyalgia demands hyper-plush surface tension. Discover the best mattresses designed to ease pressure on sensitive trigger points and soothe full-body aches.",
     "canonicalUrl": "/blog/best-mattress-for-fibromyalgia",
     "ogTitle": "The Best Mattress for Fibromyalgia",
@@ -1943,11 +1943,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -2035,7 +2035,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-lower-back-pain",
     "slug": "best-mattress-for-lower-back-pain",
     "title": "The Best Mattress for Lower Back Pain",
-    "metaTitle": "Best Mattress for Lower Back Pain | PureSleep",
+    "metaTitle": "Best Mattress for Lower Back Pain | Mattress Inquirer",
     "metaDescription": "Compare medium-firm mattresses that may improve sleep comfort for some people with lower-back sensitivity. General guidance, not treatment.",
     "canonicalUrl": "/blog/best-mattress-for-lower-back-pain",
     "ogTitle": "The Best Mattress for Lower Back Pain",
@@ -2048,11 +2048,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -2111,7 +2111,7 @@ const rawBlogPosts: BlogPost[] = [
     ],
     "answersSI": "A medium-firm mattress that limits excessive hip sinkage may feel more comfortable for some sleepers with lower-back sensitivity. The Amerisleep AS2 is one scored option in our multi-brand comparison. A mattress cannot diagnose, treat, or cure back pain, and persistent symptoms should be discussed with a clinician.",
     "citableFacts": [
-      "The Amerisleep AS2 scores 9/10 overall and 10/10 for response time in PureSleep's 7-metric system."
+      "The Amerisleep AS2 scores 9/10 overall and 10/10 for response time in Mattress Inquirer's 7-metric system."
     ],
     "entityMentions": [
       "Amerisleep AS2",
@@ -2122,7 +2122,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-seniors",
     "slug": "best-mattress-for-seniors",
     "title": "The Best Mattress for Seniors",
-    "metaTitle": "Best Mattress for Seniors & Older Adults | PureSleep",
+    "metaTitle": "Best Mattress for Seniors & Older Adults | Mattress Inquirer",
     "metaDescription": "Aging changes your sleep requirements completely. Discover the best mattresses and adjustable bases that prioritize pressure relief and easy mobility.",
     "canonicalUrl": "/blog/best-mattress-for-seniors",
     "ogTitle": "The Best Mattress for Seniors",
@@ -2135,11 +2135,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -2227,7 +2227,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-pregnancy",
     "slug": "best-mattress-for-pregnancy",
     "title": "The Best Mattress for Pregnancy",
-    "metaTitle": "Best Mattress for Pregnancy | PureSleep",
+    "metaTitle": "Best Mattress for Pregnancy | Mattress Inquirer",
     "metaDescription": "Pregnancy forces severe side-sleeping and immense pelvic pressure. Discover the plush mattresses designed to alleviate heavy joint stress and keep moms cool.",
     "canonicalUrl": "/blog/best-mattress-for-pregnancy",
     "ogTitle": "The Best Mattress for Pregnancy",
@@ -2240,11 +2240,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -2331,7 +2331,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-athletes",
     "slug": "best-mattress-for-athletes",
     "title": "The Best Mattress for Athletes",
-    "metaTitle": "Best Mattress for Athletes & Muscle Recovery | PureSleep",
+    "metaTitle": "Best Mattress for Athletes & Muscle Recovery | Mattress Inquirer",
     "metaDescription": "Maximized recovery demands deep sleep and high blood flow. Discover the elite mattresses tailored strictly for heavy athletic performance.",
     "canonicalUrl": "/blog/best-mattress-for-athletes",
     "ogTitle": "The Best Mattress for Athletes",
@@ -2344,7 +2344,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -2432,7 +2432,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-upper-back-pain",
     "slug": "best-mattress-for-upper-back-pain",
     "title": "The Best Mattress for Upper Back Pain",
-    "metaTitle": "Best Mattress for Upper Back Pain | PureSleep",
+    "metaTitle": "Best Mattress for Upper Back Pain | Mattress Inquirer",
     "metaDescription": "Upper back pain is caused by severe shoulder compression. We expose the best medium mattresses engineered to relieve stress between the shoulder blades.",
     "canonicalUrl": "/blog/best-mattress-for-upper-back-pain",
     "ogTitle": "The Best Mattress for Upper Back Pain",
@@ -2445,11 +2445,11 @@ const rawBlogPosts: BlogPost[] = [
       "sleep-health"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -2518,7 +2518,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-under-1000",
     "slug": "best-mattress-under-1000",
     "title": "The Best Mattress Under $1,000",
-    "metaTitle": "Best Mattress Under $1000 | PureSleep",
+    "metaTitle": "Best Mattress Under $1000 | Mattress Inquirer",
     "metaDescription": "You don't need to spend thousands to get premium plant-based memory foam. We examine what specific Amerisleep models fall perfectly under the $1,000 threshold.",
     "canonicalUrl": "/blog/best-mattress-under-1000",
     "ogTitle": "The Best Mattress Under $1,000",
@@ -2531,7 +2531,7 @@ const rawBlogPosts: BlogPost[] = [
       "buying-guides"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -2601,7 +2601,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-memory-foam-mattress",
     "slug": "best-memory-foam-mattress",
     "title": "The Best Memory Foam Mattress",
-    "metaTitle": "Best Memory Foam Mattress | PureSleep",
+    "metaTitle": "Best Memory Foam Mattress | Mattress Inquirer",
     "metaDescription": "Memory foam is not obsolete—it evolved. We review the best plant-based memory foam mattresses built to eliminate heat retention and maximize pressure relief.",
     "canonicalUrl": "/blog/best-memory-foam-mattress",
     "ogTitle": "The Best Memory Foam Mattress",
@@ -2614,7 +2614,7 @@ const rawBlogPosts: BlogPost[] = [
       "materials"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -2685,7 +2685,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-college-students",
     "slug": "best-mattress-for-college-students",
     "title": "The Best Mattress for College Students",
-    "metaTitle": "Best Mattress for College Students & Dorms | PureSleep",
+    "metaTitle": "Best Mattress for College Students & Dorms | Mattress Inquirer",
     "metaDescription": "College students require durable, affordable recovery platforms. We isolate the best high-performance mattresses capable of surviving heavy dorm usage without draining budgets.",
     "canonicalUrl": "/blog/best-mattress-for-college-students",
     "ogTitle": "The Best Mattress for College Students",
@@ -2698,7 +2698,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -2785,7 +2785,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-guest-bedroom",
     "slug": "best-mattress-for-guest-bedroom",
     "title": "The Best Mattress for a Guest Bedroom",
-    "metaTitle": "Best Mattress for Guest Bedrooms | PureSleep",
+    "metaTitle": "Best Mattress for Guest Bedrooms | Mattress Inquirer",
     "metaDescription": "You cannot guess a visitor's sleep style. We expose why a medium firmness is mandatory for guest rooms and which premium model executes it flawlessly.",
     "canonicalUrl": "/blog/best-mattress-for-guest-bedroom",
     "ogTitle": "The Best Mattress for a Guest Bedroom",
@@ -2797,7 +2797,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -2884,7 +2884,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-topper-for-back-pain",
     "slug": "best-mattress-topper-for-back-pain",
     "title": "The Best Mattress Topper for Back Pain",
-    "metaTitle": "Best Mattress Topper for Back Pain | PureSleep",
+    "metaTitle": "Best Mattress Topper for Back Pain | Mattress Inquirer",
     "metaDescription": "Can a topper fix a bad bed? We break down when to use a topper versus entirely replacing your failing mattress, and review the best ergonomic options.",
     "canonicalUrl": "/blog/best-mattress-topper-for-back-pain",
     "ogTitle": "The Best Mattress Topper for Back Pain",
@@ -2897,11 +2897,11 @@ const rawBlogPosts: BlogPost[] = [
       "accessories"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -2970,7 +2970,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-topper-for-pressure-relief",
     "slug": "best-mattress-topper-for-pressure-relief",
     "title": "The Best Mattress Topper for Pressure Relief",
-    "metaTitle": "Best Mattress Topper for Pressure Relief | PureSleep",
+    "metaTitle": "Best Mattress Topper for Pressure Relief | Mattress Inquirer",
     "metaDescription": "Turn your brick-hard bed into a cloud. Discover how thick, zoned memory foam toppers help relieve joint pressure in shoulders and hips.",
     "canonicalUrl": "/blog/best-mattress-topper-for-pressure-relief",
     "ogTitle": "The Best Mattress Topper for Pressure Relief",
@@ -2983,7 +2983,7 @@ const rawBlogPosts: BlogPost[] = [
       "accessories"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -3053,7 +3053,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-cooling-mattress-topper",
     "slug": "best-cooling-mattress-topper",
     "title": "The Best Cooling Mattress Topper",
-    "metaTitle": "Best Cooling Mattress Topper | PureSleep",
+    "metaTitle": "Best Cooling Mattress Topper | Mattress Inquirer",
     "metaDescription": "Stop sweating on dense memory foam. We examine what separates a topper that genuinely pulls heat versus cheap gels that just feel cold briefly.",
     "canonicalUrl": "/blog/best-cooling-mattress-topper",
     "ogTitle": "The Best Cooling Mattress Topper",
@@ -3066,7 +3066,7 @@ const rawBlogPosts: BlogPost[] = [
       "accessories"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -3135,7 +3135,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-pillow-for-side-sleepers",
     "slug": "best-pillow-for-side-sleepers",
     "title": "The Best Pillow for Side Sleepers",
-    "metaTitle": "Best Pillow for Side Sleepers | PureSleep",
+    "metaTitle": "Best Pillow for Side Sleepers | Mattress Inquirer",
     "metaDescription": "Side sleepers have a wide shoulder gap. We test high-loft memory foam pillows that help support neck alignment.",
     "canonicalUrl": "/blog/best-pillow-for-side-sleepers",
     "ogTitle": "The Best Pillow for Side Sleepers",
@@ -3148,11 +3148,11 @@ const rawBlogPosts: BlogPost[] = [
       "accessories"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -3222,7 +3222,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-pillow-for-neck-pain",
     "slug": "best-pillow-for-neck-pain",
     "title": "The Best Pillow for Neck Pain",
-    "metaTitle": "Best Pillow for Neck Pain | PureSleep",
+    "metaTitle": "Best Pillow for Neck Pain | Mattress Inquirer",
     "metaDescription": "Incorrect loft can strain cervical nerves. We look at adjustable pillows that let you customize the loft to match your head and neck.",
     "canonicalUrl": "/blog/best-pillow-for-neck-pain",
     "ogTitle": "The Best Pillow for Neck Pain",
@@ -3235,11 +3235,11 @@ const rawBlogPosts: BlogPost[] = [
       "accessories"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -3308,7 +3308,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-adjustable-bed-base",
     "slug": "best-adjustable-bed-base",
     "title": "The Best Adjustable Bed Base",
-    "metaTitle": "Best Adjustable Bed Base | PureSleep",
+    "metaTitle": "Best Adjustable Bed Base | Mattress Inquirer",
     "metaDescription": "Zero-gravity sleeping may help ease lower lumbar tension for some sleepers. We review what sets a flagship adjustable bed apart from cheap basic models.",
     "canonicalUrl": "/blog/best-adjustable-bed-base",
     "ogTitle": "The Best Adjustable Bed Base",
@@ -3320,7 +3320,7 @@ const rawBlogPosts: BlogPost[] = [
       "adjustable-beds"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -3389,7 +3389,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-bamboo-sheets",
     "slug": "best-bamboo-sheets",
     "title": "The Best Bamboo Sheets for Deep Sleep",
-    "metaTitle": "Best Bamboo Sheets | PureSleep",
+    "metaTitle": "Best Bamboo Sheets | Mattress Inquirer",
     "metaDescription": "Are bamboo sheets really cooler than cotton? We break down the exact thermodynamics and reveal why premium bamboo drastically out-cools standard bedding.",
     "canonicalUrl": "/blog/best-bamboo-sheets",
     "ogTitle": "The Best Bamboo Sheets for Deep Sleep",
@@ -3402,7 +3402,7 @@ const rawBlogPosts: BlogPost[] = [
       "cooling"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -3476,7 +3476,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-protector",
     "slug": "best-mattress-protector",
     "title": "The Best Waterproof Mattress Protector",
-    "metaTitle": "Best Mattress Protector | PureSleep",
+    "metaTitle": "Best Mattress Protector | Mattress Inquirer",
     "metaDescription": "Cheap protectors can feel like sleeping on a loud plastic bag. We review breathable, quiet mattress protectors that help protect your bed.",
     "canonicalUrl": "/blog/best-mattress-protector",
     "ogTitle": "The Best Waterproof Mattress Protector",
@@ -3489,7 +3489,7 @@ const rawBlogPosts: BlogPost[] = [
       "protection"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -3563,7 +3563,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-bed-frame-for-heavy-people",
     "slug": "best-bed-frame-for-heavy-people",
     "title": "The Best Bed Frame for Heavy People",
-    "metaTitle": "Best Bed Frame for Heavy Sleepers | PureSleep",
+    "metaTitle": "Best Bed Frame for Heavy Sleepers | Mattress Inquirer",
     "metaDescription": "Stop breaking weak wooden slats. Discover the true structural weight capacities required to properly support a heavy sleeper and their mattress.",
     "canonicalUrl": "/blog/best-bed-frame-for-heavy-people",
     "ogTitle": "The Best Bed Frame for Heavy People",
@@ -3576,7 +3576,7 @@ const rawBlogPosts: BlogPost[] = [
       "heavy-sleepers"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -3649,7 +3649,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-upholstered-bed-frame",
     "slug": "best-upholstered-bed-frame",
     "title": "The Best Upholstered Bed Frame",
-    "metaTitle": "Best Upholstered Bed Frame | PureSleep",
+    "metaTitle": "Best Upholstered Bed Frame | Mattress Inquirer",
     "metaDescription": "Reviewing the most durable, stylish upholstered bed frames available that do not squeak or require complex massive tools to effectively assemble.",
     "canonicalUrl": "/blog/best-upholstered-bed-frame",
     "ogTitle": "The Best Upholstered Bed Frame",
@@ -3661,7 +3661,7 @@ const rawBlogPosts: BlogPost[] = [
       "bed-frames"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -3734,7 +3734,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-mattress-for-back-pain-side-sleepers",
     "slug": "best-mattress-for-back-pain-side-sleepers",
     "title": "The Best Mattress for Back Pain in Side Sleepers",
-    "metaTitle": "Best Mattress for Side Sleepers with Back Pain | PureSleep",
+    "metaTitle": "Best Mattress for Side Sleepers with Back Pain | Mattress Inquirer",
     "metaDescription": "Targeting lateral back pain requires absolute structural precision. Review the best mattresses built to yield exactly at the shoulder but hold the midsection.",
     "canonicalUrl": "/blog/best-mattress-for-back-pain-side-sleepers",
     "ogTitle": "The Best Mattress for Back Pain in Side Sleepers",
@@ -3747,11 +3747,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -3825,7 +3825,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "memory-foam-vs-latex-mattress",
     "slug": "memory-foam-vs-latex-mattress",
     "title": "Memory Foam vs. Latex Mattress: Which Is Better?",
-    "metaTitle": "Memory Foam vs. Latex Mattress: Which Is Better? | PureSleep",
+    "metaTitle": "Memory Foam vs. Latex Mattress: Which Is Better? | Mattress Inquirer",
     "metaDescription": "Memory foam provides a slow-sinking, deeply contoured feel that may help relieve joint pressure, while latex feels bouncier and keeps you lifted...",
     "canonicalUrl": "/blog/memory-foam-vs-latex-mattress",
     "ogTitle": "Memory Foam vs. Latex Mattress: Which Is Better?",
@@ -3837,7 +3837,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -3916,7 +3916,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "firm-vs-soft-mattress",
     "slug": "firm-vs-soft-mattress",
     "title": "Firm vs. Soft Mattress: How to Choose",
-    "metaTitle": "Firm vs. Soft Mattress: How to Choose | PureSleep",
+    "metaTitle": "Firm vs. Soft Mattress: How to Choose | Mattress Inquirer",
     "metaDescription": "Firm mattresses effectively support the back and stomach by resisting heavy hip sinkage, while soft mattresses yield completely to the shoulders and ...",
     "canonicalUrl": "/blog/firm-vs-soft-mattress",
     "ogTitle": "Firm vs. Soft Mattress: How to Choose",
@@ -3928,7 +3928,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -4014,7 +4014,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "12-inch-vs-14-inch-mattress",
     "slug": "12-inch-vs-14-inch-mattress",
     "title": "12-Inch vs. 14-Inch Mattress: Why Height Matters",
-    "metaTitle": "12-Inch vs. 14-Inch Mattress: Why Height Matters | PureSleep",
+    "metaTitle": "12-Inch vs. 14-Inch Mattress: Why Height Matters | Mattress Inquirer",
     "metaDescription": "A 14-inch mattress provides drastically more compressive depth for heavy pressure relief than a 12-inch bed. The extra thickness is never purely cosme...",
     "canonicalUrl": "/blog/12-inch-vs-14-inch-mattress",
     "ogTitle": "12-Inch vs. 14-Inch Mattress: Why Height Matters",
@@ -4026,7 +4026,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -4112,7 +4112,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "king-vs-cal-king-mattress",
     "slug": "king-vs-cal-king-mattress",
     "title": "King vs. California King Mattress",
-    "metaTitle": "King vs. California King Mattress | PureSleep",
+    "metaTitle": "King vs. California King Mattress | Mattress Inquirer",
     "metaDescription": "A standard King mattress provides maximum width for couples, while a California King trades four inches of width for four inches of extra length. If y...",
     "canonicalUrl": "/blog/king-vs-cal-king-mattress",
     "ogTitle": "King vs. California King Mattress",
@@ -4124,7 +4124,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -4209,7 +4209,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "queen-vs-king-mattress",
     "slug": "queen-vs-king-mattress",
     "title": "Queen vs. King Mattress: Which Size Wins?",
-    "metaTitle": "Queen vs. King Mattress: Which Size Wins? | PureSleep",
+    "metaTitle": "Queen vs. King Mattress: Which Size Wins? | Mattress Inquirer",
     "metaDescription": "A King mattress offers 16 extra inches of width compared to a Queen, granting couples significantly more personal breathing room. If you sleep with a ...",
     "canonicalUrl": "/blog/queen-vs-king-mattress",
     "ogTitle": "Queen vs. King Mattress: Which Size Wins?",
@@ -4221,7 +4221,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -4306,7 +4306,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "split-king-vs-standard-king",
     "slug": "split-king-vs-standard-king",
     "title": "Split King vs. Standard King Mattress",
-    "metaTitle": "Split King vs. Standard King Mattress | PureSleep",
+    "metaTitle": "Split King vs. Standard King Mattress | Mattress Inquirer",
     "metaDescription": "A Split King physically separates the mattress into two distinct sides, allowing each partner to independently raise or lower their head and feet usin...",
     "canonicalUrl": "/blog/split-king-vs-standard-king",
     "ogTitle": "Split King vs. Standard King Mattress",
@@ -4318,7 +4318,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -4397,7 +4397,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "organic-mattress-vs-memory-foam",
     "slug": "organic-mattress-vs-memory-foam",
     "title": "Organic Mattress vs. Memory Foam",
-    "metaTitle": "Organic Mattress vs. Memory Foam | PureSleep",
+    "metaTitle": "Organic Mattress vs. Memory Foam | Mattress Inquirer",
     "metaDescription": "Memory foam utilizes advanced synthesized cellular structures to deliver ultimate slow-response pressure relief, while an organic mattress uses sustai...",
     "canonicalUrl": "/blog/organic-mattress-vs-memory-foam",
     "ogTitle": "Organic Mattress vs. Memory Foam",
@@ -4409,7 +4409,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -4488,7 +4488,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "cooling-mattress-vs-cooling-topper",
     "slug": "cooling-mattress-vs-cooling-topper",
     "title": "Cooling Mattress vs. Cooling Topper",
-    "metaTitle": "Cooling Mattress vs. Cooling Topper | PureSleep",
+    "metaTitle": "Cooling Mattress vs. Cooling Topper | Mattress Inquirer",
     "metaDescription": "A cooling topper superficially masks surface heat, while a dedicated cooling mattress eliminates heat traps at every single structural layer. If your ...",
     "canonicalUrl": "/blog/cooling-mattress-vs-cooling-topper",
     "ogTitle": "Cooling Mattress vs. Cooling Topper",
@@ -4500,7 +4500,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-reviews"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -4579,7 +4579,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "adjustable-base-vs-box-spring",
     "slug": "adjustable-base-vs-box-spring",
     "title": "Adjustable Base Vs Box Spring",
-    "metaTitle": "Adjustable Base vs Box Spring | PureSleep",
+    "metaTitle": "Adjustable Base vs Box Spring | Mattress Inquirer",
     "metaDescription": "Compare an adjustable bed, a rigid mattress foundation, and a traditional box spring by support type, compatibility, positioning, and cost.",
     "canonicalUrl": "/blog/adjustable-base-vs-box-spring",
     "ogTitle": "Adjustable Base vs Box Spring: A Complete Breakdown",
@@ -4592,7 +4592,7 @@ const rawBlogPosts: BlogPost[] = [
       "bed-frames"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -4705,7 +4705,7 @@ const rawBlogPosts: BlogPost[] = [
       },
       {
         "question": "Does the Amerisleep Adjustable Bed help with chronic acid reflux?",
-        "answer": "An adjustable bed can raise the upper body, but PureSleep does not evaluate or claim treatment outcomes for acid reflux. Discuss persistent reflux with a healthcare professional and confirm that any positioning advice is appropriate for you."
+        "answer": "An adjustable bed can raise the upper body, but Mattress Inquirer does not evaluate or claim treatment outcomes for acid reflux. Discuss persistent reflux with a healthcare professional and confirm that any positioning advice is appropriate for you."
       },
       {
         "question": "Is the Amerisleep Foundation difficult to assemble?",
@@ -4737,7 +4737,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "mattress-topper-vs-new-mattress",
     "slug": "mattress-topper-vs-new-mattress",
     "title": "Mattress Topper Vs New Mattress",
-    "metaTitle": "Mattress Topper Vs New Mattress | PureSleep",
+    "metaTitle": "Mattress Topper Vs New Mattress | Mattress Inquirer",
     "metaDescription": "A practical breakdown of mattress topper vs new mattress and why the Amerisleep Lift Mattress Topper is worth considering.",
     "canonicalUrl": "/blog/mattress-topper-vs-new-mattress",
     "ogTitle": "Mattress Topper Vs New Mattress: A Complete Guide",
@@ -4750,7 +4750,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -4867,7 +4867,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Lift Mattress Topper",
         "url": "https://amerisleep.com/mattress-toppers/lift-mattress-topper.html",
-        "context": "PureSleep highlights the Amerisleep Lift Mattress Topper based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Lift Mattress Topper based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -4884,7 +4884,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "platform-bed-frame-vs-box-spring",
     "slug": "platform-bed-frame-vs-box-spring",
     "title": "Platform Bed Frame Vs Box Spring",
-    "metaTitle": "Platform Bed Frame Vs Box Spring | PureSleep",
+    "metaTitle": "Platform Bed Frame Vs Box Spring | Mattress Inquirer",
     "metaDescription": "A practical breakdown of platform bed frame vs box spring and why the Amerisleep Platform Bed Frame is worth considering.",
     "canonicalUrl": "/blog/platform-bed-frame-vs-box-spring",
     "ogTitle": "Platform Bed Frame Vs Box Spring: A Complete Guide",
@@ -4897,7 +4897,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -5010,7 +5010,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Platform Bed Frame",
         "url": "https://amerisleep.com/bed-frames/platform-bed-frame.html",
-        "context": "PureSleep highlights the Amerisleep Platform Bed Frame based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Platform Bed Frame based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -5027,7 +5027,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "bamboo-sheets-vs-cotton-sheets",
     "slug": "bamboo-sheets-vs-cotton-sheets",
     "title": "Bamboo Sheets Vs Cotton Sheets",
-    "metaTitle": "Bamboo Sheets Vs Cotton Sheets | PureSleep",
+    "metaTitle": "Bamboo Sheets Vs Cotton Sheets | Mattress Inquirer",
     "metaDescription": "A practical breakdown of bamboo sheets vs cotton sheets and why the Amerisleep Bamboo Sheets Set is worth considering.",
     "canonicalUrl": "/blog/bamboo-sheets-vs-cotton-sheets",
     "ogTitle": "Bamboo Sheets Vs Cotton Sheets: A Complete Guide",
@@ -5040,7 +5040,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -5153,7 +5153,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Bamboo Sheets Set",
         "url": "https://amerisleep.com/bedding/bamboo-sheets.html",
-        "context": "PureSleep highlights the Amerisleep Bamboo Sheets Set based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Bamboo Sheets Set based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -5170,7 +5170,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "plush-vs-firm-mattress-for-back-pain",
     "slug": "plush-vs-firm-mattress-for-back-pain",
     "title": "Plush Vs Firm Mattress For Back Pain",
-    "metaTitle": "Plush Vs Firm Mattress For Back Pain | PureSleep",
+    "metaTitle": "Plush Vs Firm Mattress For Back Pain | Mattress Inquirer",
     "metaDescription": "A practical breakdown of plush vs firm mattress for back pain and why the Amerisleep AS2 is worth considering.",
     "canonicalUrl": "/blog/plush-vs-firm-mattress-for-back-pain",
     "ogTitle": "Plush Vs Firm Mattress For Back Pain: A Complete Guide",
@@ -5183,11 +5183,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -5300,7 +5300,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS2",
         "url": "https://amerisleep.com/mattresses/as2-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS2 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS2 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -5317,7 +5317,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "memory-foam-vs-latex-for-pressure-relief",
     "slug": "memory-foam-vs-latex-for-pressure-relief",
     "title": "Memory Foam Vs Latex For Pressure Relief",
-    "metaTitle": "Memory Foam Vs Latex For Pressure Relief | PureSleep",
+    "metaTitle": "Memory Foam Vs Latex For Pressure Relief | Mattress Inquirer",
     "metaDescription": "A practical breakdown of memory foam vs latex for pressure relief and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/memory-foam-vs-latex-for-pressure-relief",
     "ogTitle": "Memory Foam Vs Latex For Pressure Relief: A Complete Guide",
@@ -5330,7 +5330,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -5443,7 +5443,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -5460,7 +5460,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "down-pillow-vs-memory-foam-pillow",
     "slug": "down-pillow-vs-memory-foam-pillow",
     "title": "Down Pillow Vs Memory Foam Pillow",
-    "metaTitle": "Down Pillow Vs Memory Foam Pillow | PureSleep",
+    "metaTitle": "Down Pillow Vs Memory Foam Pillow | Mattress Inquirer",
     "metaDescription": "A practical breakdown of down pillow vs memory foam pillow and why the Amerisleep Flex Pillow is worth considering.",
     "canonicalUrl": "/blog/down-pillow-vs-memory-foam-pillow",
     "ogTitle": "Down Pillow Vs Memory Foam Pillow: A Complete Guide",
@@ -5473,7 +5473,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -5586,7 +5586,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Flex Pillow",
         "url": "https://amerisleep.com/pillows/flex-pillow.html",
-        "context": "PureSleep highlights the Amerisleep Flex Pillow based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Flex Pillow based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -5603,7 +5603,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-does-memory-foam-work",
     "slug": "how-does-memory-foam-work",
     "title": "How Does Memory Foam Work",
-    "metaTitle": "How Does Memory Foam Work | PureSleep",
+    "metaTitle": "How Does Memory Foam Work | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how does memory foam work and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-does-memory-foam-work",
     "ogTitle": "How Does Memory Foam Work: A Complete Guide",
@@ -5616,7 +5616,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -5714,7 +5714,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-is-bio-pur-memory-foam",
     "slug": "what-is-bio-pur-memory-foam",
     "title": "What Is Bio Pur Memory Foam",
-    "metaTitle": "What Is Bio Pur Memory Foam | PureSleep",
+    "metaTitle": "What Is Bio Pur Memory Foam | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what is bio pur memory foam and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/what-is-bio-pur-memory-foam",
     "ogTitle": "What Is Bio Pur Memory Foam: A Complete Guide",
@@ -5727,7 +5727,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -5825,7 +5825,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-is-hive-technology",
     "slug": "what-is-hive-technology",
     "title": "What Is Hive Technology",
-    "metaTitle": "What Is Hive Technology | PureSleep",
+    "metaTitle": "What Is Hive Technology | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what is hive technology and why the Amerisleep Lift Mattress Topper is worth considering.",
     "canonicalUrl": "/blog/what-is-hive-technology",
     "ogTitle": "What Is Hive Technology: A Complete Guide",
@@ -5838,7 +5838,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -5936,7 +5936,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-does-certipur-us-certified-mean",
     "slug": "what-does-certipur-us-certified-mean",
     "title": "What Does Certipur Us Certified Mean",
-    "metaTitle": "What Does Certipur Us Certified Mean | PureSleep",
+    "metaTitle": "What Does Certipur Us Certified Mean | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what does certipur us certified mean and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/what-does-certipur-us-certified-mean",
     "ogTitle": "What Does Certipur Us Certified Mean: A Complete Guide",
@@ -5949,7 +5949,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -6047,7 +6047,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-is-off-gassing-and-is-it-dangerous",
     "slug": "what-is-off-gassing-and-is-it-dangerous",
     "title": "What Is Off Gassing And Is It Dangerous",
-    "metaTitle": "What Is Off Gassing And Is It Dangerous | PureSleep",
+    "metaTitle": "What Is Off Gassing And Is It Dangerous | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what is off gassing and is it dangerous and why the Amerisleep Organica is worth considering.",
     "canonicalUrl": "/blog/what-is-off-gassing-and-is-it-dangerous",
     "ogTitle": "What Is Off Gassing And Is It Dangerous: A Complete Guide",
@@ -6060,7 +6060,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -6158,7 +6158,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-long-does-a-memory-foam-mattress-last",
     "slug": "how-long-does-a-memory-foam-mattress-last",
     "title": "How Long Does A Memory Foam Mattress Last",
-    "metaTitle": "How Long Does A Memory Foam Mattress Last | PureSleep",
+    "metaTitle": "How Long Does A Memory Foam Mattress Last | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how long does a memory foam mattress last and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-long-does-a-memory-foam-mattress-last",
     "ogTitle": "How Long Does A Memory Foam Mattress Last: A Complete Guide",
@@ -6171,7 +6171,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -6269,7 +6269,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-is-pressure-relief-in-a-mattress",
     "slug": "what-is-pressure-relief-in-a-mattress",
     "title": "What Is Pressure Relief In A Mattress",
-    "metaTitle": "What Is Pressure Relief In A Mattress | PureSleep",
+    "metaTitle": "What Is Pressure Relief In A Mattress | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what is pressure relief in a mattress and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/what-is-pressure-relief-in-a-mattress",
     "ogTitle": "What Is Pressure Relief In A Mattress: A Complete Guide",
@@ -6282,11 +6282,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -6384,7 +6384,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-is-spinal-neutral-position",
     "slug": "what-is-spinal-neutral-position",
     "title": "What Is Spinal Neutral Position",
-    "metaTitle": "What Is Spinal Neutral Position | PureSleep",
+    "metaTitle": "What Is Spinal Neutral Position | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what is spinal neutral position and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/what-is-spinal-neutral-position",
     "ogTitle": "What Is Spinal Neutral Position: A Complete Guide",
@@ -6397,11 +6397,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -6499,7 +6499,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "does-mattress-height-matter",
     "slug": "does-mattress-height-matter",
     "title": "Does Mattress Height Matter",
-    "metaTitle": "Does Mattress Height Matter | PureSleep",
+    "metaTitle": "Does Mattress Height Matter | Mattress Inquirer",
     "metaDescription": "A practical breakdown of does mattress height matter and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/does-mattress-height-matter",
     "ogTitle": "Does Mattress Height Matter: A Complete Guide",
@@ -6512,7 +6512,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -6610,7 +6610,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-does-mattress-firmness-affect-sleep-quality",
     "slug": "how-does-mattress-firmness-affect-sleep-quality",
     "title": "How Does Mattress Firmness Affect Sleep Quality",
-    "metaTitle": "How Does Mattress Firmness Affect Sleep Quality | PureSleep",
+    "metaTitle": "How Does Mattress Firmness Affect Sleep Quality | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how does mattress firmness affect sleep quality and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-does-mattress-firmness-affect-sleep-quality",
     "ogTitle": "How Does Mattress Firmness Affect Sleep Quality: A Complete Guide",
@@ -6623,11 +6623,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -6725,7 +6725,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-causes-lower-back-pain-when-sleeping",
     "slug": "what-causes-lower-back-pain-when-sleeping",
     "title": "What Causes Lower Back Pain When Sleeping",
-    "metaTitle": "What Causes Lower Back Pain When Sleeping | PureSleep",
+    "metaTitle": "What Causes Lower Back Pain When Sleeping | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what causes lower back pain when sleeping and why the Amerisleep AS2 is worth considering.",
     "canonicalUrl": "/blog/what-causes-lower-back-pain-when-sleeping",
     "ogTitle": "What Causes Lower Back Pain When Sleeping: A Complete Guide",
@@ -6738,11 +6738,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -6840,7 +6840,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "why-do-i-wake-up-with-hip-pain",
     "slug": "why-do-i-wake-up-with-hip-pain",
     "title": "Why Do I Wake Up With Hip Pain",
-    "metaTitle": "Why Do I Wake Up With Hip Pain | PureSleep",
+    "metaTitle": "Why Do I Wake Up With Hip Pain | Mattress Inquirer",
     "metaDescription": "A practical breakdown of why do i wake up with hip pain and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/why-do-i-wake-up-with-hip-pain",
     "ogTitle": "Why Do I Wake Up With Hip Pain: A Complete Guide",
@@ -6853,11 +6853,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -6955,7 +6955,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-does-sleep-position-affect-neck-pain",
     "slug": "how-does-sleep-position-affect-neck-pain",
     "title": "How Does Sleep Position Affect Neck Pain",
-    "metaTitle": "How Does Sleep Position Affect Neck Pain | PureSleep",
+    "metaTitle": "How Does Sleep Position Affect Neck Pain | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how does sleep position affect neck pain and why the Amerisleep Flex Pillow is worth considering.",
     "canonicalUrl": "/blog/how-does-sleep-position-affect-neck-pain",
     "ogTitle": "How Does Sleep Position Affect Neck Pain: A Complete Guide",
@@ -6968,11 +6968,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -7070,7 +7070,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-tell-if-your-mattress-is-causing-back-pain",
     "slug": "how-to-tell-if-your-mattress-is-causing-back-pain",
     "title": "How To Tell If Your Mattress Is Causing Back Pain",
-    "metaTitle": "How To Tell If Your Mattress Is Causing Back Pain | PureSleep",
+    "metaTitle": "How To Tell If Your Mattress Is Causing Back Pain | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to tell if your mattress is causing back pain and why the Amerisleep AS2 is worth considering.",
     "canonicalUrl": "/blog/how-to-tell-if-your-mattress-is-causing-back-pain",
     "ogTitle": "How To Tell If Your Mattress Is Causing Back Pain: A Complete Guide",
@@ -7083,11 +7083,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -7185,7 +7185,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "why-firm-mattresses-are-not-always-better-for-back-pain",
     "slug": "why-firm-mattresses-are-not-always-better-for-back-pain",
     "title": "Why Firm Mattresses Are Not Always Better For Back Pain",
-    "metaTitle": "Why Firm Mattresses Are Not Always Better For Back Pain | PureSleep",
+    "metaTitle": "Why Firm Mattresses Are Not Always Better For Back Pain | Mattress Inquirer",
     "metaDescription": "A practical breakdown of why firm mattresses are not always better for back pain and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/why-firm-mattresses-are-not-always-better-for-back-pain",
     "ogTitle": "Why Firm Mattresses Are Not Always Better For Back Pain: A Complete Guide",
@@ -7198,11 +7198,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -7300,7 +7300,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "can-a-new-mattress-fix-back-pain",
     "slug": "can-a-new-mattress-fix-back-pain",
     "title": "Can A New Mattress Fix Back Pain",
-    "metaTitle": "Can A New Mattress Fix Back Pain | PureSleep",
+    "metaTitle": "Can A New Mattress Fix Back Pain | Mattress Inquirer",
     "metaDescription": "A practical breakdown of whether a new mattress can help with back pain, and why the Amerisleep AS2 is a well-regarded option for back support.",
     "canonicalUrl": "/blog/can-a-new-mattress-fix-back-pain",
     "ogTitle": "Can A New Mattress Fix Back Pain: A Complete Guide",
@@ -7313,11 +7313,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -7415,7 +7415,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "does-sleeping-on-your-stomach-cause-neck-pain",
     "slug": "does-sleeping-on-your-stomach-cause-neck-pain",
     "title": "Does Sleeping On Your Stomach Cause Neck Pain",
-    "metaTitle": "Does Sleeping On Your Stomach Cause Neck Pain | PureSleep",
+    "metaTitle": "Does Sleeping On Your Stomach Cause Neck Pain | Mattress Inquirer",
     "metaDescription": "A practical breakdown of does sleeping on your stomach cause neck pain and why the Amerisleep AS2 is worth considering.",
     "canonicalUrl": "/blog/does-sleeping-on-your-stomach-cause-neck-pain",
     "ogTitle": "Does Sleeping On Your Stomach Cause Neck Pain: A Complete Guide",
@@ -7428,11 +7428,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -7530,7 +7530,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "why-your-body-feels-stiff-in-the-morning",
     "slug": "why-your-body-feels-stiff-in-the-morning",
     "title": "Why Your Body Feels Stiff In The Morning",
-    "metaTitle": "Why Your Body Feels Stiff In The Morning | PureSleep",
+    "metaTitle": "Why Your Body Feels Stiff In The Morning | Mattress Inquirer",
     "metaDescription": "A practical breakdown of why your body feels stiff in the morning and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/why-your-body-feels-stiff-in-the-morning",
     "ogTitle": "Why Your Body Feels Stiff In The Morning: A Complete Guide",
@@ -7543,11 +7543,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -7645,7 +7645,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-causes-night-sweats-during-sleep",
     "slug": "what-causes-night-sweats-during-sleep",
     "title": "What Causes Night Sweats During Sleep",
-    "metaTitle": "What Causes Night Sweats During Sleep | PureSleep",
+    "metaTitle": "What Causes Night Sweats During Sleep | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what causes night sweats during sleep and why the Amerisleep AS6 is worth considering.",
     "canonicalUrl": "/blog/what-causes-night-sweats-during-sleep",
     "ogTitle": "What Causes Night Sweats During Sleep: A Complete Guide",
@@ -7658,7 +7658,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -7756,7 +7756,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-mattress-temperature-affects-deep-sleep",
     "slug": "how-mattress-temperature-affects-deep-sleep",
     "title": "How Mattress Temperature Affects Deep Sleep",
-    "metaTitle": "How Mattress Temperature Affects Deep Sleep | PureSleep",
+    "metaTitle": "How Mattress Temperature Affects Deep Sleep | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how mattress temperature affects deep sleep and why the Amerisleep AS6 is worth considering.",
     "canonicalUrl": "/blog/how-mattress-temperature-affects-deep-sleep",
     "ogTitle": "How Mattress Temperature Affects Deep Sleep: A Complete Guide",
@@ -7769,7 +7769,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -7849,7 +7849,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS6",
         "url": "https://amerisleep.com/mattresses/as6-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS6 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS6 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -7866,7 +7866,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-is-rem-sleep-and-why-it-matters",
     "slug": "what-is-rem-sleep-and-why-it-matters",
     "title": "What Is Rem Sleep And Why It Matters",
-    "metaTitle": "What Is Rem Sleep And Why It Matters | PureSleep",
+    "metaTitle": "What Is Rem Sleep And Why It Matters | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what is rem sleep and why it matters and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/what-is-rem-sleep-and-why-it-matters",
     "ogTitle": "What Is Rem Sleep And Why It Matters: A Complete Guide",
@@ -7879,7 +7879,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -7976,7 +7976,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-causes-insomnia",
     "slug": "what-causes-insomnia",
     "title": "What Causes Insomnia",
-    "metaTitle": "What Causes Insomnia | PureSleep",
+    "metaTitle": "What Causes Insomnia | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what causes insomnia and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/what-causes-insomnia",
     "ogTitle": "What Causes Insomnia: A Complete Guide",
@@ -7989,7 +7989,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -8087,7 +8087,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-blue-light-affects-sleep-cycles",
     "slug": "how-blue-light-affects-sleep-cycles",
     "title": "How Blue Light Affects Sleep Cycles",
-    "metaTitle": "How Blue Light Affects Sleep Cycles | PureSleep",
+    "metaTitle": "How Blue Light Affects Sleep Cycles | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how blue light affects sleep cycles and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-blue-light-affects-sleep-cycles",
     "ogTitle": "How Blue Light Affects Sleep Cycles: A Complete Guide",
@@ -8100,7 +8100,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -8197,7 +8197,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-alcohol-affects-sleep-quality",
     "slug": "how-alcohol-affects-sleep-quality",
     "title": "How Alcohol Affects Sleep Quality",
-    "metaTitle": "How Alcohol Affects Sleep Quality | PureSleep",
+    "metaTitle": "How Alcohol Affects Sleep Quality | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how alcohol affects sleep quality and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-alcohol-affects-sleep-quality",
     "ogTitle": "How Alcohol Affects Sleep Quality: A Complete Guide",
@@ -8210,7 +8210,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -8308,7 +8308,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-is-sleep-debt-and-how-to-repay-it",
     "slug": "what-is-sleep-debt-and-how-to-repay-it",
     "title": "What Is Sleep Debt And How To Repay It",
-    "metaTitle": "What Is Sleep Debt And How To Repay It | PureSleep",
+    "metaTitle": "What Is Sleep Debt And How To Repay It | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what is sleep debt and how to repay it and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/what-is-sleep-debt-and-how-to-repay-it",
     "ogTitle": "What Is Sleep Debt And How To Repay It: A Complete Guide",
@@ -8321,7 +8321,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -8418,7 +8418,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-circadian-rhythm-affects-sleep",
     "slug": "how-circadian-rhythm-affects-sleep",
     "title": "How Circadian Rhythm Affects Sleep",
-    "metaTitle": "How Circadian Rhythm Affects Sleep | PureSleep",
+    "metaTitle": "How Circadian Rhythm Affects Sleep | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how circadian rhythm affects sleep and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-circadian-rhythm-affects-sleep",
     "ogTitle": "How Circadian Rhythm Affects Sleep: A Complete Guide",
@@ -8431,7 +8431,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -8528,7 +8528,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-stress-physically-affects-sleep",
     "slug": "how-stress-physically-affects-sleep",
     "title": "How Stress Physically Affects Sleep",
-    "metaTitle": "How Stress Physically Affects Sleep | PureSleep",
+    "metaTitle": "How Stress Physically Affects Sleep | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how stress physically affects sleep and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/how-stress-physically-affects-sleep",
     "ogTitle": "How Stress Physically Affects Sleep: A Complete Guide",
@@ -8541,7 +8541,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -8638,7 +8638,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-is-sleep-pressure-and-why-it-matters",
     "slug": "what-is-sleep-pressure-and-why-it-matters",
     "title": "What Is Sleep Pressure And Why It Matters",
-    "metaTitle": "What Is Sleep Pressure And Why It Matters | PureSleep",
+    "metaTitle": "What Is Sleep Pressure And Why It Matters | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what is sleep pressure and why it matters and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/what-is-sleep-pressure-and-why-it-matters",
     "ogTitle": "What Is Sleep Pressure And Why It Matters: A Complete Guide",
@@ -8651,11 +8651,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -8752,7 +8752,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-exercise-timing-affects-sleep",
     "slug": "how-exercise-timing-affects-sleep",
     "title": "How Exercise Timing Affects Sleep",
-    "metaTitle": "How Exercise Timing Affects Sleep | PureSleep",
+    "metaTitle": "How Exercise Timing Affects Sleep | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how exercise timing affects sleep and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-exercise-timing-affects-sleep",
     "ogTitle": "How Exercise Timing Affects Sleep: A Complete Guide",
@@ -8765,7 +8765,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -8863,7 +8863,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "why-you-sleep-worse-in-a-new-place",
     "slug": "why-you-sleep-worse-in-a-new-place",
     "title": "Why You Sleep Worse In A New Place",
-    "metaTitle": "Why You Sleep Worse In A New Place | PureSleep",
+    "metaTitle": "Why You Sleep Worse In A New Place | Mattress Inquirer",
     "metaDescription": "Why sleep is often worse in an unfamiliar place — the \"first-night effect,\" what causes it, and how to adjust faster.",
     "canonicalUrl": "/blog/why-you-sleep-worse-in-a-new-place",
     "ogTitle": "Why You Sleep Worse In A New Place: A Complete Guide",
@@ -8876,7 +8876,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -8955,7 +8955,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -8972,7 +8972,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-sleep-position-for-back-pain",
     "slug": "best-sleep-position-for-back-pain",
     "title": "Best Sleep Position For Back Pain",
-    "metaTitle": "Best Sleep Position For Back Pain | PureSleep",
+    "metaTitle": "Best Sleep Position For Back Pain | Mattress Inquirer",
     "metaDescription": "Side sleeping with a pillow between the knees or back sleeping with a pillow under the knees are commonly recommended for back discomfort — here's why.",
     "canonicalUrl": "/blog/best-sleep-position-for-back-pain",
     "ogTitle": "Best Sleep Position For Back Pain: A Complete Guide",
@@ -8985,11 +8985,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -9085,7 +9085,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-sleep-position-for-hip-pain",
     "slug": "best-sleep-position-for-hip-pain",
     "title": "Best Sleep Position For Hip Pain",
-    "metaTitle": "Best Sleep Position For Hip Pain | PureSleep",
+    "metaTitle": "Best Sleep Position For Hip Pain | Mattress Inquirer",
     "metaDescription": "Side sleeping on the less-affected hip with a pillow between the knees keeps the pelvis level and reduces pressure on the painful hip — here's why.",
     "canonicalUrl": "/blog/best-sleep-position-for-hip-pain",
     "ogTitle": "Best Sleep Position For Hip Pain: A Complete Guide",
@@ -9098,11 +9098,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -9199,7 +9199,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "best-sleep-position-for-digestion",
     "slug": "best-sleep-position-for-digestion",
     "title": "Best Sleep Position For Digestion",
-    "metaTitle": "Best Sleep Position For Digestion | PureSleep",
+    "metaTitle": "Best Sleep Position For Digestion | Mattress Inquirer",
     "metaDescription": "Left-side sleeping is commonly suggested to support digestion, and slight head elevation may help with nighttime acid reflux — general comfort guidance explained.",
     "canonicalUrl": "/blog/best-sleep-position-for-digestion",
     "ogTitle": "Best Sleep Position For Digestion: A Complete Guide",
@@ -9212,7 +9212,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -9308,7 +9308,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-stop-overheating-at-night",
     "slug": "how-to-stop-overheating-at-night",
     "title": "How To Stop Overheating At Night",
-    "metaTitle": "How To Stop Overheating At Night | PureSleep",
+    "metaTitle": "How To Stop Overheating At Night | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to stop overheating at night and why the Amerisleep AS6 is worth considering.",
     "canonicalUrl": "/blog/how-to-stop-overheating-at-night",
     "ogTitle": "How To Stop Overheating At Night: A Complete Guide",
@@ -9321,7 +9321,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -9401,7 +9401,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS6",
         "url": "https://amerisleep.com/mattresses/as6-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS6 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS6 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -9418,7 +9418,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "why-couples-sleep-better-apart",
     "slug": "why-couples-sleep-better-apart",
     "title": "Why Couples Sleep Better Apart",
-    "metaTitle": "Why Couples Sleep Better Apart | PureSleep",
+    "metaTitle": "Why Couples Sleep Better Apart | Mattress Inquirer",
     "metaDescription": "Why some couples sleep better in separate beds — the practical causes of shared-bed disruption and ways to fix it without splitting up.",
     "canonicalUrl": "/blog/why-couples-sleep-better-apart",
     "ogTitle": "Why Couples Sleep Better Apart: A Complete Guide",
@@ -9431,7 +9431,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -9510,7 +9510,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS6",
         "url": "https://amerisleep.com/mattresses/as6-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS6 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS6 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -9527,7 +9527,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-to-do-when-you-cannot-fall-asleep",
     "slug": "what-to-do-when-you-cannot-fall-asleep",
     "title": "What To Do When You Cannot Fall Asleep",
-    "metaTitle": "What To Do When You Cannot Fall Asleep | PureSleep",
+    "metaTitle": "What To Do When You Cannot Fall Asleep | Mattress Inquirer",
     "metaDescription": "What to do when you can't fall asleep — practical sleep hygiene steps, and when ongoing sleeplessness is worth discussing with a doctor.",
     "canonicalUrl": "/blog/what-to-do-when-you-cannot-fall-asleep",
     "ogTitle": "What To Do When You Cannot Fall Asleep: A Complete Guide",
@@ -9540,7 +9540,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -9619,7 +9619,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -9636,7 +9636,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-pregnancy-changes-sleep-position-needs",
     "slug": "how-pregnancy-changes-sleep-position-needs",
     "title": "How Pregnancy Changes Sleep Position Needs",
-    "metaTitle": "How Pregnancy Changes Sleep Position Needs | PureSleep",
+    "metaTitle": "How Pregnancy Changes Sleep Position Needs | Mattress Inquirer",
     "metaDescription": "Why side sleeping is commonly recommended during pregnancy, how pregnancy pillows help, and general comfort tips for a changing sleep position.",
     "canonicalUrl": "/blog/how-pregnancy-changes-sleep-position-needs",
     "ogTitle": "How Pregnancy Changes Sleep Position Needs: A Complete Guide",
@@ -9649,11 +9649,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -9733,7 +9733,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -9750,7 +9750,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-aging-changes-sleep-patterns",
     "slug": "how-aging-changes-sleep-patterns",
     "title": "How Aging Changes Sleep Patterns",
-    "metaTitle": "How Aging Changes Sleep Patterns | PureSleep",
+    "metaTitle": "How Aging Changes Sleep Patterns | Mattress Inquirer",
     "metaDescription": "How sleep architecture and timing normally change with age, what's expected versus what's worth a doctor's attention, and mattress considerations for older sleepers.",
     "canonicalUrl": "/blog/how-aging-changes-sleep-patterns",
     "ogTitle": "How Aging Changes Sleep Patterns: A Complete Guide",
@@ -9763,11 +9763,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -9846,7 +9846,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -9863,7 +9863,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "impact-of-sleep-quality-on-daily-life",
     "slug": "impact-of-sleep-quality-on-daily-life",
     "title": "Impact Of Sleep Quality On Daily Life",
-    "metaTitle": "Impact Of Sleep Quality On Daily Life | PureSleep",
+    "metaTitle": "Impact Of Sleep Quality On Daily Life | Mattress Inquirer",
     "metaDescription": "How consistent sleep quality is associated with daytime fatigue, focus, mood, and reaction time, based on general sleep research.",
     "canonicalUrl": "/blog/impact-of-sleep-quality-on-daily-life",
     "ogTitle": "Impact Of Sleep Quality On Daily Life: A Complete Guide",
@@ -9876,7 +9876,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -9955,7 +9955,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -9972,7 +9972,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "sleep-hygiene-checklist",
     "slug": "sleep-hygiene-checklist",
     "title": "Sleep Hygiene Checklist",
-    "metaTitle": "Sleep Hygiene Checklist | PureSleep",
+    "metaTitle": "Sleep Hygiene Checklist | Mattress Inquirer",
     "metaDescription": "A practical sleep hygiene checklist covering schedule consistency, bedroom environment, screens, caffeine and alcohol, exercise, and your mattress setup.",
     "canonicalUrl": "/blog/sleep-hygiene-checklist",
     "ogTitle": "Sleep Hygiene Checklist: A Complete Guide",
@@ -9985,7 +9985,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -10067,7 +10067,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -10084,7 +10084,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-clean-a-memory-foam-mattress",
     "slug": "how-to-clean-a-memory-foam-mattress",
     "title": "How To Clean A Memory Foam Mattress",
-    "metaTitle": "How To Clean A Memory Foam Mattress | PureSleep",
+    "metaTitle": "How To Clean A Memory Foam Mattress | Mattress Inquirer",
     "metaDescription": "Step-by-step instructions for cleaning a memory foam mattress safely, including stain removal, deodorizing with baking soda, and what to avoid.",
     "canonicalUrl": "/blog/how-to-clean-a-memory-foam-mattress",
     "ogTitle": "How To Clean A Memory Foam Mattress: A Complete Guide",
@@ -10097,7 +10097,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -10201,7 +10201,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Bamboo Mattress Protector",
         "url": "https://amerisleep.com/bedding/bamboo-mattress-protector.html",
-        "context": "PureSleep highlights the Amerisleep Bamboo Mattress Protector based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Bamboo Mattress Protector based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -10218,7 +10218,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-remove-stains-from-mattress",
     "slug": "how-to-remove-stains-from-mattress",
     "title": "How To Remove Stains From Mattress",
-    "metaTitle": "How To Remove Stains From Mattress | PureSleep",
+    "metaTitle": "How To Remove Stains From Mattress | Mattress Inquirer",
     "metaDescription": "How to remove mattress stains like blood, sweat, and urine without damaging memory foam, plus what cleaning products to use for each stain type.",
     "canonicalUrl": "/blog/how-to-remove-stains-from-mattress",
     "ogTitle": "How To Remove Stains From Mattress: A Complete Guide",
@@ -10231,7 +10231,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -10335,7 +10335,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Bamboo Mattress Protector",
         "url": "https://amerisleep.com/bedding/bamboo-mattress-protector.html",
-        "context": "PureSleep highlights the Amerisleep Bamboo Mattress Protector based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Bamboo Mattress Protector based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -10352,7 +10352,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-rotate-a-memory-foam-mattress",
     "slug": "how-to-rotate-a-memory-foam-mattress",
     "title": "How To Rotate A Memory Foam Mattress",
-    "metaTitle": "How To Rotate A Memory Foam Mattress | PureSleep",
+    "metaTitle": "How To Rotate A Memory Foam Mattress | Mattress Inquirer",
     "metaDescription": "How to rotate a memory foam mattress correctly, including how often to do it and why most foam mattresses should be rotated, not flipped.",
     "canonicalUrl": "/blog/how-to-rotate-a-memory-foam-mattress",
     "ogTitle": "How To Rotate A Memory Foam Mattress: A Complete Guide",
@@ -10365,7 +10365,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -10467,7 +10467,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -10484,7 +10484,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-break-in-a-new-memory-foam-mattress",
     "slug": "how-to-break-in-a-new-memory-foam-mattress",
     "title": "How To Break In A New Memory Foam Mattress",
-    "metaTitle": "How To Break In A New Memory Foam Mattress | PureSleep",
+    "metaTitle": "How To Break In A New Memory Foam Mattress | Mattress Inquirer",
     "metaDescription": "How to break in a new memory foam mattress, how long the adjustment period takes, and tips for helping the foam soften faster.",
     "canonicalUrl": "/blog/how-to-break-in-a-new-memory-foam-mattress",
     "ogTitle": "How To Break In A New Memory Foam Mattress: A Complete Guide",
@@ -10497,7 +10497,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -10599,7 +10599,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -10616,7 +10616,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-get-rid-of-mattress-odor",
     "slug": "how-to-get-rid-of-mattress-odor",
     "title": "How To Get Rid Of Mattress Odor",
-    "metaTitle": "How To Get Rid Of Mattress Odor | PureSleep",
+    "metaTitle": "How To Get Rid Of Mattress Odor | Mattress Inquirer",
     "metaDescription": "How to get rid of mattress odor using baking soda and proper ventilation, including tips for new-mattress off-gassing and stubborn smells.",
     "canonicalUrl": "/blog/how-to-get-rid-of-mattress-odor",
     "ogTitle": "How To Get Rid Of Mattress Odor: A Complete Guide",
@@ -10629,7 +10629,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -10732,7 +10732,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Bamboo Mattress Protector",
         "url": "https://amerisleep.com/bedding/bamboo-mattress-protector.html",
-        "context": "PureSleep highlights the Amerisleep Bamboo Mattress Protector based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Bamboo Mattress Protector based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -10749,7 +10749,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-dispose-of-an-old-mattress",
     "slug": "how-to-dispose-of-an-old-mattress",
     "title": "How To Dispose Of An Old Mattress",
-    "metaTitle": "How To Dispose Of An Old Mattress | PureSleep",
+    "metaTitle": "How To Dispose Of An Old Mattress | Mattress Inquirer",
     "metaDescription": "How to dispose of an old mattress responsibly, including recycling programs, donation options, and curbside bulk pickup.",
     "canonicalUrl": "/blog/how-to-dispose-of-an-old-mattress",
     "ogTitle": "How To Dispose Of An Old Mattress: A Complete Guide",
@@ -10762,7 +10762,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -10864,7 +10864,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -10881,7 +10881,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-know-when-to-replace-your-mattress",
     "slug": "how-to-know-when-to-replace-your-mattress",
     "title": "How To Know When To Replace Your Mattress",
-    "metaTitle": "How To Know When To Replace Your Mattress | PureSleep",
+    "metaTitle": "How To Know When To Replace Your Mattress | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to know when to replace your mattress and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-know-when-to-replace-your-mattress",
     "ogTitle": "How To Know When To Replace Your Mattress: A Complete Guide",
@@ -10894,7 +10894,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -10996,7 +10996,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "If you're replacing a sagging or aging mattress, the Amerisleep AS3 is one option worth comparing in PureSleep's published editorial scorecard."
+        "context": "If you're replacing a sagging or aging mattress, the Amerisleep AS3 is one option worth comparing in Mattress Inquirer's published editorial scorecard."
       }
     ],
     "productRefs": [
@@ -11013,7 +11013,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-use-a-mattress-topper-correctly",
     "slug": "how-to-use-a-mattress-topper-correctly",
     "title": "How To Use A Mattress Topper Correctly",
-    "metaTitle": "How To Use A Mattress Topper Correctly | PureSleep",
+    "metaTitle": "How To Use A Mattress Topper Correctly | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to use a mattress topper correctly and why the Amerisleep Lift Mattress Topper is worth considering.",
     "canonicalUrl": "/blog/how-to-use-a-mattress-topper-correctly",
     "ogTitle": "How To Use A Mattress Topper Correctly: A Complete Guide",
@@ -11026,7 +11026,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -11152,7 +11152,7 @@ const rawBlogPosts: BlogPost[] = [
     "slug": "how-to-evaluate-a-mattress-during-the-trial-period",
     "redirectTo": "/blog/how-to-evaluate-a-mattress-trial-period/",
     "title": "How To Evaluate A Mattress During The Trial Period",
-    "metaTitle": "How To Evaluate A Mattress During The Trial Period | PureSleep",
+    "metaTitle": "How To Evaluate A Mattress During The Trial Period | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to evaluate a mattress during the trial period and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-evaluate-a-mattress-during-the-trial-period",
     "ogTitle": "How To Evaluate A Mattress During The Trial Period: A Complete Guide",
@@ -11165,7 +11165,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -11190,7 +11190,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "heading": null,
         "headingLevel": null,
-        "content": "Many people wonder how to evaluate a mattress during the trial period and want to get the most out of their mattress. PureSleep's editorial team has organized this practical approach around seven consistent comparison fields. A well-engineered sleep surface should perform consistently across sleeper types. When the core materials lack density or proper engineering, the foam can give way and let the spine fall out of a more neutral alignment. Using this method can help you compare comfort and product condition consistently throughout the trial.",
+        "content": "Many people wonder how to evaluate a mattress during the trial period and want to get the most out of their mattress. Mattress Inquirer's editorial team has organized this practical approach around seven consistent comparison fields. A well-engineered sleep surface should perform consistently across sleeper types. When the core materials lack density or proper engineering, the foam can give way and let the spine fall out of a more neutral alignment. Using this method can help you compare comfort and product condition consistently throughout the trial.",
         "hasBulletList": false,
         "hasTable": false
       },
@@ -11218,7 +11218,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "heading": "Step 2: Precise Execution",
         "headingLevel": 3,
-        "content": "Position your items according to the manufacturer's recommendations. If you are working with memory foam, allow it time to decompress fully in a well-ventilated room. PureSleep's editorial framework compares mattresses across seven consistent fields, while your trial notes should record comfort and setup changes over time. This step matters for evaluating performance and long-term suitability.",
+        "content": "Position your items according to the manufacturer's recommendations. If you are working with memory foam, allow it time to decompress fully in a well-ventilated room. Mattress Inquirer's editorial framework compares mattresses across seven consistent fields, while your trial notes should record comfort and setup changes over time. This step matters for evaluating performance and long-term suitability.",
         "hasBulletList": false,
         "hasTable": false
       },
@@ -11266,7 +11266,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -11283,7 +11283,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-move-a-memory-foam-mattress",
     "slug": "how-to-move-a-memory-foam-mattress",
     "title": "How To Move A Memory Foam Mattress",
-    "metaTitle": "How To Move A Memory Foam Mattress | PureSleep",
+    "metaTitle": "How To Move A Memory Foam Mattress | Mattress Inquirer",
     "metaDescription": "How to move a memory foam mattress without damaging it, including how to protect, carry, and transport it safely.",
     "canonicalUrl": "/blog/how-to-move-a-memory-foam-mattress",
     "ogTitle": "How To Move A Memory Foam Mattress: A Complete Guide",
@@ -11296,7 +11296,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -11399,7 +11399,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -11416,7 +11416,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-set-up-an-adjustable-bed-base",
     "slug": "how-to-set-up-an-adjustable-bed-base",
     "title": "How To Set Up An Adjustable Bed Base",
-    "metaTitle": "How To Set Up An Adjustable Bed Base | PureSleep",
+    "metaTitle": "How To Set Up An Adjustable Bed Base | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to set up an adjustable bed base and why the Amerisleep Adjustable Bed+ is worth considering.",
     "canonicalUrl": "/blog/how-to-set-up-an-adjustable-bed-base",
     "ogTitle": "How To Set Up An Adjustable Bed Base: A Complete Guide",
@@ -11429,7 +11429,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -11554,7 +11554,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-set-up-zero-gravity-position",
     "slug": "how-to-set-up-zero-gravity-position",
     "title": "How To Set Up Zero Gravity Position",
-    "metaTitle": "How To Set Up Zero Gravity Position | PureSleep",
+    "metaTitle": "How To Set Up Zero Gravity Position | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to set up zero gravity position and why the Amerisleep Adjustable Bed+ is worth considering.",
     "canonicalUrl": "/blog/how-to-set-up-zero-gravity-position",
     "ogTitle": "How To Set Up Zero Gravity Position: A Complete Guide",
@@ -11567,7 +11567,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -11684,7 +11684,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-measure-your-bedroom-for-a-bed-frame",
     "slug": "how-to-measure-your-bedroom-for-a-bed-frame",
     "title": "How To Measure Your Bedroom For A Bed Frame",
-    "metaTitle": "How To Measure Your Bedroom For A Bed Frame | PureSleep",
+    "metaTitle": "How To Measure Your Bedroom For A Bed Frame | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to measure your bedroom for a bed frame and why the Amerisleep Platform Bed Frame is worth considering.",
     "canonicalUrl": "/blog/how-to-measure-your-bedroom-for-a-bed-frame",
     "ogTitle": "How To Measure Your Bedroom For A Bed Frame: A Complete Guide",
@@ -11697,7 +11697,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -11821,7 +11821,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-reduce-motion-transfer-in-a-shared-bed",
     "slug": "how-to-reduce-motion-transfer-in-a-shared-bed",
     "title": "How To Reduce Motion Transfer In A Shared Bed",
-    "metaTitle": "How To Reduce Motion Transfer In A Shared Bed | PureSleep",
+    "metaTitle": "How To Reduce Motion Transfer In A Shared Bed | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to reduce motion transfer in a shared bed and why the Amerisleep AS6 is worth considering.",
     "canonicalUrl": "/blog/how-to-reduce-motion-transfer-in-a-shared-bed",
     "ogTitle": "How To Reduce Motion Transfer In A Shared Bed: A Complete Guide",
@@ -11834,7 +11834,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -11936,7 +11936,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS6",
         "url": "https://amerisleep.com/mattresses/as6-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS6 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS6 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -11953,7 +11953,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-keep-your-mattress-cool-in-summer",
     "slug": "how-to-keep-your-mattress-cool-in-summer",
     "title": "How To Keep Your Mattress Cool In Summer",
-    "metaTitle": "How To Keep Your Mattress Cool In Summer | PureSleep",
+    "metaTitle": "How To Keep Your Mattress Cool In Summer | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to keep your mattress cool in summer and why the Amerisleep AS6 is worth considering.",
     "canonicalUrl": "/blog/how-to-keep-your-mattress-cool-in-summer",
     "ogTitle": "How To Keep Your Mattress Cool In Summer: A Complete Guide",
@@ -11966,7 +11966,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -12068,7 +12068,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS6",
         "url": "https://amerisleep.com/mattresses/as6-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS6 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS6 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -12085,7 +12085,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-layer-bedding-for-temperature-control",
     "slug": "how-to-layer-bedding-for-temperature-control",
     "title": "How To Layer Bedding For Temperature Control",
-    "metaTitle": "How To Layer Bedding For Temperature Control | PureSleep",
+    "metaTitle": "How To Layer Bedding For Temperature Control | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to layer bedding for temperature control and why the Amerisleep Recover+ Comforter is worth considering.",
     "canonicalUrl": "/blog/how-to-layer-bedding-for-temperature-control",
     "ogTitle": "How To Layer Bedding For Temperature Control: A Complete Guide",
@@ -12098,7 +12098,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -12200,7 +12200,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Recover+ Comforter",
         "url": "https://amerisleep.com/bedding/recover-comforter.html",
-        "context": "PureSleep highlights the Amerisleep Recover+ Comforter based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Recover+ Comforter based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -12217,7 +12217,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-set-up-a-bedroom-for-better-sleep",
     "slug": "how-to-set-up-a-bedroom-for-better-sleep",
     "title": "How To Set Up A Bedroom For Better Sleep",
-    "metaTitle": "How To Set Up A Bedroom For Better Sleep | PureSleep",
+    "metaTitle": "How To Set Up A Bedroom For Better Sleep | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to set up a bedroom for better sleep and why the Amerisleep Bamboo Sheets Set is worth considering.",
     "canonicalUrl": "/blog/how-to-set-up-a-bedroom-for-better-sleep",
     "ogTitle": "How To Set Up A Bedroom For Better Sleep: A Complete Guide",
@@ -12230,7 +12230,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -12332,7 +12332,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Bamboo Sheets Set",
         "url": "https://amerisleep.com/bedding/bamboo-sheets.html",
-        "context": "PureSleep highlights the Amerisleep Bamboo Sheets Set based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Bamboo Sheets Set based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -12349,7 +12349,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-make-a-guest-bedroom-sleep-comfortable",
     "slug": "how-to-make-a-guest-bedroom-sleep-comfortable",
     "title": "How To Make A Guest Bedroom Sleep Comfortable",
-    "metaTitle": "How To Make A Guest Bedroom Sleep Comfortable | PureSleep",
+    "metaTitle": "How To Make A Guest Bedroom Sleep Comfortable | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to make a guest bedroom sleep comfortable and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-make-a-guest-bedroom-sleep-comfortable",
     "ogTitle": "How To Make A Guest Bedroom Sleep Comfortable: A Complete Guide",
@@ -12362,7 +12362,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -12464,7 +12464,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -12481,7 +12481,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-choose-the-right-pillow-loft",
     "slug": "how-to-choose-the-right-pillow-loft",
     "title": "How To Choose The Right Pillow Loft",
-    "metaTitle": "How To Choose The Right Pillow Loft | PureSleep",
+    "metaTitle": "How To Choose The Right Pillow Loft | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to choose the right pillow loft and why the Amerisleep Flex Pillow is worth considering.",
     "canonicalUrl": "/blog/how-to-choose-the-right-pillow-loft",
     "ogTitle": "How To Choose The Right Pillow Loft: A Complete Guide",
@@ -12494,11 +12494,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -12600,7 +12600,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Flex Pillow",
         "url": "https://amerisleep.com/pillows/flex-pillow.html",
-        "context": "PureSleep highlights the Amerisleep Flex Pillow based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Flex Pillow based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -12617,7 +12617,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-wash-bamboo-sheets",
     "slug": "how-to-wash-bamboo-sheets",
     "title": "How To Wash Bamboo Sheets",
-    "metaTitle": "How To Wash Bamboo Sheets | PureSleep",
+    "metaTitle": "How To Wash Bamboo Sheets | Mattress Inquirer",
     "metaDescription": "How to wash bamboo sheets correctly, including the right water temperature, detergent choice, and drying tips to keep them soft.",
     "canonicalUrl": "/blog/how-to-wash-bamboo-sheets",
     "ogTitle": "How To Wash Bamboo Sheets: A Complete Guide",
@@ -12630,7 +12630,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -12732,7 +12732,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Bamboo Sheets Set",
         "url": "https://amerisleep.com/bedding/bamboo-sheets.html",
-        "context": "PureSleep highlights the Amerisleep Bamboo Sheets Set based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Bamboo Sheets Set based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -12749,7 +12749,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-sleep-with-lower-back-pain-tonight",
     "slug": "how-to-sleep-with-lower-back-pain-tonight",
     "title": "How To Sleep With Lower Back Pain Tonight",
-    "metaTitle": "How To Sleep With Lower Back Pain Tonight | PureSleep",
+    "metaTitle": "How To Sleep With Lower Back Pain Tonight | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to sleep with lower back pain tonight and why the Amerisleep AS2 is worth considering.",
     "canonicalUrl": "/blog/how-to-sleep-with-lower-back-pain-tonight",
     "ogTitle": "How To Sleep With Lower Back Pain Tonight: A Complete Guide",
@@ -12762,11 +12762,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -12853,7 +12853,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS2",
         "url": "https://amerisleep.com/mattresses/as2-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS2 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS2 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -12870,7 +12870,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-sleep-with-sciatica",
     "slug": "how-to-sleep-with-sciatica",
     "title": "How To Sleep With Sciatica",
-    "metaTitle": "How To Sleep With Sciatica | PureSleep",
+    "metaTitle": "How To Sleep With Sciatica | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to sleep with sciatica and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/how-to-sleep-with-sciatica",
     "ogTitle": "How To Sleep With Sciatica: A Complete Guide",
@@ -12883,11 +12883,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -12974,7 +12974,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -12991,7 +12991,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-stop-waking-up-with-neck-pain",
     "slug": "how-to-stop-waking-up-with-neck-pain",
     "title": "How To Stop Waking Up With Neck Pain",
-    "metaTitle": "How To Stop Waking Up With Neck Pain | PureSleep",
+    "metaTitle": "How To Stop Waking Up With Neck Pain | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to stop waking up with neck pain and why the Amerisleep Flex Pillow is worth considering.",
     "canonicalUrl": "/blog/how-to-stop-waking-up-with-neck-pain",
     "ogTitle": "How To Stop Waking Up With Neck Pain: A Complete Guide",
@@ -13004,11 +13004,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -13095,7 +13095,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Flex Pillow",
         "url": "https://amerisleep.com/pillows/flex-pillow.html",
-        "context": "PureSleep highlights the Amerisleep Flex Pillow based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Flex Pillow based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -13112,7 +13112,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-sleep-on-your-back-if-you-are-a-side-sleeper",
     "slug": "how-to-sleep-on-your-back-if-you-are-a-side-sleeper",
     "title": "How To Sleep On Your Back If You Are A Side Sleeper",
-    "metaTitle": "How To Sleep On Your Back If You Are A Side Sleeper | PureSleep",
+    "metaTitle": "How To Sleep On Your Back If You Are A Side Sleeper | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to sleep on your back if you are a side sleeper and why the Amerisleep AS2 is worth considering.",
     "canonicalUrl": "/blog/how-to-sleep-on-your-back-if-you-are-a-side-sleeper",
     "ogTitle": "How To Sleep On Your Back If You Are A Side Sleeper: A Complete Guide",
@@ -13125,11 +13125,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -13231,7 +13231,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS2",
         "url": "https://amerisleep.com/mattresses/as2-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS2 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS2 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -13248,7 +13248,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-sleep-better-with-chronic-pain",
     "slug": "how-to-sleep-better-with-chronic-pain",
     "title": "How To Sleep Better With Chronic Pain",
-    "metaTitle": "How To Sleep Better With Chronic Pain | PureSleep",
+    "metaTitle": "How To Sleep Better With Chronic Pain | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to sleep better with chronic pain and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/how-to-sleep-better-with-chronic-pain",
     "ogTitle": "How To Sleep Better With Chronic Pain: A Complete Guide",
@@ -13261,11 +13261,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -13352,7 +13352,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -13369,7 +13369,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-sleep-comfortably-during-pregnancy",
     "slug": "how-to-sleep-comfortably-during-pregnancy",
     "title": "How To Sleep Comfortably During Pregnancy",
-    "metaTitle": "How To Sleep Comfortably During Pregnancy | PureSleep",
+    "metaTitle": "How To Sleep Comfortably During Pregnancy | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to sleep comfortably during pregnancy and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/how-to-sleep-comfortably-during-pregnancy",
     "ogTitle": "How To Sleep Comfortably During Pregnancy: A Complete Guide",
@@ -13382,11 +13382,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -13473,7 +13473,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -13490,7 +13490,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-reduce-snoring-with-sleep-setup",
     "slug": "how-to-reduce-snoring-with-sleep-setup",
     "title": "How To Reduce Snoring With Sleep Setup",
-    "metaTitle": "How To Reduce Snoring With Sleep Setup | PureSleep",
+    "metaTitle": "How To Reduce Snoring With Sleep Setup | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to reduce snoring with sleep setup and why the Amerisleep Adjustable Bed+ is worth considering.",
     "canonicalUrl": "/blog/how-to-reduce-snoring-with-sleep-setup",
     "ogTitle": "How To Reduce Snoring With Sleep Setup: A Complete Guide",
@@ -13503,7 +13503,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -13605,7 +13605,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Adjustable Bed+",
         "url": "https://amerisleep.com/adjustable-beds/adjustable-bed-plus.html",
-        "context": "PureSleep highlights the Amerisleep Adjustable Bed+ based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Adjustable Bed+ based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -13622,7 +13622,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-sleep-better-when-sharing-a-bed",
     "slug": "how-to-sleep-better-when-sharing-a-bed",
     "title": "How To Sleep Better When Sharing A Bed",
-    "metaTitle": "How To Sleep Better When Sharing A Bed | PureSleep",
+    "metaTitle": "How To Sleep Better When Sharing A Bed | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to sleep better when sharing a bed and why the Amerisleep AS6 is worth considering.",
     "canonicalUrl": "/blog/how-to-sleep-better-when-sharing-a-bed",
     "ogTitle": "How To Sleep Better When Sharing A Bed: A Complete Guide",
@@ -13635,7 +13635,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -13737,7 +13737,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS6",
         "url": "https://amerisleep.com/mattresses/as6-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS6 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS6 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -13754,7 +13754,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-sleep-with-fibromyalgia",
     "slug": "how-to-sleep-with-fibromyalgia",
     "title": "How To Sleep With Fibromyalgia",
-    "metaTitle": "How To Sleep With Fibromyalgia | PureSleep",
+    "metaTitle": "How To Sleep With Fibromyalgia | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to sleep with fibromyalgia and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/how-to-sleep-with-fibromyalgia",
     "ogTitle": "How To Sleep With Fibromyalgia: A Complete Guide",
@@ -13767,11 +13767,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -13858,7 +13858,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -13875,7 +13875,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-sleep-with-arthritis",
     "slug": "how-to-sleep-with-arthritis",
     "title": "How To Sleep With Arthritis",
-    "metaTitle": "How To Sleep With Arthritis | PureSleep",
+    "metaTitle": "How To Sleep With Arthritis | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to sleep with arthritis and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/how-to-sleep-with-arthritis",
     "ogTitle": "How To Sleep With Arthritis: A Complete Guide",
@@ -13888,11 +13888,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -13979,7 +13979,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -13996,7 +13996,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-build-a-sleep-routine-that-works",
     "slug": "how-to-build-a-sleep-routine-that-works",
     "title": "How To Build A Sleep Routine That Works",
-    "metaTitle": "How To Build A Sleep Routine That Works | PureSleep",
+    "metaTitle": "How To Build A Sleep Routine That Works | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to build a sleep routine that works and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-build-a-sleep-routine-that-works",
     "ogTitle": "How To Build A Sleep Routine That Works: A Complete Guide",
@@ -14009,7 +14009,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -14111,7 +14111,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -14128,7 +14128,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-create-a-wind-down-routine",
     "slug": "how-to-create-a-wind-down-routine",
     "title": "How To Create A Wind Down Routine",
-    "metaTitle": "How To Create A Wind Down Routine | PureSleep",
+    "metaTitle": "How To Create A Wind Down Routine | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to create a wind down routine and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-create-a-wind-down-routine",
     "ogTitle": "How To Create A Wind Down Routine: A Complete Guide",
@@ -14141,7 +14141,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -14243,7 +14243,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -14260,7 +14260,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-improve-sleep-quality-without-medication",
     "slug": "how-to-improve-sleep-quality-without-medication",
     "title": "How To Improve Sleep Quality Without Medication",
-    "metaTitle": "How To Improve Sleep Quality Without Medication | PureSleep",
+    "metaTitle": "How To Improve Sleep Quality Without Medication | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to improve sleep quality without medication and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-improve-sleep-quality-without-medication",
     "ogTitle": "How To Improve Sleep Quality Without Medication: A Complete Guide",
@@ -14273,7 +14273,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -14367,7 +14367,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -14384,7 +14384,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-evaluate-a-mattress-trial-period",
     "slug": "how-to-evaluate-a-mattress-trial-period",
     "title": "How To Evaluate A Mattress Trial Period",
-    "metaTitle": "How To Evaluate A Mattress Trial Period | PureSleep",
+    "metaTitle": "How To Evaluate A Mattress Trial Period | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to evaluate a mattress trial period and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-evaluate-a-mattress-trial-period",
     "ogTitle": "How To Evaluate A Mattress Trial Period: A Complete Guide",
@@ -14397,7 +14397,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -14521,7 +14521,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-test-a-mattress-in-a-store",
     "slug": "how-to-test-a-mattress-in-a-store",
     "title": "How To Test A Mattress In A Store",
-    "metaTitle": "How To Test A Mattress In A Store | PureSleep",
+    "metaTitle": "How To Test A Mattress In A Store | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to test a mattress in a store and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-test-a-mattress-in-a-store",
     "ogTitle": "How To Test A Mattress In A Store: A Complete Guide",
@@ -14534,7 +14534,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -14658,7 +14658,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-choose-between-two-mattresses",
     "slug": "how-to-choose-between-two-mattresses",
     "title": "How To Choose Between Two Mattresses",
-    "metaTitle": "How To Choose Between Two Mattresses | PureSleep",
+    "metaTitle": "How To Choose Between Two Mattresses | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to choose between two mattresses and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-choose-between-two-mattresses",
     "ogTitle": "How To Choose Between Two Mattresses: A Complete Guide",
@@ -14671,7 +14671,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -14790,7 +14790,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-make-a-hotel-bed-more-comfortable",
     "slug": "how-to-make-a-hotel-bed-more-comfortable",
     "title": "How To Make A Hotel Bed More Comfortable",
-    "metaTitle": "How To Make A Hotel Bed More Comfortable | PureSleep",
+    "metaTitle": "How To Make A Hotel Bed More Comfortable | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to make a hotel bed more comfortable and why the Amerisleep Flex Pillow is worth considering.",
     "canonicalUrl": "/blog/how-to-make-a-hotel-bed-more-comfortable",
     "ogTitle": "How To Make A Hotel Bed More Comfortable: A Complete Guide",
@@ -14803,7 +14803,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -14905,7 +14905,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Flex Pillow",
         "url": "https://amerisleep.com/pillows/flex-pillow.html",
-        "context": "PureSleep highlights the Amerisleep Flex Pillow based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Flex Pillow based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -14922,7 +14922,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-stop-overheating-mid-sleep",
     "slug": "how-to-stop-overheating-mid-sleep",
     "title": "How To Stop Overheating Mid Sleep",
-    "metaTitle": "How To Stop Overheating Mid Sleep | PureSleep",
+    "metaTitle": "How To Stop Overheating Mid Sleep | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to stop overheating mid sleep and why the Amerisleep AS6 is worth considering.",
     "canonicalUrl": "/blog/how-to-stop-overheating-mid-sleep",
     "ogTitle": "How To Stop Overheating Mid Sleep: A Complete Guide",
@@ -14935,7 +14935,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -15037,7 +15037,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS6",
         "url": "https://amerisleep.com/mattresses/as6-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS6 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS6 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -15054,7 +15054,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-layer-a-bed-for-cold-sleepers",
     "slug": "how-to-layer-a-bed-for-cold-sleepers",
     "title": "How To Layer A Bed For Cold Sleepers",
-    "metaTitle": "How To Layer A Bed For Cold Sleepers | PureSleep",
+    "metaTitle": "How To Layer A Bed For Cold Sleepers | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to layer a bed for cold sleepers and why the Amerisleep Recover+ Comforter is worth considering.",
     "canonicalUrl": "/blog/how-to-layer-a-bed-for-cold-sleepers",
     "ogTitle": "How To Layer A Bed For Cold Sleepers: A Complete Guide",
@@ -15067,7 +15067,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -15169,7 +15169,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Recover+ Comforter",
         "url": "https://amerisleep.com/bedding/recover-comforter.html",
-        "context": "PureSleep highlights the Amerisleep Recover+ Comforter based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Recover+ Comforter based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -15186,7 +15186,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-dispose-of-old-bedding-responsibly",
     "slug": "how-to-dispose-of-old-bedding-responsibly",
     "title": "How To Dispose Of Old Bedding Responsibly",
-    "metaTitle": "How To Dispose Of Old Bedding Responsibly | PureSleep",
+    "metaTitle": "How To Dispose Of Old Bedding Responsibly | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to dispose of old bedding responsibly and why the Amerisleep Bamboo Sheets Set is worth considering.",
     "canonicalUrl": "/blog/how-to-dispose-of-old-bedding-responsibly",
     "ogTitle": "How To Dispose Of Old Bedding Responsibly: A Complete Guide",
@@ -15199,7 +15199,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -15301,7 +15301,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Bamboo Sheets Set",
         "url": "https://amerisleep.com/bedding/bamboo-sheets.html",
-        "context": "PureSleep highlights the Amerisleep Bamboo Sheets Set based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Bamboo Sheets Set based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -15318,7 +15318,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-to-ask-before-buying-a-mattress-online",
     "slug": "what-to-ask-before-buying-a-mattress-online",
     "title": "What To Ask Before Buying A Mattress Online",
-    "metaTitle": "What To Ask Before Buying A Mattress Online | PureSleep",
+    "metaTitle": "What To Ask Before Buying A Mattress Online | Mattress Inquirer",
     "metaDescription": "The key questions to ask before buying a mattress online — trial length, return shipping, warranty terms, real material specs, and delivery options.",
     "canonicalUrl": "/blog/what-to-ask-before-buying-a-mattress-online",
     "ogTitle": "What To Ask Before Buying A Mattress Online: A Complete Guide",
@@ -15331,7 +15331,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -15447,7 +15447,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "mattress-buying-guide-for-first-time-buyers",
     "slug": "mattress-buying-guide-for-first-time-buyers",
     "title": "Mattress Buying Guide For First Time Buyers",
-    "metaTitle": "Mattress Buying Guide For First Time Buyers | PureSleep",
+    "metaTitle": "Mattress Buying Guide For First Time Buyers | Mattress Inquirer",
     "metaDescription": "A beginner-friendly framework for buying your first mattress — sleep position, budget, material type, and how to actually use the trial period.",
     "canonicalUrl": "/blog/mattress-buying-guide-for-first-time-buyers",
     "ogTitle": "Mattress Buying Guide For First Time Buyers: A Complete Guide",
@@ -15460,7 +15460,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -15576,7 +15576,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-the-100-night-trial-actually-covers",
     "slug": "what-the-100-night-trial-actually-covers",
     "title": "What The 100 Night Trial Actually Covers",
-    "metaTitle": "What The 100 Night Trial Actually Covers | PureSleep",
+    "metaTitle": "What The 100 Night Trial Actually Covers | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what the 100 night trial actually covers and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/what-the-100-night-trial-actually-covers",
     "ogTitle": "What The 100 Night Trial Actually Covers: A Complete Guide",
@@ -15589,7 +15589,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -15687,7 +15687,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "the-truth-about-mattress-warranties",
     "slug": "the-truth-about-mattress-warranties",
     "title": "The Truth About Mattress Warranties",
-    "metaTitle": "The Truth About Mattress Warranties | PureSleep",
+    "metaTitle": "The Truth About Mattress Warranties | Mattress Inquirer",
     "metaDescription": "A practical breakdown of the truth about mattress warranties and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/the-truth-about-mattress-warranties",
     "ogTitle": "The Truth About Mattress Warranties: A Complete Guide",
@@ -15700,7 +15700,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -15798,7 +15798,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-know-if-a-mattress-is-worth-the-price",
     "slug": "how-to-know-if-a-mattress-is-worth-the-price",
     "title": "How To Know If A Mattress Is Worth The Price",
-    "metaTitle": "How To Know If A Mattress Is Worth The Price | PureSleep",
+    "metaTitle": "How To Know If A Mattress Is Worth The Price | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to know if a mattress is worth the price and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-know-if-a-mattress-is-worth-the-price",
     "ogTitle": "How To Know If A Mattress Is Worth The Price: A Complete Guide",
@@ -15811,7 +15811,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -15908,7 +15908,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "why-mattress-firmness-ratings-are-inconsistent",
     "slug": "why-mattress-firmness-ratings-are-inconsistent",
     "title": "Why Mattress Firmness Ratings Are Inconsistent",
-    "metaTitle": "Why Mattress Firmness Ratings Are Inconsistent | PureSleep",
+    "metaTitle": "Why Mattress Firmness Ratings Are Inconsistent | Mattress Inquirer",
     "metaDescription": "A practical breakdown of why mattress firmness ratings are inconsistent and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/why-mattress-firmness-ratings-are-inconsistent",
     "ogTitle": "Why Mattress Firmness Ratings Are Inconsistent: A Complete Guide",
@@ -15921,7 +15921,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -16018,7 +16018,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-body-weight-affects-mattress-firmness-feel",
     "slug": "how-body-weight-affects-mattress-firmness-feel",
     "title": "How Body Weight Affects Mattress Firmness Feel",
-    "metaTitle": "How Body Weight Affects Mattress Firmness Feel | PureSleep",
+    "metaTitle": "How Body Weight Affects Mattress Firmness Feel | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how body weight affects mattress firmness feel and why the Amerisleep AS2 is worth considering.",
     "canonicalUrl": "/blog/how-body-weight-affects-mattress-firmness-feel",
     "ogTitle": "How Body Weight Affects Mattress Firmness Feel: A Complete Guide",
@@ -16031,7 +16031,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -16128,7 +16128,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-mattress-certifications-actually-mean",
     "slug": "what-mattress-certifications-actually-mean",
     "title": "What Mattress Certifications Actually Mean",
-    "metaTitle": "What Mattress Certifications Actually Mean | PureSleep",
+    "metaTitle": "What Mattress Certifications Actually Mean | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what mattress certifications actually mean and why the Amerisleep Organica is worth considering.",
     "canonicalUrl": "/blog/what-mattress-certifications-actually-mean",
     "ogTitle": "What Mattress Certifications Actually Mean: A Complete Guide",
@@ -16141,7 +16141,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -16239,7 +16239,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-read-a-mattress-spec-sheet",
     "slug": "how-to-read-a-mattress-spec-sheet",
     "title": "How To Read A Mattress Spec Sheet",
-    "metaTitle": "How To Read A Mattress Spec Sheet | PureSleep",
+    "metaTitle": "How To Read A Mattress Spec Sheet | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how to read a mattress spec sheet and why the Amerisleep AS3 is worth considering.",
     "canonicalUrl": "/blog/how-to-read-a-mattress-spec-sheet",
     "ogTitle": "How To Read A Mattress Spec Sheet: A Complete Guide",
@@ -16252,7 +16252,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -16350,7 +16350,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "memory-foam-contouring-explained",
     "slug": "memory-foam-contouring-explained",
     "title": "Memory Foam Contouring Explained",
-    "metaTitle": "Memory Foam Contouring Explained | PureSleep",
+    "metaTitle": "Memory Foam Contouring Explained | Mattress Inquirer",
     "metaDescription": "A practical breakdown of memory foam contouring explained and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/memory-foam-contouring-explained",
     "ogTitle": "Memory Foam Contouring Explained: A Complete Guide",
@@ -16363,7 +16363,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -16461,7 +16461,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-sleep-deprivation-affects-the-body",
     "slug": "how-sleep-deprivation-affects-the-body",
     "title": "How Sleep Deprivation Affects The Body",
-    "metaTitle": "How Sleep Deprivation Affects The Body | PureSleep",
+    "metaTitle": "How Sleep Deprivation Affects The Body | Mattress Inquirer",
     "metaDescription": "How insufficient sleep is associated with attention, mood, immune function, and appetite changes, based on general sleep science.",
     "canonicalUrl": "/blog/how-sleep-deprivation-affects-the-body",
     "ogTitle": "How Sleep Deprivation Affects The Body: A Complete Guide",
@@ -16474,7 +16474,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -16553,7 +16553,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -16570,7 +16570,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-cortisol-affects-sleep",
     "slug": "how-cortisol-affects-sleep",
     "title": "How Cortisol Affects Sleep",
-    "metaTitle": "How Cortisol Affects Sleep | PureSleep",
+    "metaTitle": "How Cortisol Affects Sleep | Mattress Inquirer",
     "metaDescription": "How cortisol's natural daily rhythm relates to sleep, how chronic stress disrupts it, and when persistent disruption is worth a doctor's attention.",
     "canonicalUrl": "/blog/how-cortisol-affects-sleep",
     "ogTitle": "How Cortisol Affects Sleep: A Complete Guide",
@@ -16583,7 +16583,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -16662,7 +16662,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -16679,7 +16679,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-sleep-apnea-is-and-how-sleep-setup-helps",
     "slug": "what-sleep-apnea-is-and-how-sleep-setup-helps",
     "title": "What Sleep Apnea Is And How Sleep Setup Helps",
-    "metaTitle": "What Sleep Apnea Is And How Sleep Setup Helps | PureSleep",
+    "metaTitle": "What Sleep Apnea Is And How Sleep Setup Helps | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what sleep apnea is and how sleep setup helps and why the Amerisleep Adjustable Bed+ is worth considering.",
     "canonicalUrl": "/blog/what-sleep-apnea-is-and-how-sleep-setup-helps",
     "ogTitle": "What Sleep Apnea Is And How Sleep Setup Helps: A Complete Guide",
@@ -16692,7 +16692,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -16774,7 +16774,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Adjustable Bed+",
         "url": "https://amerisleep.com/adjustable-beds/adjustable-bed-plus.html",
-        "context": "PureSleep highlights the Amerisleep Adjustable Bed+ based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Adjustable Bed+ based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -16791,7 +16791,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-sciatica-originates-and-what-sleep-does",
     "slug": "how-sciatica-originates-and-what-sleep-does",
     "title": "How Sciatica Originates And What Sleep Does",
-    "metaTitle": "How Sciatica Originates And What Sleep Does | PureSleep",
+    "metaTitle": "How Sciatica Originates And What Sleep Does | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how sciatica originates and what sleep does and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/how-sciatica-originates-and-what-sleep-does",
     "ogTitle": "How Sciatica Originates And What Sleep Does: A Complete Guide",
@@ -16804,11 +16804,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -16890,7 +16890,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -16907,7 +16907,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-is-fibromyalgia-and-how-it-affects-sleep",
     "slug": "what-is-fibromyalgia-and-how-it-affects-sleep",
     "title": "What Is Fibromyalgia And How It Affects Sleep",
-    "metaTitle": "What Is Fibromyalgia And How It Affects Sleep | PureSleep",
+    "metaTitle": "What Is Fibromyalgia And How It Affects Sleep | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what is fibromyalgia and how it affects sleep and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/what-is-fibromyalgia-and-how-it-affects-sleep",
     "ogTitle": "What Is Fibromyalgia And How It Affects Sleep: A Complete Guide",
@@ -16920,11 +16920,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -17004,7 +17004,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -17021,7 +17021,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-chronic-pain-changes-sleep-architecture",
     "slug": "how-chronic-pain-changes-sleep-architecture",
     "title": "How Chronic Pain Changes Sleep Architecture",
-    "metaTitle": "How Chronic Pain Changes Sleep Architecture | PureSleep",
+    "metaTitle": "How Chronic Pain Changes Sleep Architecture | Mattress Inquirer",
     "metaDescription": "A practical breakdown of how chronic pain changes sleep architecture and why the Amerisleep AS5 is worth considering.",
     "canonicalUrl": "/blog/how-chronic-pain-changes-sleep-architecture",
     "ogTitle": "How Chronic Pain Changes Sleep Architecture: A Complete Guide",
@@ -17034,11 +17034,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -17118,7 +17118,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS5",
         "url": "https://amerisleep.com/mattresses/as5-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS5 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS5 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -17135,7 +17135,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "zero-gravity-sleep-position-explained",
     "slug": "zero-gravity-sleep-position-explained",
     "title": "Zero Gravity Sleep Position Explained",
-    "metaTitle": "Zero Gravity Sleep Position Explained | PureSleep",
+    "metaTitle": "Zero Gravity Sleep Position Explained | Mattress Inquirer",
     "metaDescription": "A practical breakdown of zero gravity sleep position explained and why the Amerisleep Adjustable Bed+ is worth considering.",
     "canonicalUrl": "/blog/zero-gravity-sleep-position-explained",
     "ogTitle": "Zero Gravity Sleep Position Explained: A Complete Guide",
@@ -17148,7 +17148,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -17229,7 +17229,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Adjustable Bed+",
         "url": "https://amerisleep.com/adjustable-beds/adjustable-bed-plus.html",
-        "context": "PureSleep highlights the Amerisleep Adjustable Bed+ based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Adjustable Bed+ based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -17246,7 +17246,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "what-spinal-decompression-during-sleep-means",
     "slug": "what-spinal-decompression-during-sleep-means",
     "title": "What Spinal Decompression During Sleep Means",
-    "metaTitle": "What Spinal Decompression During Sleep Means | PureSleep",
+    "metaTitle": "What Spinal Decompression During Sleep Means | Mattress Inquirer",
     "metaDescription": "A practical breakdown of what spinal decompression during sleep means and why the Amerisleep Adjustable Bed+ is worth considering.",
     "canonicalUrl": "/blog/what-spinal-decompression-during-sleep-means",
     "ogTitle": "What Spinal Decompression During Sleep Means: A Complete Guide",
@@ -17259,11 +17259,11 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "role": "Mattress Review Editors",
       "url": "/methodology/"
     },
@@ -17344,7 +17344,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep Adjustable Bed+",
         "url": "https://amerisleep.com/adjustable-beds/adjustable-bed-plus.html",
-        "context": "PureSleep highlights the Amerisleep Adjustable Bed+ based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep Adjustable Bed+ based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -17361,7 +17361,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-sleep-affects-immune-function",
     "slug": "how-sleep-affects-immune-function",
     "title": "How Sleep Affects Immune Function",
-    "metaTitle": "How Sleep Affects Immune Function | PureSleep",
+    "metaTitle": "How Sleep Affects Immune Function | Mattress Inquirer",
     "metaDescription": "How sleep is associated with immune system regulation, based on general sleep research — and why this is not medical advice.",
     "canonicalUrl": "/blog/how-sleep-affects-immune-function",
     "ogTitle": "How Sleep Affects Immune Function: A Complete Guide",
@@ -17374,7 +17374,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -17453,7 +17453,7 @@ const rawBlogPosts: BlogPost[] = [
       {
         "anchorText": "Amerisleep AS3",
         "url": "https://amerisleep.com/mattresses/as3-memory-foam-mattress.html",
-        "context": "PureSleep highlights the Amerisleep AS3 based on its score and fit for this topic."
+        "context": "Mattress Inquirer highlights the Amerisleep AS3 based on its score and fit for this topic."
       }
     ],
     "productRefs": [
@@ -17470,7 +17470,7 @@ const rawBlogPosts: BlogPost[] = [
     "id": "how-to-choose-the-right-amerisleep-mattress",
     "slug": "how-to-choose-the-right-amerisleep-mattress",
     "title": "How To Choose The Right Amerisleep Mattress",
-    "metaTitle": "How To Choose The Right Amerisleep Mattress | PureSleep",
+    "metaTitle": "How To Choose The Right Amerisleep Mattress | Mattress Inquirer",
     "metaDescription": "How to pick the right Amerisleep model — AS2, AS3, AS5, or AS6 — based on real firmness, scores, and what each is actually built for.",
     "canonicalUrl": "/blog/how-to-choose-the-right-amerisleep-mattress",
     "ogTitle": "How To Choose The Right Amerisleep Mattress: A Complete Guide",
@@ -17483,7 +17483,7 @@ const rawBlogPosts: BlogPost[] = [
       "mattress-tips"
     ],
     "author": {
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": "/about/"
     },
     "reviewedBy": null,
@@ -17590,7 +17590,7 @@ const rawBlogPosts: BlogPost[] = [
 export const blogPosts: BlogPost[] = rawBlogPosts.map(post => ({
   ...post,
   author: {
-    name: 'PureSleep Editorial Team',
+    name: 'Mattress Inquirer Editorial Team',
     url: '/about/',
   },
   reviewedBy: null,

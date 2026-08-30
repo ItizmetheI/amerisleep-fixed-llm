@@ -1,8 +1,16 @@
 # Domain migration checklist
 
-`puresleep.com` is taken and currently serves a different Shopify store. The
-PureSleep build therefore uses the Cloudflare Workers preview origin
-`finalize.ahmedbarkat1067.workers.dev` until a production domain is confirmed.
+`mattressinquirer.com` is NOT available. Checked 2026-08-27: it resolves and
+serves an established third-party mattress review publication ("Mattress
+Inquirer", WordPress, articles dating to 2020 and updated through mid-2025).
+Do not assume it can be acquired or that the brand name is clear to use.
+
+The previously considered `puresleep.com` is likewise taken and serves an
+unrelated Shopify store.
+
+The Mattress Inquirer build therefore uses the Cloudflare Workers preview origin
+`mattressinquirer.ahmedbarkat1067.workers.dev` until a production domain is
+confirmed and its availability plus trademark position are cleared.
 
 ## Automatic — zero manual edits needed
 
@@ -47,7 +55,7 @@ approval. See `.env.example` for the full variable reference.
    legacy support address has been removed from the site. Until
    `PUBLIC_CONTACT_EMAIL` is set, About and Privacy state plainly that no public
    contact is published yet.
-3. If the final domain changes the PureSleep brand name, treat that as a full
+3. If the final domain changes the Mattress Inquirer brand name, treat that as a full
    entity and metadata migration rather than a domain-only cutover.
 
 ## Separate ops items, not code

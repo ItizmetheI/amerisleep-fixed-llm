@@ -14,7 +14,7 @@ export function getStaticPaths() {
 
 const { mattress } = Astro.props;
 
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 const canonicalUrl = `${SITE_URL}/reviews/${mattress.id}/`;
 const absoluteHeroImage = mattress.heroImage.startsWith('http') ? mattress.heroImage : `${SITE_URL}${mattress.heroImage}`;
 const productId = `${canonicalUrl}#product`;
@@ -49,7 +49,7 @@ const reviewArticleBody = toArticleBody(
     `${index + 1}. ${layer.name} (${layer.thickness}). ${layer.material}. ${layer.description}`
   ),
   'How This Review Is Scored',
-  `This review uses PureSleep's locked seven-metric editorial scorecard: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. Scores are editorial comparisons, not clinical findings, laboratory measurements, manufacturer ratings, or collected customer ratings. ${EDITORIAL_INDEPENDENCE_DISCLOSURE} ${LINK_DISCLOSURE}`,
+  `This review uses Mattress Inquirer's locked seven-metric editorial scorecard: Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. Scores are editorial comparisons, not clinical findings, laboratory measurements, manufacturer ratings, or collected customer ratings. ${EDITORIAL_INDEPENDENCE_DISCLOSURE} ${LINK_DISCLOSURE}`,
   'Frequently Asked Questions',
   mattress.faqs.map((faq: any) => [`Question: ${faq.question}`, `Answer: ${faq.answer}`]),
   'Our Verdict',
@@ -73,7 +73,7 @@ const jsonLd = [
     "author": {
       "@type": "Organization",
       "@id": `${SITE_URL}/about/#editorial-team`,
-      "name": "PureSleep Editorial Team",
+      "name": "Mattress Inquirer Editorial Team",
       "url": `${SITE_URL}/about/#editorial-team`
     },
     "dateModified": mattress.dateModified,
@@ -81,16 +81,16 @@ const jsonLd = [
     "publisher": {
       "@type": "Organization",
       "@id": `${SITE_URL}/#organization`,
-      "name": "PureSleep",
+      "name": "Mattress Inquirer",
       "url": SITE_URL
     },
     "image": absoluteHeroImage,
     "mainEntityOfPage": canonicalUrl,
     "mainEntity": { "@id": productId },
-    "isPartOf": { "@type": "CollectionPage", "name": "PureSleep Reviews", "url": `${SITE_URL}/reviews/` },
+    "isPartOf": { "@type": "CollectionPage", "name": "Mattress Inquirer Reviews", "url": `${SITE_URL}/reviews/` },
     "about": [
       { "@id": productId },
-      { "@type": "Article", "name": "PureSleep Scoring Methodology", "url": `${SITE_URL}/methodology/` }
+      { "@type": "Article", "name": "Mattress Inquirer Scoring Methodology", "url": `${SITE_URL}/methodology/` }
     ],
     "citation": [mattress.productUrl, `${SITE_URL}/methodology/`, `${SITE_URL}/model-coverage.json`]
   },
@@ -117,12 +117,12 @@ const jsonLd = [
       },
       "author": {
         "@type": "Organization",
-        "name": "PureSleep Editorial Team",
+        "name": "Mattress Inquirer Editorial Team",
         "url": `${SITE_URL}/about/#editorial-team`
       },
       "publisher": {
         "@type": "Organization",
-        "name": "PureSleep",
+        "name": "Mattress Inquirer",
         "url": SITE_URL
       },
       "datePublished": mattress.dateReviewed,
@@ -154,7 +154,7 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title={`${mattress.name} Review (2026) | PureSleep`}
+  title={`${mattress.name} Review (2026) | Mattress Inquirer`}
   description={mattress.summary}
   ogTitle={`${mattress.name} Review (2026)`}
   ogImage={mattress.heroImage}
@@ -297,7 +297,7 @@ const jsonLd = [
             The locked scorecard records the {mattress.name} at {mattress.firmnessScale}/10 ({mattress.firmness}) and identifies its strongest fit for {mattress.bestFor.slice(0,3).join(', ')}. Fit guidance is editorial and varies by body type, sleep position, and comfort preference.
           </p>
           <p class="leading-relaxed text-on-surface-variant">
-            Value: {mattress.scores.value}/10. Edge Support: {mattress.scores.edgeSupport}/10. Cooling &amp; Breathability: {mattress.scores.coolingBreathability}/10. Scores are editorial comparisons from the published PureSleep score dataset, not clinical findings, laboratory measurements, manufacturer ratings, or collected customer ratings.
+            Value: {mattress.scores.value}/10. Edge Support: {mattress.scores.edgeSupport}/10. Cooling &amp; Breathability: {mattress.scores.coolingBreathability}/10. Scores are editorial comparisons from the published Mattress Inquirer score dataset, not clinical findings, laboratory measurements, manufacturer ratings, or collected customer ratings.
           </p>
           <p class="leading-relaxed text-on-surface-variant">
             The dataset records {mattress.certifications.join(' and ')} certification labels, a {mattress.trialNights}-night trial, and a {warrantyPhrase(mattress.warrantyYears)}. Verify the current certification scope and policy terms with the official sources before purchasing.
@@ -329,7 +329,7 @@ const jsonLd = [
         <section class="glass-panel p-8 rounded-lg border border-white/60 flex flex-col gap-5">
           <h2 class="text-headline-sm font-headline-sm text-primary font-bold">How This Review Is Scored</h2>
           <p class="text-body-md text-on-surface-variant leading-relaxed">
-            This review uses PureSleep's locked seven-metric editorial scorecard: <strong class="text-on-surface">Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling &amp; Breathability</strong>. PureSleep does not present these ratings as laboratory measurements, clinical findings, manufacturer scores, or collected customer ratings.
+            This review uses Mattress Inquirer's locked seven-metric editorial scorecard: <strong class="text-on-surface">Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling &amp; Breathability</strong>. Mattress Inquirer does not present these ratings as laboratory measurements, clinical findings, manufacturer scores, or collected customer ratings.
           </p>
           <p class="text-body-md text-on-surface-variant leading-relaxed">
             {EDITORIAL_INDEPENDENCE_DISCLOSURE} {LINK_DISCLOSURE} The same published scoring rubric is used across every covered brand.

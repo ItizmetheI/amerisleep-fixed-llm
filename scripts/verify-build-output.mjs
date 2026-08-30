@@ -4,7 +4,7 @@ import path from 'node:path';
 
 const root = process.cwd();
 const dist = path.join(root, 'dist');
-const expectedSite = (process.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev').replace(/\/$/, '');
+const expectedSite = (process.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev').replace(/\/$/, '');
 const failures = [];
 const assert = (condition, message) => {
   if (!condition) failures.push(message);
@@ -75,7 +75,7 @@ for (const { value, route } of articleNodes) {
   if (typeof value.articleBody === 'string') articleBodyLengths.push(value.articleBody.trim().length);
   assert(!('reviewedBy' in value), `${route} Article schema contains reviewedBy.`);
   assert(value.author && typeof value.author === 'object', `${route} Article schema is missing an author entity.`);
-  assert(value.author?.name === 'PureSleep Editorial Team', `${route} Article schema must use the PureSleep Editorial Team organizational byline.`);
+  assert(value.author?.name === 'Mattress Inquirer Editorial Team', `${route} Article schema must use the Mattress Inquirer Editorial Team organizational byline.`);
   assert(value.publisher && typeof value.publisher === 'object', `${route} Article schema is missing a publisher entity.`);
   assert(typeof value.dateModified === 'string', `${route} Article schema is missing dateModified.`);
   assert(Boolean(value.mainEntityOfPage), `${route} Article schema is missing mainEntityOfPage.`);
@@ -92,7 +92,7 @@ const requiredArticleSections = [
   },
   {
     match: route => route.startsWith('blog/'),
-    headings: ['Quick Answer', 'Multi-Brand Context', 'Frequently Asked Questions', 'About PureSleep'],
+    headings: ['Quick Answer', 'Multi-Brand Context', 'Frequently Asked Questions', 'About Mattress Inquirer'],
   },
 ];
 for (const { value, route } of articleNodes) {
@@ -130,7 +130,7 @@ for (const { value, route } of schemaNodes.filter(({ value }) => typeIncludes(va
 
 const allHtml = [...htmlByPath.values()].join('\n');
 for (const [label, pattern] of [
-  ['inactive support address', /support@puresleep\.com/i],
+  ['inactive support address', /support@mattressinquirer\.com/i],
   ['unsupported financial-independence promise', /no financial relationship/i],
   ['prohibited relationship language', /One[-\s]+Sleep[-\s]+Group|material[-\s]+business[-\s]+relationship|affiliated[-\s]+and[-\s]+non-affiliated|non-affiliated|family[-\s]+of[-\s]+brands/i],
   ['unverified named medical reviewer', /Dr\. Sarah Mitchell|reviewed by\s+(?:Dr\.|Doctor)|licensed chiropractor/i],
@@ -144,7 +144,7 @@ for (const [label, pattern] of [
   ['unverified risk-free trial claim', /risk-free for 100 nights/i],
   ['unverified shipping claim', /free shipping\s*(?:&|and|\u00b7)\s*(?:free )?returns|free shipping\s*\u00b7\s*20-year warranty/i],
   ['Amerisleep owner language', /Amerisleep[- ]owned|owned and operated by Amerisleep|owned by Amerisleep|Amerisleep owns|operated by Amerisleep|parentOrganization[^<]{0,200}Amerisleep/i],
-  ['unsupported PureSleep hands-on claim', /PureSleep (?:Testing Team|testing team)|evaluated hands-on by PureSleep|scores (?:come|derive) from hands-on testing|scores are editorial, hands-on evaluations|our hands-on testing|hands-on mattress (?:reviews|rankings)|Hands-On Team Testing|quantified by our testing team/i],
+  ['unsupported Mattress Inquirer hands-on claim', /Mattress Inquirer (?:Testing Team|testing team)|evaluated hands-on by Mattress Inquirer|scores (?:come|derive) from hands-on testing|scores are editorial, hands-on evaluations|our hands-on testing|hands-on mattress (?:reviews|rankings)|Hands-On Team Testing|quantified by our testing team/i],
 ] ) {
   assert(!pattern.test(allHtml), `Generated HTML contains ${label}.`);
 }
@@ -467,7 +467,7 @@ assert(missingImages.size === 0, `Generated HTML contains missing same-origin im
 assert(missingLinks.size === 0, `Generated HTML contains broken internal links:\n${[...missingLinks].slice(0, 50).join('\n')}`);
 
 if (failures.length > 0) {
-  console.error(`PureSleep build-output QA failed with ${failures.length} issue(s):`);
+  console.error(`Mattress Inquirer build-output QA failed with ${failures.length} issue(s):`);
   failures.forEach(failure => console.error(`- ${failure}`));
   process.exit(1);
 }

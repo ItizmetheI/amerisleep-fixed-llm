@@ -32,7 +32,7 @@ export default function Hero() {
             Compare mattresses with every score in view.
           </h1>
           <p className="text-body-lg font-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
-            PureSleep organizes 59 mattress models with one seven-metric editorial scorecard, complete comparison tables, and clearly labeled evidence limits.
+            Mattress Inquirer organizes 59 mattress models with one seven-metric editorial scorecard, complete comparison tables, and clearly labeled evidence limits.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 mt-2">
             <a

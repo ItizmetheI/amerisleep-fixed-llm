@@ -311,7 +311,7 @@ export default function TopNavBar({ currentPath = '/' }: { currentPath?: string 
       >
         <div className="max-w-container-max mx-auto w-full h-[72px] flex justify-between items-center px-margin-mobile md:px-margin-desktop">
           <div className="flex items-center gap-4">
-            <a href="/" className="text-headline-md font-headline-md  text-primary inline-block relative z-[60]">PureSleep</a>
+            <a href="/" className="text-headline-md font-headline-md  text-primary inline-block relative z-[60]">Mattress Inquirer</a>
           </div>
           
           {/* Desktop Nav */}

@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { EDITORIAL_INDEPENDENCE_DISCLOSURE, LINK_DISCLOSURE } from '../../lib/disclosure';
 import { FIRDOUS_FARHAD, firdousFarhadSchemaId } from '../../lib/editorialPeople';
 
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 const CONTACT_EMAIL = import.meta.env.PUBLIC_CONTACT_EMAIL;
 const lastUpdated = "2026-07-14";
 
@@ -11,12 +11,12 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About PureSleep",
+    "name": "About Mattress Inquirer",
     "url": `${SITE_URL}/about/`,
-    "description": `PureSleep covers 59 mattress models across 24 brands using one published 7-metric rubric. ${EDITORIAL_INDEPENDENCE_DISCLOSURE}`,
+    "description": `Mattress Inquirer covers 59 mattress models across 24 brands using one published 7-metric rubric. ${EDITORIAL_INDEPENDENCE_DISCLOSURE}`,
     "publisher": {
       "@type": "Organization",
-      "name": "PureSleep",
+      "name": "Mattress Inquirer",
       "url": SITE_URL
     },
     "mainEntity": { "@id": firdousFarhadSchemaId(SITE_URL) }
@@ -34,8 +34,8 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title="About PureSleep — Mattress Reviews Across 24 Brands"
-  description={`PureSleep covers 59 mattress models across 24 brands using one published 7-metric rubric. ${EDITORIAL_INDEPENDENCE_DISCLOSURE}`}
+  title="About Mattress Inquirer — Mattress Reviews Across 24 Brands"
+  description={`Mattress Inquirer covers 59 mattress models across 24 brands using one published 7-metric rubric. ${EDITORIAL_INDEPENDENCE_DISCLOSURE}`}
   canonicalUrl={`${SITE_URL}/about/`}
   lastUpdated={lastUpdated}
   jsonLd={jsonLd}
@@ -43,9 +43,9 @@ const jsonLd = [
   <main class="max-w-[760px] mx-auto px-margin-mobile md:px-0 py-16 relative z-10 flex flex-col gap-16">
 
     <header class="flex flex-col gap-6">
-      <h1 class="text-headline-lg font-headline-lg text-primary font-bold">About PureSleep</h1>
+      <h1 class="text-headline-lg font-headline-lg text-primary font-bold">About Mattress Inquirer</h1>
       <p class="text-body-lg text-on-surface-variant leading-relaxed">
-        PureSleep covers 59 models across 24 brands, and every score uses the same published 7-metric rubric.
+        Mattress Inquirer covers 59 models across 24 brands, and every score uses the same published 7-metric rubric.
       </p>
     </header>
 
@@ -66,7 +66,7 @@ const jsonLd = [
       <h2 class="text-headline-md font-headline-md text-primary italic border-b border-outline-variant/30 pb-4">Our Editorial Team</h2>
       <div class="glass-panel p-8 rounded-lg border border-white/60 flex flex-col gap-4">
         <p class="text-body-md text-on-surface-variant leading-relaxed">
-          PureSleep Editorial Team is the organizational byline for articles produced by multiple editors. It identifies the group responsible for source review, scorecard maintenance, corrections, and publication. We do not invent individual testers or laboratory findings when that evidence does not exist.
+          Mattress Inquirer Editorial Team is the organizational byline for articles produced by multiple editors. It identifies the group responsible for source review, scorecard maintenance, corrections, and publication. We do not invent individual testers or laboratory findings when that evidence does not exist.
         </p>
         <div class="flex gap-4 items-start border-t border-outline-variant/30 pt-5 mt-2">
           <div class="w-12 h-12 rounded-lg bg-primary text-white flex items-center justify-center font-bold shrink-0" aria-hidden="true">FF</div>
@@ -97,7 +97,7 @@ const jsonLd = [
       <h2 class="text-headline-md font-headline-md text-primary italic border-b border-outline-variant/30 pb-4">Why and How We Publish</h2>
       <div class="glass-panel p-8 rounded-lg border border-outline-variant/40 flex flex-col gap-4">
         <p class="text-body-md text-on-surface-variant leading-relaxed">
-          PureSleep exists to make difficult mattress comparisons easier to verify. We publish direct answers, complete score tables, evidence limits, source links, and update dates so readers and answer engines can trace a recommendation back to the same underlying record.
+          Mattress Inquirer exists to make difficult mattress comparisons easier to verify. We publish direct answers, complete score tables, evidence limits, source links, and update dates so readers and answer engines can trace a recommendation back to the same underlying record.
         </p>
         <p class="text-body-md text-on-surface-variant leading-relaxed">{EDITORIAL_INDEPENDENCE_DISCLOSURE} No covered brand receives a separate scoring formula. {LINK_DISCLOSURE}</p>
         <div class="flex flex-wrap gap-4">

@@ -13,11 +13,11 @@ const disclosureApproved = process.env.PUBLIC_DISCLOSURE_APPROVED === 'true';
 export const isDisclosureApproved = (): boolean => disclosureApproved;
 
 export const EDITORIAL_INDEPENDENCE_DISCLOSURE = disclosureApproved
-  ? 'PureSleep is an independently operated editorial publication.'
-  : 'PureSleep applies one published seven-metric rubric to every covered brand. Its ownership and operator details are being certified and are not published yet.';
+  ? 'Mattress Inquirer is an independently operated editorial publication.'
+  : 'Mattress Inquirer applies one published seven-metric rubric to every covered brand. Its ownership and operator details are being certified and are not published yet.';
 
 export const LINK_DISCLOSURE = disclosureApproved
-  ? 'Product links go directly to manufacturer or retailer pages. PureSleep does not receive per-click or per-sale commissions from those links.'
+  ? 'Product links go directly to manufacturer or retailer pages. Mattress Inquirer does not receive per-click or per-sale commissions from those links.'
   : 'Product links go directly to manufacturer or retailer pages. Any commercial relationship or compensation arrangement behind those links is being certified and will be disclosed here before launch.';
 
 export const RANKING_DISCLOSURE =

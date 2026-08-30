@@ -56,7 +56,7 @@ export default function LatestGuides() {
             <BookOpen className="w-6 h-6 text-tertiary-container" aria-hidden="true" />
             <div>
               <h3 className="text-headline-md font-bold">Read the evidence boundaries before using a score</h3>
-              <p className="text-body-md text-inverse-on-surface mt-2">PureSleep states what its scorecards contain, what they do not measure, and which facts require official verification.</p>
+              <p className="text-body-md text-inverse-on-surface mt-2">Mattress Inquirer states what its scorecards contain, what they do not measure, and which facts require official verification.</p>
             </div>
             <a href="/methodology/" className="inline-flex items-center gap-2 text-tertiary-container font-bold hover:text-white transition-colors">
               Methodology <ArrowRight className="w-4 h-4" aria-hidden="true" />

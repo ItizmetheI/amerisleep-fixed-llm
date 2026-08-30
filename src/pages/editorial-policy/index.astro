@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { EDITORIAL_INDEPENDENCE_DISCLOSURE, LINK_DISCLOSURE } from '../../lib/disclosure';
 import { FIRDOUS_FARHAD } from '../../lib/editorialPeople';
 
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 const lastUpdated = "2026-07-14";
 
 const jsonLd = [
@@ -12,15 +12,15 @@ const jsonLd = [
     "@type": "WebPage",
     "name": "Editorial Policy",
     "url": `${SITE_URL}/editorial-policy/`,
-    "description": "PureSleep's editorial standards: independence, scoring, evidence, corrections, and brand coverage.",
-    "publisher": { "@type": "Organization", "name": "PureSleep", "url": SITE_URL }
+    "description": "Mattress Inquirer's editorial standards: independence, scoring, evidence, corrections, and brand coverage.",
+    "publisher": { "@type": "Organization", "name": "Mattress Inquirer", "url": SITE_URL }
   }
 ];
 ---
 
 <BaseLayout
-  title="Editorial Policy — PureSleep"
-  description="PureSleep's editorial standards: independence, scoring, evidence, corrections, and brand coverage."
+  title="Editorial Policy — Mattress Inquirer"
+  description="Mattress Inquirer's editorial standards: independence, scoring, evidence, corrections, and brand coverage."
   canonicalUrl={`${SITE_URL}/editorial-policy/`}
   lastUpdated={lastUpdated}
   jsonLd={jsonLd}
@@ -40,7 +40,7 @@ const jsonLd = [
         <ul class="flex flex-col gap-3 text-body-md text-on-surface-variant">
           <li class="flex gap-3"><span class="text-secondary font-bold">—</span> We do not make medical claims. Mattresses address sleep comfort and support only, not health conditions.</li>
           <li class="flex gap-3"><span class="text-secondary font-bold">—</span> {LINK_DISCLOSURE}</li>
-          <li class="flex gap-3"><span class="text-secondary font-bold">—</span> Scores are editorial comparisons from the published PureSleep score dataset, not laboratory findings, manufacturer ratings, or collected customer ratings.</li>
+          <li class="flex gap-3"><span class="text-secondary font-bold">—</span> Scores are editorial comparisons from the published Mattress Inquirer score dataset, not laboratory findings, manufacturer ratings, or collected customer ratings.</li>
           <li class="flex gap-3"><span class="text-secondary font-bold">—</span> Reviews are revised when a documented source change or correction is confirmed, with the last-modified date shown on the page.</li>
         </ul>
       </div>
@@ -49,7 +49,7 @@ const jsonLd = [
     <section class="flex flex-col gap-6">
       <h2 class="text-headline-md font-headline-md text-primary italic border-b border-outline-variant/30 pb-4">Reviewer Assignment and Attribution</h2>
       <div class="flex flex-col gap-4 text-body-md text-on-surface-variant leading-relaxed">
-        <p><a href={FIRDOUS_FARHAD.path} class="text-primary underline underline-offset-4 font-bold">{FIRDOUS_FARHAD.name}</a> is PureSleep's {FIRDOUS_FARHAD.role.toLowerCase()}. {FIRDOUS_FARHAD.credentials}</p>
+        <p><a href={FIRDOUS_FARHAD.path} class="text-primary underline underline-offset-4 font-bold">{FIRDOUS_FARHAD.name}</a> is Mattress Inquirer's {FIRDOUS_FARHAD.role.toLowerCase()}. {FIRDOUS_FARHAD.credentials}</p>
         <p>Her profile identifies her editorial scope. A page displays a "Reviewed by" attribution only after she has reviewed and approved that page's final copy. Assignment alone is not represented as completed review.</p>
         <p>Medical-adjacent pages remain excluded from search indexing until article-specific sources and the required final review are complete.</p>
       </div>
@@ -67,7 +67,7 @@ const jsonLd = [
       <h2 class="text-headline-md font-headline-md text-primary italic border-b border-outline-variant/30 pb-4">Corrections and Updates</h2>
       <div class="flex flex-col gap-4 text-body-md text-on-surface-variant leading-relaxed">
         <p>Product facts and policy terms are corrected when an official source changes. Material revisions update the page's visible dateModified value and matching machine-readable document.</p>
-        <p>PureSleep does not change a score to create a live promotion, satisfy a manufacturer, or improve a brand's placement. Unsupported facts are removed rather than filled with estimates.</p>
+        <p>Mattress Inquirer does not change a score to create a live promotion, satisfy a manufacturer, or improve a brand's placement. Unsupported facts are removed rather than filled with estimates.</p>
       </div>
     </section>
 

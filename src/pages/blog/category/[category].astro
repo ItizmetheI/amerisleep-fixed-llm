@@ -27,7 +27,7 @@ export function getStaticPaths() {
 
 const { category } = Astro.params;
 const { posts } = Astro.props;
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -47,7 +47,7 @@ const jsonLd = {
 ---
 
 <BaseLayout
-  title={`${category!.replace(/-/g, ' ')} | PureSleep Blog`}
+  title={`${category!.replace(/-/g, ' ')} | Mattress Inquirer Blog`}
   description={`Explore our sleep and mattress guides in the ${category!.replace(/-/g, ' ')} category.`}
   canonicalUrl={`${SITE_URL}/blog/category/${category}/`}
   jsonLd={jsonLd}

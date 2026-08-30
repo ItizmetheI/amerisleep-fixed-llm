@@ -6,14 +6,14 @@ import { formatDateOnly } from '../../lib/dateFormat';
 import { FIRDOUS_FARHAD, firdousFarhadSchemaId } from '../../lib/editorialPeople';
 
 const lastUpdated = "2026-07-14";
-const SITE_URL = import.meta.env.SITE_URL || 'https://finalize.ahmedbarkat1067.workers.dev';
+const SITE_URL = import.meta.env.SITE_URL || 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 
 const methodologyArticleBody = toArticleBody(
-  'How PureSleep Scores Mattresses',
-  `PureSleep publishes editorial scorecards for 59 mattresses across 24 brands using one standardized 7-metric system. ${EDITORIAL_INDEPENDENCE_DISCLOSURE} ${LINK_DISCLOSURE}`,
+  'How Mattress Inquirer Scores Mattresses',
+  `Mattress Inquirer publishes editorial scorecards for 59 mattresses across 24 brands using one standardized 7-metric system. ${EDITORIAL_INDEPENDENCE_DISCLOSURE} ${LINK_DISCLOSURE}`,
   'Our Scoring Process',
   articleList('Process Steps', [
-    'Every review starts with the published PureSleep score dataset and one record for each covered model. PureSleep does not present editorial scores as laboratory measurements or collected customer ratings.',
+    'Every review starts with the published Mattress Inquirer score dataset and one record for each covered model. Mattress Inquirer does not present editorial scores as laboratory measurements or collected customer ratings.',
     'Product construction, recorded firmness, policy fields, and sleep-position fit are interpreted using the same published definitions.',
     'Each mattress is scored on Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. Every field uses a 0-10 scale.',
     'The Overall field is the source dataset\'s editorial summary score, not a formula-derived laboratory result or manufacturer rating.',
@@ -37,11 +37,11 @@ const methodologyArticleBody = toArticleBody(
     'Reviews are revised when documented source records change or a correction is confirmed; each page exposes its last-modified date.',
   ]),
   'Health and Sleep Content Review',
-  `${FIRDOUS_FARHAD.name} is PureSleep's ${FIRDOUS_FARHAD.role.toLowerCase()}. ${FIRDOUS_FARHAD.credentials} Article-level review attribution appears only after she has reviewed and approved the final copy. Assignment does not imply completed review or personal testing of every mattress.`,
+  `${FIRDOUS_FARHAD.name} is Mattress Inquirer's ${FIRDOUS_FARHAD.role.toLowerCase()}. ${FIRDOUS_FARHAD.credentials} Article-level review attribution appears only after she has reviewed and approved the final copy. Assignment does not imply completed review or personal testing of every mattress.`,
   'Evidence Boundaries',
   articleList('What the scorecard can and cannot show', [
     'Recorded construction, firmness, pricing, trial, warranty, and certification fields are checked against available official sources and should be re-verified before purchase.',
-    'PureSleep has not published pressure-map, thermal-camera, motion-sensor, durability-lab, or long-term sleep-test evidence for this dataset.',
+    'Mattress Inquirer has not published pressure-map, thermal-camera, motion-sensor, durability-lab, or long-term sleep-test evidence for this dataset.',
     'The model manifest exposes the complete score field so the same values can be checked across HTML, schema, comparisons, and machine-readable documents.',
   ])
 );
@@ -49,11 +49,11 @@ const methodologyArticleBody = toArticleBody(
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How PureSleep Scores Mattresses",
-  "description": "PureSleep's seven-metric editorial scoring methodology, evidence limits, editorial independence, and cross-brand coverage.",
+  "headline": "How Mattress Inquirer Scores Mattresses",
+  "description": "Mattress Inquirer's seven-metric editorial scoring methodology, evidence limits, editorial independence, and cross-brand coverage.",
   "articleBody": methodologyArticleBody,
-  "author": { "@type": "Organization", "@id": `${SITE_URL}/about/#editorial-team`, "name": "PureSleep Editorial Team", "url": `${SITE_URL}/about/#editorial-team` },
-  "publisher": { "@type": "Organization", "@id": `${SITE_URL}/#organization`, "name": "PureSleep", "url": SITE_URL },
+  "author": { "@type": "Organization", "@id": `${SITE_URL}/about/#editorial-team`, "name": "Mattress Inquirer Editorial Team", "url": `${SITE_URL}/about/#editorial-team` },
+  "publisher": { "@type": "Organization", "@id": `${SITE_URL}/#organization`, "name": "Mattress Inquirer", "url": SITE_URL },
   "datePublished": "2024-01-01",
   "dateModified": lastUpdated,
   "mainEntityOfPage": `${SITE_URL}/methodology/`,
@@ -65,8 +65,8 @@ const formattedDate = formatDateOnly(lastUpdated);
 ---
 
 <BaseLayout
-  title="How PureSleep Scores Mattresses | Methodology"
-  description="PureSleep's seven-metric editorial scoring methodology, evidence limits, editorial independence, and 59-model cross-brand coverage."
+  title="How Mattress Inquirer Scores Mattresses | Methodology"
+  description="Mattress Inquirer's seven-metric editorial scoring methodology, evidence limits, editorial independence, and 59-model cross-brand coverage."
   canonicalUrl={`${SITE_URL}/methodology/`}
   machineReadableUrl={`${SITE_URL}/llms/methodology.md`}
   lastUpdated={lastUpdated}
@@ -75,14 +75,14 @@ const formattedDate = formatDateOnly(lastUpdated);
   <main class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop py-16 relative z-10 w-full flex flex-col gap-16">
 
     <header class="flex flex-col gap-6 text-center">
-      <h1 class="text-headline-lg font-headline-lg text-primary font-bold">How PureSleep Scores Mattresses</h1>
+      <h1 class="text-headline-lg font-headline-lg text-primary font-bold">How Mattress Inquirer Scores Mattresses</h1>
       <div class="flex justify-center">
         <span class="text-body-md text-on-surface-variant bg-surface px-6 py-2 rounded-full shadow-sm border border-outline-variant/30">
           <strong>Last Updated:</strong> {formattedDate}
         </span>
       </div>
       <p class="text-body-lg text-on-surface-variant leading-relaxed text-left mt-4 glass-panel p-8 rounded-lg border border-outline-variant">
-        PureSleep publishes editorial scorecards for 59 mattresses across 24 brands using one standardized seven-metric system. {EDITORIAL_INDEPENDENCE_DISCLOSURE} {LINK_DISCLOSURE}
+        Mattress Inquirer publishes editorial scorecards for 59 mattresses across 24 brands using one standardized seven-metric system. {EDITORIAL_INDEPENDENCE_DISCLOSURE} {LINK_DISCLOSURE}
       </p>
     </header>
 
@@ -90,7 +90,7 @@ const formattedDate = formatDateOnly(lastUpdated);
       <h2 class="text-headline-md font-headline-md text-primary border-b border-outline-variant/30 pb-4 italic">Our Scoring Process</h2>
       <div class="grid grid-cols-1 gap-6">
         {[
-          { n: "1", title: "Published Score Dataset", desc: "Every review starts with the published PureSleep score dataset and one record for each covered model. PureSleep does not present editorial scores as laboratory measurements or collected customer ratings." },
+          { n: "1", title: "Published Score Dataset", desc: "Every review starts with the published Mattress Inquirer score dataset and one record for each covered model. Mattress Inquirer does not present editorial scores as laboratory measurements or collected customer ratings." },
           { n: "2", title: "Consistent Fit Analysis", desc: "Product construction, recorded firmness, policy fields, and sleep-position fit are interpreted using the same published definitions. Body-weight guidance is fit guidance, not a clinical measurement." },
           { n: "3", title: "7-Metric Scoring", desc: "Each mattress is scored on Overall, Value, Edge Support, Trial Period, Response Time, Motion Transfer, and Cooling & Breathability. All scores are 0–10." },
           { n: "4", title: "Evidence Limits", desc: "The Overall field is the source dataset's editorial summary score. It is not a formula-derived laboratory result, manufacturer rating, or collected customer rating." },
@@ -140,14 +140,14 @@ const formattedDate = formatDateOnly(lastUpdated);
     <section class="flex flex-col gap-6 border-t border-outline-variant/40 pt-10">
       <h2 class="text-headline-md font-headline-md text-primary">Health and Sleep Content Review</h2>
       <p class="text-body-md text-on-surface-variant leading-relaxed">
-        <a href={FIRDOUS_FARHAD.path} class="text-primary underline underline-offset-4 font-bold">{FIRDOUS_FARHAD.name}</a> is PureSleep's {FIRDOUS_FARHAD.role.toLowerCase()}. {FIRDOUS_FARHAD.credentials}
+        <a href={FIRDOUS_FARHAD.path} class="text-primary underline underline-offset-4 font-bold">{FIRDOUS_FARHAD.name}</a> is Mattress Inquirer's {FIRDOUS_FARHAD.role.toLowerCase()}. {FIRDOUS_FARHAD.credentials}
       </p>
       <p class="text-body-md text-on-surface-variant leading-relaxed">Article-level review attribution appears only after she has reviewed and approved the final copy. Assignment does not imply completed review, clinical testing, or personal testing of every mattress.</p>
     </section>
 
     <section class="flex flex-col gap-6 border-t border-outline-variant/40 pt-10">
       <h2 class="text-headline-md font-headline-md text-primary">Evidence Boundaries</h2>
-      <p class="text-body-md text-on-surface-variant leading-relaxed">The scorecard is transparent about what it does not prove. PureSleep has not published pressure-map, thermal-camera, motion-sensor, durability-lab, or long-term sleep-test evidence for this dataset.</p>
+      <p class="text-body-md text-on-surface-variant leading-relaxed">The scorecard is transparent about what it does not prove. Mattress Inquirer has not published pressure-map, thermal-camera, motion-sensor, durability-lab, or long-term sleep-test evidence for this dataset.</p>
       <p class="text-body-md text-on-surface-variant leading-relaxed">Recorded product and policy fields are checked against available official sources and should be re-verified before purchase. The <a href="/model-coverage.json" class="text-primary underline underline-offset-4 font-bold">published model manifest</a> exposes every score so values can be checked across HTML, schema, comparisons, and machine-readable documents.</p>
     </section>
 

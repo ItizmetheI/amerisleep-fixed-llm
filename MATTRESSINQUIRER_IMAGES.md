@@ -1,4 +1,4 @@
-PURESLEEP — ogImage for all 150 posts
+MATTRESSINQUIRER — ogImage for all 150 posts
 Paste the ogImage value into each post's JSON when you generate it in Gemini.
 Tell Gemini at the start of each session:
 "Use the ogImage URL I give you for each post. Do not pick your own."

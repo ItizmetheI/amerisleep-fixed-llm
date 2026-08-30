@@ -66,7 +66,7 @@ const lockedScoreDataset = [...allMattresses]
   .join('\n');
 const lockedScoreDatasetHash = createHash('sha256').update(lockedScoreDataset).digest('hex');
 const approvedScoreDatasetHash = '44dfcd275bb4b20a5b6001703ca9bebb8871d702f4a0cd0ccea0f84c17e3caf8';
-const siteUrl = 'https://finalize.ahmedbarkat1067.workers.dev';
+const siteUrl = 'https://mattressinquirer.ahmedbarkat1067.workers.dev';
 const reviewDocuments = buildReviewLlmDocuments(siteUrl);
 const generatedDocuments = buildGeneratedLlmDocuments(siteUrl);
 const allLlmDocuments = buildAllLlmDocuments(siteUrl);
@@ -167,7 +167,7 @@ const machineCorpus = allLlmDocuments.map(document => document.content).join('\n
 for (const [label, pattern] of [
   ['unfinished placeholder', /\[from page\]|\[insert|TODO|TBD/i],
   ['unsupported weighting formula', /weighted formula|weighted average formula/i],
-  ['unsupported PureSleep hands-on claim', /PureSleep (?:Testing Team|testing team)|evaluated hands-on by PureSleep|scores (?:come|derive) from hands-on testing|scores are editorial, hands-on evaluations|our hands-on testing|hands-on mattress (?:reviews|rankings)|Hands-On Team Testing|quantified by our testing team/i],
+  ['unsupported Mattress Inquirer hands-on claim', /Mattress Inquirer (?:Testing Team|testing team)|evaluated hands-on by Mattress Inquirer|scores (?:come|derive) from hands-on testing|scores are editorial, hands-on evaluations|our hands-on testing|hands-on mattress (?:reviews|rankings)|Hands-On Team Testing|quantified by our testing team/i],
 ] as const) {
   assert(!pattern.test(machineCorpus), `Generated LLM corpus contains ${label}.`);
 }
@@ -243,7 +243,7 @@ const activeBlogPosts = blogPosts.filter(post => !post.redirectTo && !LEGACY_BES
 assert(blogPosts.length === 151, `Expected 151 source blog records; found ${blogPosts.length}.`);
 assert(activeBlogPosts.length === 111, `Expected 111 active blog articles after redirect consolidation; found ${activeBlogPosts.length}.`);
 for (const post of activeBlogPosts) {
-  assert(post.author.name === 'PureSleep Editorial Team', `${post.slug} must use the PureSleep Editorial Team organizational byline.`);
+  assert(post.author.name === 'Mattress Inquirer Editorial Team', `${post.slug} must use the Mattress Inquirer Editorial Team organizational byline.`);
   assert(post.reviewedBy === null, `${post.slug} contains an unverified reviewer attribution.`);
 }
 const sourceReviewPendingPosts = activeBlogPosts.filter(requiresBlogSourceReview);
@@ -281,10 +281,10 @@ const publicSurface = (await Promise.all(
 for (const [label, pattern] of [
   ['unsupported financial-independence promise', /no financial relationship/i],
   ['prohibited relationship language', /One[-\s]+Sleep[-\s]+Group|material[-\s]+business[-\s]+relationship|affiliated[-\s]+and[-\s]+non-affiliated|non-affiliated|family[-\s]+of[-\s]+brands/i],
-  ['inactive support address', /support@puresleep\.com/i],
+  ['inactive support address', /support@mattressinquirer\.com/i],
   ['named reviewer schema', /"reviewedBy"|post\.reviewedBy/i],
   ['Amerisleep owner language', /Amerisleep[- ]owned|owned and operated by Amerisleep|owned by Amerisleep|Amerisleep owns|operated by Amerisleep|parentOrganization[^\n]+Amerisleep/i],
-  ['unsupported PureSleep hands-on claim', /PureSleep (?:Testing Team|testing team)|evaluated hands-on by PureSleep|scores (?:come|derive) from hands-on testing|scores are editorial, hands-on evaluations|our hands-on testing|hands-on mattress (?:reviews|rankings)|Hands-On Team Testing|quantified by our testing team|Hands-on testing and practical analysis/i],
+  ['unsupported Mattress Inquirer hands-on claim', /Mattress Inquirer (?:Testing Team|testing team)|evaluated hands-on by Mattress Inquirer|scores (?:come|derive) from hands-on testing|scores are editorial, hands-on evaluations|our hands-on testing|hands-on mattress (?:reviews|rankings)|Hands-On Team Testing|quantified by our testing team|Hands-on testing and practical analysis/i],
 ] as const) {
   assert(!pattern.test(publicSurface), `Public surfaces still contain ${label}.`);
 }
@@ -309,10 +309,10 @@ for (const [label, pattern] of [
   ['unsupported medical language', /medical brace|permanently stop morning stiffness|shuts it down immediately|fix(?:es|ed|ing)? (?:spinal|disc) inflammation|mechanical airway fix/i],
   ['false independent-testing claim', /independently tested alternatives|independent sleep product testing team/i],
   ['prohibited relationship language', /One[-\s]+Sleep[-\s]+Group|material[-\s]+business[-\s]+relationship|affiliated[-\s]+and[-\s]+non-affiliated|non-affiliated|family[-\s]+of[-\s]+brands/i],
-  ['unsupported PureSleep hands-on claim', /PureSleep (?:Testing Team|testing team)|evaluated hands-on by PureSleep|scores (?:come|derive) from hands-on testing|scores are editorial, hands-on evaluations|our hands-on testing|hands-on mattress (?:reviews|rankings)|Hands-On Team Testing|quantified by our testing team|Hands-on testing and practical analysis/i],
+  ['unsupported Mattress Inquirer hands-on claim', /Mattress Inquirer (?:Testing Team|testing team)|evaluated hands-on by Mattress Inquirer|scores (?:come|derive) from hands-on testing|scores are editorial, hands-on evaluations|our hands-on testing|hands-on mattress (?:reviews|rankings)|Hands-On Team Testing|quantified by our testing team|Hands-on testing and practical analysis/i],
   ['Amerisleep owner language', /Amerisleep[- ]owned|owned and operated by Amerisleep|owned by Amerisleep|Amerisleep owns|operated by Amerisleep|parentOrganization[^\n]+Amerisleep/i],
   ['unsupported performance guarantee', /measurably cooler than petroleum foam|prevent(?:s|ing)? sagging for the full 20-year warranty/i],
-  ['unsupported first-person test attribution', /\bin (?:our|PureSleep's) test(?:ing|s)\b|across tested mattresses/i],
+  ['unsupported first-person test attribution', /\bin (?:our|Mattress Inquirer's) test(?:ing|s)\b|across tested mattresses/i],
   ['unsupported comparative superlative', /class-leading|best-in-class|industry-leading/i],
 ] as const) {
   assert(!pattern.test(publishedContent), `Published source content still contains ${label}.`);
@@ -348,7 +348,7 @@ for (const [, brandKey, blurb] of brandPageSource.matchAll(/'([a-z0-9-]+)':\s*\{
 }
 
 if (failures.length > 0) {
-  console.error(`PureSleep content QA failed with ${failures.length} issue(s):`);
+  console.error(`Mattress Inquirer content QA failed with ${failures.length} issue(s):`);
   failures.forEach(failure => console.error(`- ${failure}`));
   process.exit(1);
 }

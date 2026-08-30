@@ -49,8 +49,8 @@ export const GET = () => {
   }));
 
   return new Response(JSON.stringify({
-    generatedBy: 'PureSleep source data',
-    purpose: 'Published PureSleep model and score manifest for source-to-output QA.',
+    generatedBy: 'Mattress Inquirer source data',
+    purpose: 'Published Mattress Inquirer model and score manifest for source-to-output QA.',
     totals: {
       models: models.length,
       bestCategories: Object.keys(BEST_CATEGORIES).length,

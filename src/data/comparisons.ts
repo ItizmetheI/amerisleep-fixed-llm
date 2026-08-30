@@ -756,7 +756,7 @@ export const comparisons: Comparison[] = rawComparisons.map(comparison => {
   const leadA = winnerFor.filter(item => item.winnerId === mattressA.id).map(item => item.category);
   const leadB = winnerFor.filter(item => item.winnerId === mattressB.id).map(item => item.category);
   const list = (items: string[]) => items.length > 0 ? items.join(', ') : 'no score fields';
-  const verdict = `${mattressA.name} leads on ${list(leadA)}. ${mattressB.name} leads on ${list(leadB)}.${ties.length > 0 ? ` They tie on ${ties.join(', ')}.` : ''} These are PureSleep editorial scores, not laboratory measurements or collected customer ratings.`;
+  const verdict = `${mattressA.name} leads on ${list(leadA)}. ${mattressB.name} leads on ${list(leadB)}.${ties.length > 0 ? ` They tie on ${ties.join(', ')}.` : ''} These are Mattress Inquirer editorial scores, not laboratory measurements or collected customer ratings.`;
 
   return {
     ...comparison,
