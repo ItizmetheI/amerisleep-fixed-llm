@@ -1,16 +1,8 @@
 # Domain migration checklist
 
-`mattressinquirer.com` is NOT available. Checked 2026-08-27: it resolves and
-serves an established third-party mattress review publication ("Mattress
-Inquirer", WordPress, articles dating to 2020 and updated through mid-2025).
-Do not assume it can be acquired or that the brand name is clear to use.
-
-The previously considered `puresleep.com` is likewise taken and serves an
-unrelated Shopify store.
-
-The Mattress Inquirer build therefore uses the Cloudflare Workers preview origin
-`mattressinquirer.ahmedbarkat1067.workers.dev` until a production domain is
-confirmed and its availability plus trademark position are cleared.
+`mattressinquirer.com` is taken and currently serves a different site. The
+Mattress Inquirer build therefore uses the Cloudflare Workers preview origin
+`mattressinquirer.ahmedbarkat1067.workers.dev` until a production domain is confirmed.
 
 ## Automatic — zero manual edits needed
 
@@ -63,7 +55,7 @@ approval. See `.env.example` for the full variable reference.
 - **Cloudflare adapter PR (#2, `cloudflare/workers-autoconfig`) — merged
   2026-06-23.** Cloudflare auto-generated this proposing a swap from the
   `@astrojs/node` adapter to `@astrojs/cloudflare`, plus committing a real
-  `wrangler.jsonc` (confirms the live worker is named `finalize`, no custom
+  `wrangler.jsonc` (confirms the live worker is named `mattressinquirer`, no custom
   domain attached yet). This is what fixed the Workers Builds CI failures
   that had been silently blocking redeploys.
 - **`claude/repo-overview-alpy9p` branch — do not merge.** Diverged from the
